@@ -12,7 +12,7 @@ using Android.Service.Notification;
 
 namespace ScamBuster.Droid
 {
-    [Service(Label = "ServiceName", Permission = "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE")]
+    [Service(Name = "ScamBuster.NLService", Label = "ServiceName", Permission = "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE")]
     [IntentFilter(new[] { "android.service.notification.NotificationListenerService" })]
     public class NLService : NotificationListenerService
     {
