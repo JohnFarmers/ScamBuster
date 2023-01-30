@@ -14,6 +14,12 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Notifications.Management;
+using Windows.Foundation.Metadata;
+using Windows.UI.Notifications;
+using System.Diagnostics;
+using Windows.Networking.PushNotifications;
+using Windows.ApplicationModel.Background;
 
 namespace ScamBuster.UWP
 {
@@ -22,6 +28,8 @@ namespace ScamBuster.UWP
     /// </summary>
     sealed partial class App : Application
     {
+        private UserNotificationListener listener = UserNotificationListener.Current;
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -37,7 +45,7 @@ namespace ScamBuster.UWP
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
@@ -77,6 +85,77 @@ namespace ScamBuster.UWP
             }
             // Ensure the current window is active
             Window.Current.Activate();
+            Debug.WriteLine(ApiInformation.IsTypePresent("Windows.UI.Notifications.Management.UserNotificationListener"));
+            if (ApiInformation.IsTypePresent("Windows.UI.Notifications.Management.UserNotificationListener"))
+            {
+                UserNotificationListenerAccessStatus accessStatus = await listener.RequestAccessAsync();
+                switch (accessStatus)
+                {
+                    case UserNotificationListenerAccessStatus.Allowed:
+                        Debug.WriteLine("Allowed");
+                        listener.NotificationChanged += Listener_NotificationChanged;
+                        break;
+                    case UserNotificationListenerAccessStatus.Denied:
+                        break;
+                    case UserNotificationListenerAccessStatus.Unspecified:
+                        break;
+                }
+            }
+        }
+
+        private async void Listener_NotificationChanged(UserNotificationListener sender, UserNotificationChangedEventArgs args)
+        {
+            IReadOnlyList<UserNotification> notifs = await sender.GetNotificationsAsync(NotificationKinds.Toast);
+			for (int i = 0; i < notifs.Count - 1; i++)
+                listener.RemoveNotification(notifs[i].Id);
+            if (notifs.Count > 0)
+            {
+                Debug.WriteLine(notifs[0].AppInfo.DisplayInfo.DisplayName);
+                string msg = string.Join("\n", notifs[0].Notification.Visual.GetBinding(KnownNotificationBindings.ToastGeneric).GetTextElements().Skip(1).Select(t => t.Text));
+                string sus = "Hey, you have won a prize!";
+                Debug.WriteLine(string.Concat("SUS Level: ", CalculateSimilarity(msg.ToLower(), sus.ToLower()) * 100, "%"));
+            }
+        }
+
+        int ComputeLevenshteinDistance(string source, string target)
+        {
+            if ((source == null) || (target == null)) return 0;
+            if ((source.Length == 0) || (target.Length == 0)) return 0;
+            if (source == target) return source.Length;
+
+            int sourceWordCount = source.Length;
+            int targetWordCount = target.Length;
+
+            if (sourceWordCount == 0)
+                return targetWordCount;
+
+            if (targetWordCount == 0)
+                return sourceWordCount;
+
+            int[,] distance = new int[sourceWordCount + 1, targetWordCount + 1];
+
+            for (int i = 0; i <= sourceWordCount; distance[i, 0] = i++) ;
+            for (int j = 0; j <= targetWordCount; distance[0, j] = j++) ;
+
+            for (int i = 1; i <= sourceWordCount; i++)
+            {
+                for (int j = 1; j <= targetWordCount; j++)
+                {
+                    int cost = (target[j - 1] == source[i - 1]) ? 0 : 1;
+                    distance[i, j] = Math.Min(Math.Min(distance[i - 1, j] + 1, distance[i, j - 1] + 1), distance[i - 1, j - 1] + cost);
+                }
+            }
+
+            return distance[sourceWordCount, targetWordCount];
+        }
+
+        double CalculateSimilarity(string source, string target)
+        {
+            if ((source == null) || (target == null)) return 0.0;
+            if ((source.Length == 0) || (target.Length == 0)) return 0.0;
+            if (source == target) return 1.0;
+            int stepsToSame = ComputeLevenshteinDistance(source, target);
+            return (1.0 - ((double)stepsToSame / (double)Math.Max(source.Length, target.Length)));
         }
 
         /// <summary>

@@ -20,18 +20,22 @@ namespace ScamBuster.Droid
         {
             base.OnCreate();
         }
+
         public override void OnDestroy()
         {
             base.OnDestroy();
         }
+
         public override IBinder OnBind(Intent intent)
         {
             return base.OnBind(intent);
         }
+
         public override bool OnUnbind(Intent intent)
         {
             return base.OnUnbind(intent);
         }
+
         public override void OnNotificationPosted(StatusBarNotification sbn)
         {
             string packageName = sbn.PackageName;

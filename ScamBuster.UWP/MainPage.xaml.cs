@@ -20,7 +20,6 @@ namespace ScamBuster.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
             LoadApplication(new ScamBuster.App());
         }
     }
