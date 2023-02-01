@@ -63,6 +63,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FloatingView.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="NLService.cs" />
     <Compile Include="Resources\Resource.designer.cs" />

@@ -18,8 +18,6 @@ using Windows.UI.Notifications.Management;
 using Windows.Foundation.Metadata;
 using Windows.UI.Notifications;
 using System.Diagnostics;
-using Windows.Networking.PushNotifications;
-using Windows.ApplicationModel.Background;
 
 namespace ScamBuster.UWP
 {
@@ -117,7 +115,7 @@ namespace ScamBuster.UWP
             }
         }
 
-        int ComputeLevenshteinDistance(string source, string target)
+        private int ComputeLevenshteinDistance(string source, string target)
         {
             if ((source == null) || (target == null)) return 0;
             if ((source.Length == 0) || (target.Length == 0)) return 0;
@@ -149,7 +147,7 @@ namespace ScamBuster.UWP
             return distance[sourceWordCount, targetWordCount];
         }
 
-        double CalculateSimilarity(string source, string target)
+        private double CalculateSimilarity(string source, string target)
         {
             if ((source == null) || (target == null)) return 0.0;
             if ((source.Length == 0) || (target.Length == 0)) return 0.0;
