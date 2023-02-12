@@ -23,14 +23,15 @@ namespace ScamBuster.Droid
     public class NLService : NotificationListenerService
     {
         private const string channelID = "ScamBuster";
-        private Spam[] records;
+        private SpamText[] records;
         
         public override void OnCreate()
         {
             base.OnCreate();
             System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
-            records = new CsvReader(new StreamReader(Assets.Open("Spam.csv")), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<Spam>().ToArray();
+            records = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<SpamText>().ToArray();
             SendNotification("Scammer", "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's");
+            SendNotification("Friend", "Hello");
         }
 
         public override void OnDestroy()
@@ -52,13 +53,13 @@ namespace ScamBuster.Droid
         {
             base.OnNotificationPosted(sbn);
             double susLevel = 0;
-            foreach (Spam spam in records)
+            foreach (SpamText scam in records)
             {
-                double _susLevel = CalculateSimilarity(sbn.Notification.TickerText.ToString().ToLower(), spam.text.ToLower());
+                double _susLevel = CalculateSimilarity(sbn.Notification.TickerText.ToString().ToLower(), scam.text.ToLower());
                 susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
             }
             susLevel *= 100;
-            System.Diagnostics.Debug.WriteLine(susLevel >= 50 ? $"BE CAREFUL!\nThe recent message has {susLevel}% danger level!" : $"SAFE! The recent message has {susLevel}% danger level, but ALWAY STAY CAUTIOUS!");
+            System.Diagnostics.Debug.WriteLine(susLevel >= 50 ? $"BE CAREFUL! The recent message has {susLevel}% danger level!" : $"SAFE! The recent message has {susLevel}% danger level, but ALWAY STAY CAUTIOUS!");
         }
 
         public override void OnNotificationRemoved(StatusBarNotification sbn)
@@ -123,6 +124,6 @@ namespace ScamBuster.Droid
             (GetSystemService(Context.NotificationService) as NotificationManager).Notify(0, builder.Build());
         }
 
-        private class Spam { public string text { get; set; } }
+        private class SpamText { public string text { get; set; } }
     }
 }
