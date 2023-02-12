@@ -10,6 +10,11 @@ using System.Linq;
 using System.Text;
 using Android.Service.Notification;
 using AndroidX.Core.App;
+using CsvHelper;
+using System.IO;
+using CsvHelper.Configuration;
+using System.Globalization;
+using System.Reflection;
 
 namespace ScamBuster.Droid
 {
@@ -18,27 +23,14 @@ namespace ScamBuster.Droid
     public class NLService : NotificationListenerService
     {
         private const string channelID = "ScamBuster";
-
+        private Spam[] records;
+        
         public override void OnCreate()
         {
             base.OnCreate();
             System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
-            
-            //Send a sample scam text notification
-            var channel = new NotificationChannel(channelID, channelID, NotificationImportance.Default);
-            ((NotificationManager)GetSystemService(NotificationService)).CreateNotificationChannel(channel);
-            Intent notifIntent = new Intent(this, typeof(MainActivity));
-            const int pendingIntentId = 0;
-            PendingIntent pendingIntent = PendingIntent.GetActivity(this, pendingIntentId, notifIntent, PendingIntentFlags.OneShot);
-            string content = "Hey, you have won a prize!";
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(this, channelID)
-                .SetContentIntent(pendingIntent)
-                .SetContentTitle("Scammer")
-                .SetContentText(content)
-                .SetTicker(content)
-                .SetSmallIcon(Resource.Drawable.xamarin_logo);
-            (GetSystemService(Context.NotificationService) as NotificationManager).Notify(0, builder.Build());
-            System.Diagnostics.Debug.WriteLine("Notification Sended!");
+            records = new CsvReader(new StreamReader(Assets.Open("Spam.csv")), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<Spam>().ToArray();
+            SendNotification("Scammer", "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's");
         }
 
         public override void OnDestroy()
@@ -58,9 +50,15 @@ namespace ScamBuster.Droid
 
         public override void OnNotificationPosted(StatusBarNotification sbn)
         {
-            string sus = "Hey, you have won a prize!";
-            System.Diagnostics.Debug.WriteLine(string.Concat("SUS Level: ", CalculateSimilarity(sbn.Notification.TickerText.ToString().ToLower(), sus.ToLower()) * 100, "%"));
             base.OnNotificationPosted(sbn);
+            double susLevel = 0;
+            foreach (Spam spam in records)
+            {
+                double _susLevel = CalculateSimilarity(sbn.Notification.TickerText.ToString().ToLower(), spam.text.ToLower());
+                susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
+            }
+            susLevel *= 100;
+            System.Diagnostics.Debug.WriteLine(susLevel >= 50 ? $"BE CAREFUL!\nThe recent message has {susLevel}% danger level!" : $"SAFE! The recent message has {susLevel}% danger level, but ALWAY STAY CAUTIOUS!");
         }
 
         public override void OnNotificationRemoved(StatusBarNotification sbn)
@@ -108,5 +106,23 @@ namespace ScamBuster.Droid
             int stepsToSame = ComputeLevenshteinDistance(source, target);
             return (1.0 - ((double)stepsToSame / (double)Math.Max(source.Length, target.Length)));
         }
+
+        private void SendNotification(string sender, string message)
+		{
+            var channel = new NotificationChannel(channelID, channelID, NotificationImportance.Default);
+            ((NotificationManager)GetSystemService(NotificationService)).CreateNotificationChannel(channel);
+            Intent notifIntent = new Intent(this, typeof(MainActivity));
+            const int pendingIntentId = 0;
+            PendingIntent pendingIntent = PendingIntent.GetActivity(this, pendingIntentId, notifIntent, PendingIntentFlags.OneShot);
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(this, channelID)
+                .SetContentIntent(pendingIntent)
+                .SetContentTitle(sender)
+                .SetContentText(message)
+                .SetTicker(message)
+                .SetSmallIcon(Resource.Drawable.xamarin_logo);
+            (GetSystemService(Context.NotificationService) as NotificationManager).Notify(0, builder.Build());
+        }
+
+        private class Spam { public string text { get; set; } }
     }
 }

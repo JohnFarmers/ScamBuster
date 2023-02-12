@@ -18,6 +18,9 @@ using Windows.UI.Notifications.Management;
 using Windows.Foundation.Metadata;
 using Windows.UI.Notifications;
 using System.Diagnostics;
+using CsvHelper;
+using CsvHelper.Configuration;
+using System.Globalization;
 
 namespace ScamBuster.UWP
 {
@@ -27,6 +30,7 @@ namespace ScamBuster.UWP
     sealed partial class App : Application
     {
         private UserNotificationListener listener = UserNotificationListener.Current;
+        private Spam[] records;
 
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -92,6 +96,7 @@ namespace ScamBuster.UWP
                     case UserNotificationListenerAccessStatus.Allowed:
                         Debug.WriteLine("Allowed");
                         listener.NotificationChanged += Listener_NotificationChanged;
+                        records = new CsvReader(new StreamReader(@"Assets/Spam.csv"), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<Spam>().ToArray();
                         break;
                     case UserNotificationListenerAccessStatus.Denied:
                         break;
@@ -110,8 +115,14 @@ namespace ScamBuster.UWP
             {
                 Debug.WriteLine(notifs[0].AppInfo.DisplayInfo.DisplayName);
                 string msg = string.Join("\n", notifs[0].Notification.Visual.GetBinding(KnownNotificationBindings.ToastGeneric).GetTextElements().Skip(1).Select(t => t.Text));
-                string sus = "Hey, you have won a prize!";
-                Debug.WriteLine(string.Concat("SUS Level: ", CalculateSimilarity(msg.ToLower(), sus.ToLower()) * 100, "%"));
+                double susLevel = 0;
+                foreach (Spam spam in records)
+				{
+                    double _susLevel = CalculateSimilarity(msg.ToLower(), spam.text.ToLower());
+                    susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
+				}
+                susLevel *= 100;
+                Debug.WriteLine(susLevel >= 50 ? $"BE CAREFUL!\nThe recent message has {susLevel}% danger level!" : $"SAFE! The recent message has {susLevel}% danger level, but ALWAY STAY CAUTIOUS!");
             }
         }
 
@@ -179,5 +190,7 @@ namespace ScamBuster.UWP
             //TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+        private class Spam { public string text { get; set; } }
     }
 }
