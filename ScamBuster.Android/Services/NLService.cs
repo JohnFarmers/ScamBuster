@@ -52,7 +52,9 @@ namespace ScamBuster.Droid
         public override void OnNotificationPosted(StatusBarNotification sbn)
         {
             base.OnNotificationPosted(sbn);
-            double susLevel = 0;
+            if (sbn.Notification.TickerText == null)
+                return;
+			double susLevel = 0;
             foreach (SpamText scam in records)
             {
                 double _susLevel = CalculateSimilarity(sbn.Notification.TickerText.ToString().ToLower(), scam.text.ToLower());
