@@ -19,5 +19,26 @@
                 android:layout_marginTop="8dp"
                 android:src="@drawable/icon_scambuster" />
         </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/flyout"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:layout_marginBottom="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="15dp">
+            <TextView
+                    android:id="@+id/notifiedText"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="Text"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:maxWidth="240dp" />
+        </LinearLayout>
     </RelativeLayout>
 </FrameLayout>

@@ -15,28 +15,31 @@ using System.IO;
 using CsvHelper.Configuration;
 using System.Globalization;
 using System.Reflection;
+using Xamarin.Essentials;
 
-namespace ScamBuster.Droid
+namespace ScamBuster.Droid.Services
 {
     [Service(Name = "ScamBuster.NLService", Label = "ServiceName", Permission = "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE")]
     [IntentFilter(new[] { "android.service.notification.NotificationListenerService" })]
     public class NLService : NotificationListenerService
     {
+        public static NLService instance;
         private const string channelID = "ScamBuster";
-        private SpamText[] records;
+        private ScamText[] scamTexts;
         
         public override void OnCreate()
         {
             base.OnCreate();
+            instance = this;
+            scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<ScamText>().ToArray();
             System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
-            records = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<SpamText>().ToArray();
-            SendNotification("Scammer", "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's");
-            SendNotification("Friend", "Hello");
         }
 
         public override void OnDestroy()
         {
             base.OnDestroy();
+            if(instance == this)
+                instance = null;
         }
 
         public override IBinder OnBind(Intent intent)
@@ -52,16 +55,16 @@ namespace ScamBuster.Droid
         public override void OnNotificationPosted(StatusBarNotification sbn)
         {
             base.OnNotificationPosted(sbn);
-            if (sbn.Notification.TickerText == null)
+            if (sbn.Notification.Extras == null)
                 return;
 			double susLevel = 0;
-            foreach (SpamText scam in records)
+            foreach (ScamText scam in scamTexts)
             {
-                double _susLevel = CalculateSimilarity(sbn.Notification.TickerText.ToString().ToLower(), scam.text.ToLower());
+                double _susLevel = CalculateSimilarity(sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString().ToLower(), scam.text.ToLower());
                 susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
             }
-            susLevel *= 100;
-            System.Diagnostics.Debug.WriteLine(susLevel >= 50 ? $"BE CAREFUL! The recent message has {susLevel}% danger level!" : $"SAFE! The recent message has {susLevel}% danger level, but ALWAY STAY CAUTIOUS!");
+            if(FloatingNotifier.instance != null)
+                FloatingNotifier.instance.NotifiedDangerLevel(Math.Round(susLevel *= 100));
         }
 
         public override void OnNotificationRemoved(StatusBarNotification sbn)
@@ -110,7 +113,7 @@ namespace ScamBuster.Droid
             return (1.0 - ((double)stepsToSame / (double)Math.Max(source.Length, target.Length)));
         }
 
-        private void SendNotification(string sender, string message)
+        public void SendNotification(string sender, string message)
 		{
             var channel = new NotificationChannel(channelID, channelID, NotificationImportance.Default);
             ((NotificationManager)GetSystemService(NotificationService)).CreateNotificationChannel(channel);
@@ -126,6 +129,6 @@ namespace ScamBuster.Droid
             (GetSystemService(Context.NotificationService) as NotificationManager).Notify(0, builder.Build());
         }
 
-        private class SpamText { public string text { get; set; } }
+        private class ScamText { public string text { get; set; } }
     }
 }
