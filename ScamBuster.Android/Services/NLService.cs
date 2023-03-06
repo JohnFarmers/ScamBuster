@@ -85,7 +85,6 @@ namespace ScamBuster.Droid.Services
 				}
 				if (FloatingNotifier.instance != null)
 					FloatingNotifier.instance.NotifiedDangerLevel(Math.Round(susLevel *= 100));
-				System.Diagnostics.Debug.WriteLine("Notified");
 			}
         }
 
