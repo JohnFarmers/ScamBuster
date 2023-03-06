@@ -59,6 +59,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Cloudmersive.APIClient.NETCore.Validate">
+      <Version>2.2.5</Version>
+    </PackageReference>
     <PackageReference Include="CsvHelper">
       <Version>30.0.1</Version>
     </PackageReference>

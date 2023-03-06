@@ -16,6 +16,10 @@ using CsvHelper.Configuration;
 using System.Globalization;
 using System.Reflection;
 using Xamarin.Essentials;
+using Cloudmersive.APIClient.NETCore.Validate.Api;
+using Cloudmersive.APIClient.NETCore.Validate.Client;
+using Cloudmersive.APIClient.NETCore.Validate.Model;
+using System.Text.RegularExpressions;
 
 namespace ScamBuster.Droid.Services
 {
@@ -25,15 +29,19 @@ namespace ScamBuster.Droid.Services
     {
         public static NLService instance;
         private const string channelID = "ScamBuster";
+        private const string packageName = "com.potatolab.scambuster";
+        private const string androidPackageName = "android";
         private ScamText[] scamTexts;
-        
-        public override void OnCreate()
+        private Regex linkParser = new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
+		public override void OnCreate()
         {
             base.OnCreate();
             instance = this;
             scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<ScamText>().ToArray();
             System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
-        }
+			SendNotification("URL Test", "Hello!, click this link: https://a.776599.com/");
+		}
 
         public override void OnDestroy()
         {
@@ -55,16 +63,30 @@ namespace ScamBuster.Droid.Services
         public override void OnNotificationPosted(StatusBarNotification sbn)
         {
             base.OnNotificationPosted(sbn);
-            if (sbn.Notification.Extras == null)
+            if (sbn.Notification.Extras == null || sbn.PackageName == androidPackageName)
                 return;
-			double susLevel = 0;
-            foreach (ScamText scam in scamTexts)
+            if(int.TryParse(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString(), out int incomingNumber))
             {
-                double _susLevel = CalculateSimilarity(sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString().ToLower(), scam.text.ToLower());
-                susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
+                FloatingNotifier.instance.Test(incomingNumber.ToString());
             }
-            if(FloatingNotifier.instance != null)
-                FloatingNotifier.instance.NotifiedDangerLevel(Math.Round(susLevel *= 100));
+            else
+            {
+				string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
+				foreach (Match match in linkParser.Matches(text).Cast<Match>())
+				{
+					System.Diagnostics.Debug.WriteLine(CheckURLSafety(match.Value));
+					System.Diagnostics.Debug.WriteLine(match.Value);
+				}
+				double susLevel = 0;
+				foreach (ScamText scam in scamTexts)
+				{
+					double _susLevel = CalculateSimilarity(text.ToLower(), scam.Text.ToLower());
+					susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
+				}
+				if (FloatingNotifier.instance != null)
+					FloatingNotifier.instance.NotifiedDangerLevel(Math.Round(susLevel *= 100));
+				System.Diagnostics.Debug.WriteLine("Notified");
+			}
         }
 
         public override void OnNotificationRemoved(StatusBarNotification sbn)
@@ -110,25 +132,28 @@ namespace ScamBuster.Droid.Services
             if ((source.Length == 0) || (target.Length == 0)) return 0.0;
             if (source == target) return 1.0;
             int stepsToSame = ComputeLevenshteinDistance(source, target);
-            return (1.0 - ((double)stepsToSame / (double)Math.Max(source.Length, target.Length)));
+            return 1.0 - ((double)stepsToSame / (double)Math.Max(source.Length, target.Length));
         }
+
+        private UrlSafetyCheckResponseFull CheckURLSafety(string link)
+        {
+            Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
+            System.Diagnostics.Debug.WriteLine("Called");
+            return new DomainApi().DomainSafetyCheck(new UrlSafetyCheckRequestFull(link));
+		}
 
         public void SendNotification(string sender, string message)
 		{
-            var channel = new NotificationChannel(channelID, channelID, NotificationImportance.Default);
-            ((NotificationManager)GetSystemService(NotificationService)).CreateNotificationChannel(channel);
-            Intent notifIntent = new Intent(this, typeof(MainActivity));
-            const int pendingIntentId = 0;
-            PendingIntent pendingIntent = PendingIntent.GetActivity(this, pendingIntentId, notifIntent, PendingIntentFlags.OneShot);
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(this, channelID)
-                .SetContentIntent(pendingIntent)
+            ((NotificationManager)GetSystemService(NotificationService)).CreateNotificationChannel(new NotificationChannel(channelID, channelID, NotificationImportance.Default));
+            (GetSystemService(NotificationService) as NotificationManager)
+                .Notify(0, new NotificationCompat.Builder(this, channelID)
+                .SetContentIntent(PendingIntent.GetActivity(this, 0, new Intent(this, typeof(MainActivity)), PendingIntentFlags.OneShot))
                 .SetContentTitle(sender)
                 .SetContentText(message)
                 .SetTicker(message)
-                .SetSmallIcon(Resource.Drawable.xamarin_logo);
-            (GetSystemService(Context.NotificationService) as NotificationManager).Notify(0, builder.Build());
+                .SetSmallIcon(Resource.Drawable.icon_scambuster).Build());
         }
 
-        private class ScamText { public string text { get; set; } }
+        private class ScamText { public string Text { get; set; } }
     }
 }

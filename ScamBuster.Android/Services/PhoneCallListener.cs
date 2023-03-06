@@ -47,6 +47,6 @@ namespace ScamBuster.Droid.Services
             }
         }
 
-        private class ScammerPhoneNumber { public string number; }
+        private class ScammerPhoneNumber { public string Number { get; set; } }
     }
 }
