@@ -93,10 +93,10 @@ namespace ScamBuster.Droid.Services
             textView.Text = string.Empty;
         }
 
-        public async void Test(string text)
+        public async void Notify(object text)
         {
             textContainer.Visibility = ViewStates.Visible;
-            textView.Text = text;
+            textView.Text = text.ToString();
             await Task.Delay(3000);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;

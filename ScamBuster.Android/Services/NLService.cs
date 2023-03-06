@@ -20,6 +20,8 @@ using Cloudmersive.APIClient.NETCore.Validate.Api;
 using Cloudmersive.APIClient.NETCore.Validate.Client;
 using Cloudmersive.APIClient.NETCore.Validate.Model;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace ScamBuster.Droid.Services
 {
@@ -32,15 +34,16 @@ namespace ScamBuster.Droid.Services
         private const string packageName = "com.potatolab.scambuster";
         private const string androidPackageName = "android";
         private ScamText[] scamTexts;
-        private Regex linkParser = new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+        private readonly Regex linkParser = new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+        private UrlSafetyCheckResponseFull response = null;
 
 		public override void OnCreate()
         {
             base.OnCreate();
             instance = this;
             scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<ScamText>().ToArray();
-            System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
-			SendNotification("URL Test", "Hello!, click this link: https://a.776599.com/");
+			Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
+			System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
 		}
 
         public override void OnDestroy()
@@ -67,15 +70,23 @@ namespace ScamBuster.Droid.Services
                 return;
             if(int.TryParse(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString(), out int incomingNumber))
             {
-                FloatingNotifier.instance.Test(incomingNumber.ToString());
+                FloatingNotifier.instance?.Notify(incomingNumber.ToString());
             }
             else
             {
 				string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
 				foreach (Match match in linkParser.Matches(text).Cast<Match>())
 				{
-					System.Diagnostics.Debug.WriteLine(CheckURLSafety(match.Value));
-					System.Diagnostics.Debug.WriteLine(match.Value);
+                    ThreadStart threadStart = async delegate 
+                    { 
+                        response = await CheckURLSafety(match.Value);
+						if (!(bool)response.CleanURL && FloatingNotifier.instance != null)
+						{
+							FloatingNotifier.instance?.Notify(response.CleanURL);
+							return;
+						}
+					};
+                    new Thread(threadStart).Start();
 				}
 				double susLevel = 0;
 				foreach (ScamText scam in scamTexts)
@@ -83,8 +94,7 @@ namespace ScamBuster.Droid.Services
 					double _susLevel = CalculateSimilarity(text.ToLower(), scam.Text.ToLower());
 					susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
 				}
-				if (FloatingNotifier.instance != null)
-					FloatingNotifier.instance.NotifiedDangerLevel(Math.Round(susLevel *= 100));
+				FloatingNotifier.instance?.NotifiedDangerLevel(Math.Round(susLevel *= 100));
 			}
         }
 
@@ -134,12 +144,7 @@ namespace ScamBuster.Droid.Services
             return 1.0 - ((double)stepsToSame / (double)Math.Max(source.Length, target.Length));
         }
 
-        private UrlSafetyCheckResponseFull CheckURLSafety(string link)
-        {
-            Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
-            System.Diagnostics.Debug.WriteLine("Called");
-            return new DomainApi().DomainSafetyCheck(new UrlSafetyCheckRequestFull(link));
-		}
+        private async Task<UrlSafetyCheckResponseFull> CheckURLSafety(string link) => new DomainApi().DomainSafetyCheck(new UrlSafetyCheckRequestFull(link));
 
         public void SendNotification(string sender, string message)
 		{
