@@ -22,6 +22,7 @@ using Cloudmersive.APIClient.NETCore.Validate.Model;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Threading;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ScamBuster.Droid.Services
 {
@@ -33,7 +34,9 @@ namespace ScamBuster.Droid.Services
         private const string channelID = "ScamBuster";
         private const string packageName = "com.potatolab.scambuster";
         private const string androidPackageName = "android";
+        private const string urlSafetyResult = "URLSafetyResult";
         private ScamText[] scamTexts;
+        private ScammerPhoneNumber[] scamNumbers;
         private readonly Regex linkParser = new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
         private UrlSafetyCheckResponseFull response = null;
 
@@ -41,7 +44,9 @@ namespace ScamBuster.Droid.Services
         {
             base.OnCreate();
             instance = this;
-            scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false }).GetRecords<ScamText>().ToArray();
+            CsvConfiguration configuration = new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
+			scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), configuration).GetRecords<ScamText>().ToArray();
+			scamNumbers = new CsvReader(new StreamReader(Assets.Open("ScamPhoneNumber.csv")), configuration).GetRecords<ScammerPhoneNumber>().ToArray();
 			Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
 			System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
 		}
@@ -66,27 +71,31 @@ namespace ScamBuster.Droid.Services
         public override void OnNotificationPosted(StatusBarNotification sbn)
         {
             base.OnNotificationPosted(sbn);
-            if (sbn.Notification.Extras == null || sbn.PackageName == androidPackageName)
+            if(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString() == urlSafetyResult && bool.TryParse(sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString(), out bool result))
+            {
+                if (result) return;
+                FloatingNotifier.instance.ShowCheckingLink(false);
+                FloatingNotifier.instance.NotifiedURLSafety();
+                return;
+			}
+            if (sbn.Notification.Extras == null || sbn.PackageName == packageName || sbn.PackageName == androidPackageName)
                 return;
             if(int.TryParse(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString(), out int incomingNumber))
-            {
-                FloatingNotifier.instance?.Notify(incomingNumber.ToString());
-            }
+                foreach (ScammerPhoneNumber number in scamNumbers)
+                    FloatingNotifier.instance.NotifiedPhoneNumberSafety(incomingNumber == int.Parse(number.Number));
             else
             {
 				string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
+				FloatingNotifier.instance.ShowCheckingLink(true);
 				foreach (Match match in linkParser.Matches(text).Cast<Match>())
 				{
-                    ThreadStart threadStart = async delegate 
-                    { 
-                        response = await CheckURLSafety(match.Value);
+					ThreadStart threadStart = async delegate
+					{
+						response = await CheckURLSafety(match.Value);
 						if (!(bool)response.CleanURL && FloatingNotifier.instance != null)
-						{
-							FloatingNotifier.instance?.Notify(response.CleanURL);
-							return;
-						}
+							SendNotification(urlSafetyResult, response.CleanURL.ToString());
 					};
-                    new Thread(threadStart).Start();
+					new Thread(threadStart).Start();
 				}
 				double susLevel = 0;
 				foreach (ScamText scam in scamTexts)
@@ -159,5 +168,7 @@ namespace ScamBuster.Droid.Services
         }
 
         private class ScamText { public string Text { get; set; } }
+        
+        private class ScammerPhoneNumber { public string Number { get; set; } }
     }
 }
