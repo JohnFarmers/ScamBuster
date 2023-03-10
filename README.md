@@ -1,10 +1,10 @@
 # ScamBuster
 Scam Buster is a a program that will detect incoming messages and phone call number and check whether it is safe or not.
 
-License Agreement
-This software is a work developed by..…(Developer’s name)…
-from …(School’s name)… under the provision of …(Advisor’s name)….
-under … (Project’s name)… , which has been supported by the National
+**License Agreement**
+This software is a work developed by Bhutharit Aksornsuwan
+from Saint Gabriel's College under the provision of Noppadon Sangthong
+under Scam Buster, which has been supported by the National
 Science and Technology Development Agency (NSTDA), in order to
 encourage pupils and students to learn and practice their skills in
 developing software. Therefore, the intellectual property of this
