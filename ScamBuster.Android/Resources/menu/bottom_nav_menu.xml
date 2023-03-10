@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/home_active"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/detection"
+        android:title="Detections"
+        android:enabled="true"
+        android:icon="@drawable/detections_inactive"
+        android:showAsAction="ifRoom"/>
+</menu>

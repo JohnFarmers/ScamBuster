@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_green"
+    android:id="@+id/Home_Layout">
+    <ImageView
+        android:src="@drawable/icon_scambuster"
+        android:contentDescription="@string/icon_content_description"
+        android:layout_width="281.0dp"
+        android:layout_height="289.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="21.5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="0.0dp"
+        />
+
+    <TextView
+        android:text="You're Protected"
+        android:layout_width="wrap_content"
+        android:textColor="@color/BrightGreen"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:id="@+id/textView1"
+        android:layout_centerHorizontal = "true"
+        android:visibility="visible"
+        android:textSize="35sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0.0dp"
+        android:textStyle="bold"
+        android:gravity="top"/>
+    <TextView
+        android:text="Ready to bust those scammers!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/BrightGreen"
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@id/imageView1" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/bottomNavigationView1"
+        android:layout_marginTop="149.0dp"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_marginBottom="0.0dp"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@color/BrightGreen"/>
+
+
+
+</RelativeLayout>

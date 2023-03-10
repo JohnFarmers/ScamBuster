@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
-  <string name="app_name">"Scam Buster"</string>
-  <string name="title_activity_kimera">"Scam Buster"</string>
-  <string name="service_name">"NLService"</string>
+  <string name="app_name">Scam Buster</string>
+  <string name="title_activity_kimera">Scam Buster</string>
+  <string name="service_name">NLService</string>
+	<string name ="protected">You're Protected</string>
+	<string name ="protected_desc">Ready to bust those scammers!</string>
 </resources>
