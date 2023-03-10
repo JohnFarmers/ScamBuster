@@ -16,7 +16,6 @@
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:layout_marginTop="8dp"
                 android:src="@drawable/icon_scambuster" />
         </RelativeLayout>
         <LinearLayout
@@ -29,16 +28,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#FFFFFF"
+            android:background="@layout/rounded_corner"
             android:padding="15dp">
             <TextView
                     android:id="@+id/notifiedText"
                     android:layout_width="wrap_content"
                     android:layout_marginRight="16dp"
                     android:text="Text"
+                    android:textStyle="bold"
                     android:layout_height="wrap_content"
                     android:textColor="@android:color/black"
-                    android:maxWidth="240dp" />
+                    android:maxWidth="240dp" 
+                    android:background="@layout/rounded_corner"/>
         </LinearLayout>
     </RelativeLayout>
 </FrameLayout>

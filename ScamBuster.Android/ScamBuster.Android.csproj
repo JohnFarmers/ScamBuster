@@ -65,6 +65,12 @@
     <PackageReference Include="CsvHelper">
       <Version>30.0.1</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.CommunityToolkit">
+      <Version>2.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.CommunityToolkit.Markup">
+      <Version>2.0.5</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
     <PackageReference Include="Xamarin.Google.Android.Material">
@@ -117,6 +123,9 @@
     <AndroidResourceAnalysisConfig Include="Resources\values\strings.xml">
       <SubType>Designer</SubType>
     </AndroidResourceAnalysisConfig>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\rounded_corner.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\FloatingNotifier.xml" />
