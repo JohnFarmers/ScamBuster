@@ -23,8 +23,8 @@ namespace ScamBuster.Droid
         {
             base.OnCreate(savedInstanceState);
             StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), REQUEST_CODE);
-            StartService(new Intent(this, typeof(FloatingNotifier)));
             SetContentView(Resource.Layout.Home_Layout);
+            StartService(new Intent(this, typeof(FloatingNotifier)));
             ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE" }, 123);
             StartActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
@@ -53,11 +53,11 @@ namespace ScamBuster.Droid
             {
                 case Resource.Id.Home:
                     HomeFragment homeFragment = new HomeFragment();
-                    frag.Replace(Resource.Id.Home, homeFragment);
+                    frag.Replace(Resource.Id.content_frame, homeFragment);
                     break;
                 case Resource.Id.detection:
                     DetectionFragment detectionFragment = new DetectionFragment();
-                    frag.Replace(Resource.Id.Home, detectionFragment);
+                    frag.Replace(Resource.Id.content_frame, detectionFragment);
                     break;
             }
             frag.Commit();

@@ -64,10 +64,22 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Animator.design_appbar_state_list_animator = global::ScamBuster.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.CommunityToolkit.Resource.Animator.design_fab_hide_motion_spec = global::ScamBuster.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.CommunityToolkit.Resource.Animator.design_fab_show_motion_spec = global::ScamBuster.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_close_enter = global::ScamBuster.Droid.Resource.Animator.fragment_close_enter;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_close_exit = global::ScamBuster.Droid.Resource.Animator.fragment_close_exit;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_fade_enter = global::ScamBuster.Droid.Resource.Animator.fragment_fade_enter;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_fade_exit = global::ScamBuster.Droid.Resource.Animator.fragment_fade_exit;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_open_enter = global::ScamBuster.Droid.Resource.Animator.fragment_open_enter;
+			global::Xamarin.CommunityToolkit.Resource.Animator.fragment_open_exit = global::ScamBuster.Droid.Resource.Animator.fragment_open_exit;
+			global::Xamarin.CommunityToolkit.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::ScamBuster.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::ScamBuster.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::ScamBuster.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
+			global::Xamarin.CommunityToolkit.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::ScamBuster.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_btn_state_list_anim = global::ScamBuster.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::ScamBuster.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_card_state_list_anim = global::ScamBuster.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_chip_state_list_anim = global::ScamBuster.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_change_size_collapse_motion_spec = global::ScamBuster.Droid.Resource.Animator.mtrl_extended_fab_change_size_collapse_motion_spec;
+			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_change_size_expand_motion_spec = global::ScamBuster.Droid.Resource.Animator.mtrl_extended_fab_change_size_expand_motion_spec;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::ScamBuster.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::ScamBuster.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_state_list_animator = global::ScamBuster.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
@@ -117,16 +129,21 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.allowStacking = global::ScamBuster.Droid.Resource.Attribute.allowStacking;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.alpha = global::ScamBuster.Droid.Resource.Attribute.alpha;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.alphabeticModifiers = global::ScamBuster.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.altSrc = global::ScamBuster.Droid.Resource.Attribute.altSrc;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.animationMode = global::ScamBuster.Droid.Resource.Attribute.animationMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.appBarLayoutStyle = global::ScamBuster.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.applyMotionScene = global::ScamBuster.Droid.Resource.Attribute.applyMotionScene;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.arcMode = global::ScamBuster.Droid.Resource.Attribute.arcMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.arrowHeadLength = global::ScamBuster.Droid.Resource.Attribute.arrowHeadLength;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.arrowShaftLength = global::ScamBuster.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.attributeName = global::ScamBuster.Droid.Resource.Attribute.attributeName;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoCompleteTextViewStyle = global::ScamBuster.Droid.Resource.Attribute.autoCompleteTextViewStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeMaxTextSize = global::ScamBuster.Droid.Resource.Attribute.autoSizeMaxTextSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeMinTextSize = global::ScamBuster.Droid.Resource.Attribute.autoSizeMinTextSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizePresetSizes = global::ScamBuster.Droid.Resource.Attribute.autoSizePresetSizes;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeStepGranularity = global::ScamBuster.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeTextType = global::ScamBuster.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.autoTransition = global::ScamBuster.Droid.Resource.Attribute.autoTransition;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.background = global::ScamBuster.Droid.Resource.Attribute.background;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundColor = global::ScamBuster.Droid.Resource.Attribute.backgroundColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetBottom = global::ScamBuster.Droid.Resource.Attribute.backgroundInsetBottom;
@@ -142,6 +159,9 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.badgeStyle = global::ScamBuster.Droid.Resource.Attribute.badgeStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.badgeTextColor = global::ScamBuster.Droid.Resource.Attribute.badgeTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.barLength = global::ScamBuster.Droid.Resource.Attribute.barLength;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.barrierAllowsGoneWidgets = global::ScamBuster.Droid.Resource.Attribute.barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.barrierDirection = global::ScamBuster.Droid.Resource.Attribute.barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.barrierMargin = global::ScamBuster.Droid.Resource.Attribute.barrierMargin;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_autoHide = global::ScamBuster.Droid.Resource.Attribute.behavior_autoHide;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_autoShrink = global::ScamBuster.Droid.Resource.Attribute.behavior_autoShrink;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_draggable = global::ScamBuster.Droid.Resource.Attribute.behavior_draggable;
@@ -170,6 +190,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeErrorColor = global::ScamBuster.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeWidth = global::ScamBuster.Droid.Resource.Attribute.boxStrokeWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeWidthFocused = global::ScamBuster.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.brightness = global::ScamBuster.Droid.Resource.Attribute.brightness;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarButtonStyle = global::ScamBuster.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarNegativeButtonStyle = global::ScamBuster.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarNeutralButtonStyle = global::ScamBuster.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -191,11 +212,14 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardPreventCornerOverlap = global::ScamBuster.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardUseCompatPadding = global::ScamBuster.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardViewStyle = global::ScamBuster.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.chainUseRtl = global::ScamBuster.Droid.Resource.Attribute.chainUseRtl;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkboxStyle = global::ScamBuster.Droid.Resource.Attribute.checkboxStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedButton = global::ScamBuster.Droid.Resource.Attribute.checkedButton;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedChip = global::ScamBuster.Droid.Resource.Attribute.checkedChip;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIcon = global::ScamBuster.Droid.Resource.Attribute.checkedIcon;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconEnabled = global::ScamBuster.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconMargin = global::ScamBuster.Droid.Resource.Attribute.checkedIconMargin;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconSize = global::ScamBuster.Droid.Resource.Attribute.checkedIconSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconTint = global::ScamBuster.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconVisible = global::ScamBuster.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedTextViewStyle = global::ScamBuster.Droid.Resource.Attribute.checkedTextViewStyle;
@@ -219,6 +243,13 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStrokeWidth = global::ScamBuster.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStyle = global::ScamBuster.Droid.Resource.Attribute.chipStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSurfaceColor = global::ScamBuster.Droid.Resource.Attribute.chipSurfaceColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circleRadius = global::ScamBuster.Droid.Resource.Attribute.circleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.circularProgressIndicatorStyle = global::ScamBuster.Droid.Resource.Attribute.circularProgressIndicatorStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clickAction = global::ScamBuster.Droid.Resource.Attribute.clickAction;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clockFaceBackgroundColor = global::ScamBuster.Droid.Resource.Attribute.clockFaceBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clockHandColor = global::ScamBuster.Droid.Resource.Attribute.clockHandColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clockIcon = global::ScamBuster.Droid.Resource.Attribute.clockIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.clockNumberTextColor = global::ScamBuster.Droid.Resource.Attribute.clockNumberTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIcon = global::ScamBuster.Droid.Resource.Attribute.closeIcon;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconEnabled = global::ScamBuster.Droid.Resource.Attribute.closeIconEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconEndPadding = global::ScamBuster.Droid.Resource.Attribute.closeIconEndPadding;
@@ -228,9 +259,11 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconVisible = global::ScamBuster.Droid.Resource.Attribute.closeIconVisible;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.closeItemLayout = global::ScamBuster.Droid.Resource.Attribute.closeItemLayout;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.collapseContentDescription = global::ScamBuster.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collapsedSize = global::ScamBuster.Droid.Resource.Attribute.collapsedSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.collapsedTitleGravity = global::ScamBuster.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.collapsedTitleTextAppearance = global::ScamBuster.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.collapseIcon = global::ScamBuster.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.collapsingToolbarLayoutStyle = global::ScamBuster.Droid.Resource.Attribute.collapsingToolbarLayoutStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.collectionViewStyle = global::ScamBuster.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.color = global::ScamBuster.Droid.Resource.Attribute.color;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorAccent = global::ScamBuster.Droid.Resource.Attribute.colorAccent;
@@ -255,6 +288,13 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSurface = global::ScamBuster.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSwitchThumbNormal = global::ScamBuster.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.commitIcon = global::ScamBuster.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraints = global::ScamBuster.Droid.Resource.Attribute.constraints;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraintSet = global::ScamBuster.Droid.Resource.Attribute.constraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraintSetEnd = global::ScamBuster.Droid.Resource.Attribute.constraintSetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraintSetStart = global::ScamBuster.Droid.Resource.Attribute.constraintSetStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraint_referenced_ids = global::ScamBuster.Droid.Resource.Attribute.constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.constraint_referenced_tags = global::ScamBuster.Droid.Resource.Attribute.constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.content = global::ScamBuster.Droid.Resource.Attribute.content;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentDescription = global::ScamBuster.Droid.Resource.Attribute.contentDescription;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetEnd = global::ScamBuster.Droid.Resource.Attribute.contentInsetEnd;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetEndWithActions = global::ScamBuster.Droid.Resource.Attribute.contentInsetEndWithActions;
@@ -264,10 +304,13 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentInsetStartWithNavigation = global::ScamBuster.Droid.Resource.Attribute.contentInsetStartWithNavigation;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPadding = global::ScamBuster.Droid.Resource.Attribute.contentPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingBottom = global::ScamBuster.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingEnd = global::ScamBuster.Droid.Resource.Attribute.contentPaddingEnd;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingLeft = global::ScamBuster.Droid.Resource.Attribute.contentPaddingLeft;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingRight = global::ScamBuster.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingStart = global::ScamBuster.Droid.Resource.Attribute.contentPaddingStart;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentPaddingTop = global::ScamBuster.Droid.Resource.Attribute.contentPaddingTop;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentScrim = global::ScamBuster.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.contrast = global::ScamBuster.Droid.Resource.Attribute.contrast;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.controlBackground = global::ScamBuster.Droid.Resource.Attribute.controlBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.coordinatorLayoutStyle = global::ScamBuster.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamily = global::ScamBuster.Droid.Resource.Attribute.cornerFamily;
@@ -287,12 +330,28 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.counterOverflowTextColor = global::ScamBuster.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.counterTextAppearance = global::ScamBuster.Droid.Resource.Attribute.counterTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.counterTextColor = global::ScamBuster.Droid.Resource.Attribute.counterTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.crossfade = global::ScamBuster.Droid.Resource.Attribute.crossfade;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.currentState = global::ScamBuster.Droid.Resource.Attribute.currentState;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.curveFit = global::ScamBuster.Droid.Resource.Attribute.curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customBoolean = global::ScamBuster.Droid.Resource.Attribute.customBoolean;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customColorDrawableValue = global::ScamBuster.Droid.Resource.Attribute.customColorDrawableValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customColorValue = global::ScamBuster.Droid.Resource.Attribute.customColorValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customDimension = global::ScamBuster.Droid.Resource.Attribute.customDimension;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customFloatValue = global::ScamBuster.Droid.Resource.Attribute.customFloatValue;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customIntegerValue = global::ScamBuster.Droid.Resource.Attribute.customIntegerValue;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.customNavigationLayout = global::ScamBuster.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customPixelDimension = global::ScamBuster.Droid.Resource.Attribute.customPixelDimension;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.customStringValue = global::ScamBuster.Droid.Resource.Attribute.customStringValue;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dayInvalidStyle = global::ScamBuster.Droid.Resource.Attribute.dayInvalidStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.daySelectedStyle = global::ScamBuster.Droid.Resource.Attribute.daySelectedStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dayStyle = global::ScamBuster.Droid.Resource.Attribute.dayStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dayTodayStyle = global::ScamBuster.Droid.Resource.Attribute.dayTodayStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.defaultDuration = global::ScamBuster.Droid.Resource.Attribute.defaultDuration;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.defaultQueryHint = global::ScamBuster.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.defaultState = global::ScamBuster.Droid.Resource.Attribute.defaultState;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.deltaPolarAngle = global::ScamBuster.Droid.Resource.Attribute.deltaPolarAngle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.deltaPolarRadius = global::ScamBuster.Droid.Resource.Attribute.deltaPolarRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.deriveConstraintsFrom = global::ScamBuster.Droid.Resource.Attribute.deriveConstraintsFrom;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogCornerRadius = global::ScamBuster.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogPreferredPadding = global::ScamBuster.Droid.Resource.Attribute.dialogPreferredPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogTheme = global::ScamBuster.Droid.Resource.Attribute.dialogTheme;
@@ -301,6 +360,9 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dividerHorizontal = global::ScamBuster.Droid.Resource.Attribute.dividerHorizontal;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dividerPadding = global::ScamBuster.Droid.Resource.Attribute.dividerPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dividerVertical = global::ScamBuster.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dragDirection = global::ScamBuster.Droid.Resource.Attribute.dragDirection;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dragScale = global::ScamBuster.Droid.Resource.Attribute.dragScale;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.dragThreshold = global::ScamBuster.Droid.Resource.Attribute.dragThreshold;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableBottomCompat = global::ScamBuster.Droid.Resource.Attribute.drawableBottomCompat;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableEndCompat = global::ScamBuster.Droid.Resource.Attribute.drawableEndCompat;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableLeftCompat = global::ScamBuster.Droid.Resource.Attribute.drawableLeftCompat;
@@ -312,8 +374,10 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableTopCompat = global::ScamBuster.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawerArrowStyle = global::ScamBuster.Droid.Resource.Attribute.drawerArrowStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawerLayoutStyle = global::ScamBuster.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.drawPath = global::ScamBuster.Droid.Resource.Attribute.drawPath;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dropdownListPreferredItemHeight = global::ScamBuster.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dropDownListViewStyle = global::ScamBuster.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.duration = global::ScamBuster.Droid.Resource.Attribute.duration;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextBackground = global::ScamBuster.Droid.Resource.Attribute.editTextBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextColor = global::ScamBuster.Droid.Resource.Attribute.editTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextStyle = global::ScamBuster.Droid.Resource.Attribute.editTextStyle;
@@ -338,6 +402,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.errorTextColor = global::ScamBuster.Droid.Resource.Attribute.errorTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ScamBuster.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expanded = global::ScamBuster.Droid.Resource.Attribute.expanded;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedHintEnabled = global::ScamBuster.Droid.Resource.Attribute.expandedHintEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleGravity = global::ScamBuster.Droid.Resource.Attribute.expandedTitleGravity;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMargin = global::ScamBuster.Droid.Resource.Attribute.expandedTitleMargin;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMarginBottom = global::ScamBuster.Droid.Resource.Attribute.expandedTitleMarginBottom;
@@ -361,6 +426,25 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fastScrollVerticalTrackDrawable = global::ScamBuster.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.firstBaselineToTopHeight = global::ScamBuster.Droid.Resource.Attribute.firstBaselineToTopHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.floatingActionButtonStyle = global::ScamBuster.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_firstHorizontalBias = global::ScamBuster.Droid.Resource.Attribute.flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_firstHorizontalStyle = global::ScamBuster.Droid.Resource.Attribute.flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_firstVerticalBias = global::ScamBuster.Droid.Resource.Attribute.flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_firstVerticalStyle = global::ScamBuster.Droid.Resource.Attribute.flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_horizontalAlign = global::ScamBuster.Droid.Resource.Attribute.flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_horizontalBias = global::ScamBuster.Droid.Resource.Attribute.flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_horizontalGap = global::ScamBuster.Droid.Resource.Attribute.flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_horizontalStyle = global::ScamBuster.Droid.Resource.Attribute.flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_lastHorizontalBias = global::ScamBuster.Droid.Resource.Attribute.flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_lastHorizontalStyle = global::ScamBuster.Droid.Resource.Attribute.flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_lastVerticalBias = global::ScamBuster.Droid.Resource.Attribute.flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_lastVerticalStyle = global::ScamBuster.Droid.Resource.Attribute.flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_maxElementsWrap = global::ScamBuster.Droid.Resource.Attribute.flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_padding = global::ScamBuster.Droid.Resource.Attribute.flow_padding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_verticalAlign = global::ScamBuster.Droid.Resource.Attribute.flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_verticalBias = global::ScamBuster.Droid.Resource.Attribute.flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_verticalGap = global::ScamBuster.Droid.Resource.Attribute.flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_verticalStyle = global::ScamBuster.Droid.Resource.Attribute.flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.flow_wrapMode = global::ScamBuster.Droid.Resource.Attribute.flow_wrapMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.font = global::ScamBuster.Droid.Resource.Attribute.font;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fontFamily = global::ScamBuster.Droid.Resource.Attribute.fontFamily;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fontProviderAuthority = global::ScamBuster.Droid.Resource.Attribute.fontProviderAuthority;
@@ -373,6 +457,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fontVariationSettings = global::ScamBuster.Droid.Resource.Attribute.fontVariationSettings;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fontWeight = global::ScamBuster.Droid.Resource.Attribute.fontWeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.foregroundInsidePadding = global::ScamBuster.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.framePosition = global::ScamBuster.Droid.Resource.Attribute.framePosition;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.gapBetweenBars = global::ScamBuster.Droid.Resource.Attribute.gapBetweenBars;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.gestureInsetBottomIgnored = global::ScamBuster.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.goIcon = global::ScamBuster.Droid.Resource.Attribute.goIcon;
@@ -384,6 +469,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextEnabled = global::ScamBuster.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextTextAppearance = global::ScamBuster.Droid.Resource.Attribute.helperTextTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextTextColor = global::ScamBuster.Droid.Resource.Attribute.helperTextTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.hideAnimationBehavior = global::ScamBuster.Droid.Resource.Attribute.hideAnimationBehavior;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hideMotionSpec = global::ScamBuster.Droid.Resource.Attribute.hideMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hideOnContentScroll = global::ScamBuster.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hideOnScroll = global::ScamBuster.Droid.Resource.Attribute.hideOnScroll;
@@ -405,7 +491,13 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.iconTint = global::ScamBuster.Droid.Resource.Attribute.iconTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.iconTintMode = global::ScamBuster.Droid.Resource.Attribute.iconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.imageButtonStyle = global::ScamBuster.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indeterminateAnimationType = global::ScamBuster.Droid.Resource.Attribute.indeterminateAnimationType;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.indeterminateProgressStyle = global::ScamBuster.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorColor = global::ScamBuster.Droid.Resource.Attribute.indicatorColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorDirectionCircular = global::ScamBuster.Droid.Resource.Attribute.indicatorDirectionCircular;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorDirectionLinear = global::ScamBuster.Droid.Resource.Attribute.indicatorDirectionLinear;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorInset = global::ScamBuster.Droid.Resource.Attribute.indicatorInset;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.indicatorSize = global::ScamBuster.Droid.Resource.Attribute.indicatorSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.initialActivityCount = global::ScamBuster.Droid.Resource.Attribute.initialActivityCount;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.insetForeground = global::ScamBuster.Droid.Resource.Attribute.insetForeground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.isLightTheme = global::ScamBuster.Droid.Resource.Attribute.isLightTheme;
@@ -434,25 +526,82 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextAppearanceActive = global::ScamBuster.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextAppearanceInactive = global::ScamBuster.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextColor = global::ScamBuster.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.keyboardIcon = global::ScamBuster.Droid.Resource.Attribute.keyboardIcon;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.keylines = global::ScamBuster.Droid.Resource.Attribute.keylines;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.keyPositionType = global::ScamBuster.Droid.Resource.Attribute.keyPositionType;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.labelBehavior = global::ScamBuster.Droid.Resource.Attribute.labelBehavior;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.labelStyle = global::ScamBuster.Droid.Resource.Attribute.labelStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.labelVisibilityMode = global::ScamBuster.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.lastBaselineToBottomHeight = global::ScamBuster.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout = global::ScamBuster.Droid.Resource.Attribute.layout;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layoutDescription = global::ScamBuster.Droid.Resource.Attribute.layoutDescription;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layoutDuringTransition = global::ScamBuster.Droid.Resource.Attribute.layoutDuringTransition;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layoutManager = global::ScamBuster.Droid.Resource.Attribute.layoutManager;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_anchor = global::ScamBuster.Droid.Resource.Attribute.layout_anchor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_anchorGravity = global::ScamBuster.Droid.Resource.Attribute.layout_anchorGravity;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_behavior = global::ScamBuster.Droid.Resource.Attribute.layout_behavior;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_collapseMode = global::ScamBuster.Droid.Resource.Attribute.layout_collapseMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_collapseParallaxMultiplier = global::ScamBuster.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constrainedHeight = global::ScamBuster.Droid.Resource.Attribute.layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constrainedWidth = global::ScamBuster.Droid.Resource.Attribute.layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBaseline_creator = global::ScamBuster.Droid.Resource.Attribute.layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBaseline_toBaselineOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBottom_creator = global::ScamBuster.Droid.Resource.Attribute.layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBottom_toBottomOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintBottom_toTopOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintCircle = global::ScamBuster.Droid.Resource.Attribute.layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintCircleAngle = global::ScamBuster.Droid.Resource.Attribute.layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintCircleRadius = global::ScamBuster.Droid.Resource.Attribute.layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintDimensionRatio = global::ScamBuster.Droid.Resource.Attribute.layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintEnd_toEndOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintEnd_toStartOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintGuide_begin = global::ScamBuster.Droid.Resource.Attribute.layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintGuide_end = global::ScamBuster.Droid.Resource.Attribute.layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintGuide_percent = global::ScamBuster.Droid.Resource.Attribute.layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight_default = global::ScamBuster.Droid.Resource.Attribute.layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight_max = global::ScamBuster.Droid.Resource.Attribute.layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight_min = global::ScamBuster.Droid.Resource.Attribute.layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHeight_percent = global::ScamBuster.Droid.Resource.Attribute.layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHorizontal_bias = global::ScamBuster.Droid.Resource.Attribute.layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHorizontal_chainStyle = global::ScamBuster.Droid.Resource.Attribute.layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintHorizontal_weight = global::ScamBuster.Droid.Resource.Attribute.layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintLeft_creator = global::ScamBuster.Droid.Resource.Attribute.layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintLeft_toLeftOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintLeft_toRightOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintRight_creator = global::ScamBuster.Droid.Resource.Attribute.layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintRight_toLeftOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintRight_toRightOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintStart_toEndOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintStart_toStartOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintTag = global::ScamBuster.Droid.Resource.Attribute.layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintTop_creator = global::ScamBuster.Droid.Resource.Attribute.layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintTop_toBottomOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintTop_toTopOf = global::ScamBuster.Droid.Resource.Attribute.layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintVertical_bias = global::ScamBuster.Droid.Resource.Attribute.layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintVertical_chainStyle = global::ScamBuster.Droid.Resource.Attribute.layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintVertical_weight = global::ScamBuster.Droid.Resource.Attribute.layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth_default = global::ScamBuster.Droid.Resource.Attribute.layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth_max = global::ScamBuster.Droid.Resource.Attribute.layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth_min = global::ScamBuster.Droid.Resource.Attribute.layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_constraintWidth_percent = global::ScamBuster.Droid.Resource.Attribute.layout_constraintWidth_percent;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_dodgeInsetEdges = global::ScamBuster.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_editor_absoluteX = global::ScamBuster.Droid.Resource.Attribute.layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_editor_absoluteY = global::ScamBuster.Droid.Resource.Attribute.layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginBottom = global::ScamBuster.Droid.Resource.Attribute.layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginEnd = global::ScamBuster.Droid.Resource.Attribute.layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginLeft = global::ScamBuster.Droid.Resource.Attribute.layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginRight = global::ScamBuster.Droid.Resource.Attribute.layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginStart = global::ScamBuster.Droid.Resource.Attribute.layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_goneMarginTop = global::ScamBuster.Droid.Resource.Attribute.layout_goneMarginTop;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_insetEdge = global::ScamBuster.Droid.Resource.Attribute.layout_insetEdge;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_keyline = global::ScamBuster.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_optimizationLevel = global::ScamBuster.Droid.Resource.Attribute.layout_optimizationLevel;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_scrollFlags = global::ScamBuster.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_scrollInterpolator = global::ScamBuster.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.liftOnScroll = global::ScamBuster.Droid.Resource.Attribute.liftOnScroll;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.liftOnScrollTargetViewId = global::ScamBuster.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.limitBoundsTo = global::ScamBuster.Droid.Resource.Attribute.limitBoundsTo;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.linearProgressIndicatorStyle = global::ScamBuster.Droid.Resource.Attribute.linearProgressIndicatorStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.lineHeight = global::ScamBuster.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.lineSpacing = global::ScamBuster.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.listChoiceBackgroundIndicator = global::ScamBuster.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
@@ -482,32 +631,73 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialButtonToggleGroupStyle = global::ScamBuster.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarDay = global::ScamBuster.Droid.Resource.Attribute.materialCalendarDay;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarFullscreenTheme = global::ScamBuster.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderCancelButton = global::ScamBuster.Droid.Resource.Attribute.materialCalendarHeaderCancelButton;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderConfirmButton = global::ScamBuster.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderDivider = global::ScamBuster.Droid.Resource.Attribute.materialCalendarHeaderDivider;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderLayout = global::ScamBuster.Droid.Resource.Attribute.materialCalendarHeaderLayout;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderSelection = global::ScamBuster.Droid.Resource.Attribute.materialCalendarHeaderSelection;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderTitle = global::ScamBuster.Droid.Resource.Attribute.materialCalendarHeaderTitle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderToggleButton = global::ScamBuster.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarMonth = global::ScamBuster.Droid.Resource.Attribute.materialCalendarMonth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarMonthNavigationButton = global::ScamBuster.Droid.Resource.Attribute.materialCalendarMonthNavigationButton;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarStyle = global::ScamBuster.Droid.Resource.Attribute.materialCalendarStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarTheme = global::ScamBuster.Droid.Resource.Attribute.materialCalendarTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarYearNavigationButton = global::ScamBuster.Droid.Resource.Attribute.materialCalendarYearNavigationButton;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCardViewStyle = global::ScamBuster.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCircleRadius = global::ScamBuster.Droid.Resource.Attribute.materialCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialClockStyle = global::ScamBuster.Droid.Resource.Attribute.materialClockStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialThemeOverlay = global::ScamBuster.Droid.Resource.Attribute.materialThemeOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialTimePickerStyle = global::ScamBuster.Droid.Resource.Attribute.materialTimePickerStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.materialTimePickerTheme = global::ScamBuster.Droid.Resource.Attribute.materialTimePickerTheme;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxAcceleration = global::ScamBuster.Droid.Resource.Attribute.maxAcceleration;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.maxActionInlineWidth = global::ScamBuster.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.maxButtonHeight = global::ScamBuster.Droid.Resource.Attribute.maxButtonHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.maxCharacterCount = global::ScamBuster.Droid.Resource.Attribute.maxCharacterCount;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxHeight = global::ScamBuster.Droid.Resource.Attribute.maxHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.maxImageSize = global::ScamBuster.Droid.Resource.Attribute.maxImageSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.maxLines = global::ScamBuster.Droid.Resource.Attribute.maxLines;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxVelocity = global::ScamBuster.Droid.Resource.Attribute.maxVelocity;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.maxWidth = global::ScamBuster.Droid.Resource.Attribute.maxWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.measureWithLargestChild = global::ScamBuster.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.menu = global::ScamBuster.Droid.Resource.Attribute.menu;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minHeight = global::ScamBuster.Droid.Resource.Attribute.minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minHideDelay = global::ScamBuster.Droid.Resource.Attribute.minHideDelay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minSeparation = global::ScamBuster.Droid.Resource.Attribute.minSeparation;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.minTouchTargetSize = global::ScamBuster.Droid.Resource.Attribute.minTouchTargetSize;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.minWidth = global::ScamBuster.Droid.Resource.Attribute.minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_diagonalsColor = global::ScamBuster.Droid.Resource.Attribute.mock_diagonalsColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_label = global::ScamBuster.Droid.Resource.Attribute.mock_label;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_labelBackgroundColor = global::ScamBuster.Droid.Resource.Attribute.mock_labelBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_labelColor = global::ScamBuster.Droid.Resource.Attribute.mock_labelColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_showDiagonals = global::ScamBuster.Droid.Resource.Attribute.mock_showDiagonals;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.mock_showLabel = global::ScamBuster.Droid.Resource.Attribute.mock_showLabel;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionDebug = global::ScamBuster.Droid.Resource.Attribute.motionDebug;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionInterpolator = global::ScamBuster.Droid.Resource.Attribute.motionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionPathRotate = global::ScamBuster.Droid.Resource.Attribute.motionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionProgress = global::ScamBuster.Droid.Resource.Attribute.motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionStagger = global::ScamBuster.Droid.Resource.Attribute.motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motionTarget = global::ScamBuster.Droid.Resource.Attribute.motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motion_postLayoutCollision = global::ScamBuster.Droid.Resource.Attribute.motion_postLayoutCollision;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.motion_triggerOnCollision = global::ScamBuster.Droid.Resource.Attribute.motion_triggerOnCollision;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.moveWhenScrollAtTop = global::ScamBuster.Droid.Resource.Attribute.moveWhenScrollAtTop;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.multiChoiceItemLayout = global::ScamBuster.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationContentDescription = global::ScamBuster.Droid.Resource.Attribute.navigationContentDescription;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationIcon = global::ScamBuster.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationIconTint = global::ScamBuster.Droid.Resource.Attribute.navigationIconTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationMode = global::ScamBuster.Droid.Resource.Attribute.navigationMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationViewStyle = global::ScamBuster.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.nestedScrollable = global::ScamBuster.Droid.Resource.Attribute.nestedScrollable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.nestedScrollFlags = global::ScamBuster.Droid.Resource.Attribute.nestedScrollFlags;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.number = global::ScamBuster.Droid.Resource.Attribute.number;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.numericModifiers = global::ScamBuster.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onCross = global::ScamBuster.Droid.Resource.Attribute.onCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onHide = global::ScamBuster.Droid.Resource.Attribute.onHide;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onNegativeCross = global::ScamBuster.Droid.Resource.Attribute.onNegativeCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onPositiveCross = global::ScamBuster.Droid.Resource.Attribute.onPositiveCross;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onShow = global::ScamBuster.Droid.Resource.Attribute.onShow;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.onTouchUp = global::ScamBuster.Droid.Resource.Attribute.onTouchUp;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.overlapAnchor = global::ScamBuster.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.overlay = global::ScamBuster.Droid.Resource.Attribute.overlay;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingBottomNoButtons = global::ScamBuster.Droid.Resource.Attribute.paddingBottomNoButtons;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingBottomSystemWindowInsets = global::ScamBuster.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingEnd = global::ScamBuster.Droid.Resource.Attribute.paddingEnd;
@@ -523,9 +713,18 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleEnabled = global::ScamBuster.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleTint = global::ScamBuster.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleTintMode = global::ScamBuster.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.pathMotionArc = global::ScamBuster.Droid.Resource.Attribute.pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.path_percent = global::ScamBuster.Droid.Resource.Attribute.path_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.percentHeight = global::ScamBuster.Droid.Resource.Attribute.percentHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.percentWidth = global::ScamBuster.Droid.Resource.Attribute.percentWidth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.percentX = global::ScamBuster.Droid.Resource.Attribute.percentX;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.percentY = global::ScamBuster.Droid.Resource.Attribute.percentY;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.perpendicularPath_percent = global::ScamBuster.Droid.Resource.Attribute.perpendicularPath_percent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.pivotAnchor = global::ScamBuster.Droid.Resource.Attribute.pivotAnchor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.placeholderText = global::ScamBuster.Droid.Resource.Attribute.placeholderText;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.placeholderTextAppearance = global::ScamBuster.Droid.Resource.Attribute.placeholderTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.placeholderTextColor = global::ScamBuster.Droid.Resource.Attribute.placeholderTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.placeholder_emptyVisibility = global::ScamBuster.Droid.Resource.Attribute.placeholder_emptyVisibility;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.popupMenuBackground = global::ScamBuster.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.popupMenuStyle = global::ScamBuster.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.popupTheme = global::ScamBuster.Droid.Resource.Attribute.popupTheme;
@@ -545,8 +744,15 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.ratingBarStyleIndicator = global::ScamBuster.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.ratingBarStyleSmall = global::ScamBuster.Droid.Resource.Attribute.ratingBarStyleSmall;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.recyclerViewStyle = global::ScamBuster.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.region_heightLessThan = global::ScamBuster.Droid.Resource.Attribute.region_heightLessThan;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.region_heightMoreThan = global::ScamBuster.Droid.Resource.Attribute.region_heightMoreThan;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.region_widthLessThan = global::ScamBuster.Droid.Resource.Attribute.region_widthLessThan;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.region_widthMoreThan = global::ScamBuster.Droid.Resource.Attribute.region_widthMoreThan;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.reverseLayout = global::ScamBuster.Droid.Resource.Attribute.reverseLayout;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.rippleColor = global::ScamBuster.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.round = global::ScamBuster.Droid.Resource.Attribute.round;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.roundPercent = global::ScamBuster.Droid.Resource.Attribute.roundPercent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.saturation = global::ScamBuster.Droid.Resource.Attribute.saturation;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.scrimAnimationDuration = global::ScamBuster.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.scrimBackground = global::ScamBuster.Droid.Resource.Attribute.scrimBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.scrimVisibleHeightTrigger = global::ScamBuster.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
@@ -558,20 +764,25 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.selectableItemBackground = global::ScamBuster.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.selectableItemBackgroundBorderless = global::ScamBuster.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.selectionRequired = global::ScamBuster.Droid.Resource.Attribute.selectionRequired;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.selectorSize = global::ScamBuster.Droid.Resource.Attribute.selectorSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearance = global::ScamBuster.Droid.Resource.Attribute.shapeAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceLargeComponent = global::ScamBuster.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceMediumComponent = global::ScamBuster.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceOverlay = global::ScamBuster.Droid.Resource.Attribute.shapeAppearanceOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceSmallComponent = global::ScamBuster.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showAnimationBehavior = global::ScamBuster.Droid.Resource.Attribute.showAnimationBehavior;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showAsAction = global::ScamBuster.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showDelay = global::ScamBuster.Droid.Resource.Attribute.showDelay;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showDividers = global::ScamBuster.Droid.Resource.Attribute.showDividers;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showMotionSpec = global::ScamBuster.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.showPaths = global::ScamBuster.Droid.Resource.Attribute.showPaths;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showText = global::ScamBuster.Droid.Resource.Attribute.showText;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showTitle = global::ScamBuster.Droid.Resource.Attribute.showTitle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.shrinkMotionSpec = global::ScamBuster.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.singleChoiceItemLayout = global::ScamBuster.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.singleLine = global::ScamBuster.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.singleSelection = global::ScamBuster.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.sizePercent = global::ScamBuster.Droid.Resource.Attribute.sizePercent;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.sliderStyle = global::ScamBuster.Droid.Resource.Attribute.sliderStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.snackbarButtonStyle = global::ScamBuster.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.snackbarStyle = global::ScamBuster.Droid.Resource.Attribute.snackbarStyle;
@@ -583,6 +794,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.splitTrack = global::ScamBuster.Droid.Resource.Attribute.splitTrack;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.srcCompat = global::ScamBuster.Droid.Resource.Attribute.srcCompat;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.stackFromEnd = global::ScamBuster.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.staggered = global::ScamBuster.Droid.Resource.Attribute.staggered;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconCheckable = global::ScamBuster.Droid.Resource.Attribute.startIconCheckable;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconContentDescription = global::ScamBuster.Droid.Resource.Attribute.startIconContentDescription;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconDrawable = global::ScamBuster.Droid.Resource.Attribute.startIconDrawable;
@@ -621,6 +833,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIconTintMode = global::ScamBuster.Droid.Resource.Attribute.tabIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicator = global::ScamBuster.Droid.Resource.Attribute.tabIndicator;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorAnimationDuration = global::ScamBuster.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorAnimationMode = global::ScamBuster.Droid.Resource.Attribute.tabIndicatorAnimationMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorColor = global::ScamBuster.Droid.Resource.Attribute.tabIndicatorColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorFullWidth = global::ScamBuster.Droid.Resource.Attribute.tabIndicatorFullWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabIndicatorGravity = global::ScamBuster.Droid.Resource.Attribute.tabIndicatorGravity;
@@ -640,6 +853,10 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabTextAppearance = global::ScamBuster.Droid.Resource.Attribute.tabTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabTextColor = global::ScamBuster.Droid.Resource.Attribute.tabTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tabUnboundedRipple = global::ScamBuster.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.targetId = global::ScamBuster.Droid.Resource.Attribute.targetId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.telltales_tailColor = global::ScamBuster.Droid.Resource.Attribute.telltales_tailColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.telltales_tailScale = global::ScamBuster.Droid.Resource.Attribute.telltales_tailScale;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.telltales_velocityMode = global::ScamBuster.Droid.Resource.Attribute.telltales_velocityMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAllCaps = global::ScamBuster.Droid.Resource.Attribute.textAllCaps;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceBody1 = global::ScamBuster.Droid.Resource.Attribute.textAppearanceBody1;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceBody2 = global::ScamBuster.Droid.Resource.Attribute.textAppearanceBody2;
@@ -676,6 +893,8 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbColor = global::ScamBuster.Droid.Resource.Attribute.thumbColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbElevation = global::ScamBuster.Droid.Resource.Attribute.thumbElevation;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbRadius = global::ScamBuster.Droid.Resource.Attribute.thumbRadius;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbStrokeColor = global::ScamBuster.Droid.Resource.Attribute.thumbStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbStrokeWidth = global::ScamBuster.Droid.Resource.Attribute.thumbStrokeWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbTextPadding = global::ScamBuster.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbTint = global::ScamBuster.Droid.Resource.Attribute.thumbTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbTintMode = global::ScamBuster.Droid.Resource.Attribute.thumbTintMode;
@@ -685,6 +904,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tickMark = global::ScamBuster.Droid.Resource.Attribute.tickMark;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tickMarkTint = global::ScamBuster.Droid.Resource.Attribute.tickMarkTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tickMarkTintMode = global::ScamBuster.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.tickVisible = global::ScamBuster.Droid.Resource.Attribute.tickVisible;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tint = global::ScamBuster.Droid.Resource.Attribute.tint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tintMode = global::ScamBuster.Droid.Resource.Attribute.tintMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.title = global::ScamBuster.Droid.Resource.Attribute.title;
@@ -705,21 +925,40 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tooltipFrameBackground = global::ScamBuster.Droid.Resource.Attribute.tooltipFrameBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tooltipStyle = global::ScamBuster.Droid.Resource.Attribute.tooltipStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.tooltipText = global::ScamBuster.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.touchAnchorId = global::ScamBuster.Droid.Resource.Attribute.touchAnchorId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.touchAnchorSide = global::ScamBuster.Droid.Resource.Attribute.touchAnchorSide;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.touchRegionId = global::ScamBuster.Droid.Resource.Attribute.touchRegionId;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.track = global::ScamBuster.Droid.Resource.Attribute.track;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.trackColor = global::ScamBuster.Droid.Resource.Attribute.trackColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.trackColorActive = global::ScamBuster.Droid.Resource.Attribute.trackColorActive;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.trackColorInactive = global::ScamBuster.Droid.Resource.Attribute.trackColorInactive;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackCornerRadius = global::ScamBuster.Droid.Resource.Attribute.trackCornerRadius;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.trackHeight = global::ScamBuster.Droid.Resource.Attribute.trackHeight;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.trackThickness = global::ScamBuster.Droid.Resource.Attribute.trackThickness;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.trackTint = global::ScamBuster.Droid.Resource.Attribute.trackTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.trackTintMode = global::ScamBuster.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionDisable = global::ScamBuster.Droid.Resource.Attribute.transitionDisable;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionEasing = global::ScamBuster.Droid.Resource.Attribute.transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionFlags = global::ScamBuster.Droid.Resource.Attribute.transitionFlags;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionPathRotate = global::ScamBuster.Droid.Resource.Attribute.transitionPathRotate;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.transitionShapeAppearance = global::ScamBuster.Droid.Resource.Attribute.transitionShapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.triggerId = global::ScamBuster.Droid.Resource.Attribute.triggerId;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.triggerReceiver = global::ScamBuster.Droid.Resource.Attribute.triggerReceiver;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.triggerSlack = global::ScamBuster.Droid.Resource.Attribute.triggerSlack;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.ttcIndex = global::ScamBuster.Droid.Resource.Attribute.ttcIndex;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.useCompatPadding = global::ScamBuster.Droid.Resource.Attribute.useCompatPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.useMaterialThemeColors = global::ScamBuster.Droid.Resource.Attribute.useMaterialThemeColors;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.values = global::ScamBuster.Droid.Resource.Attribute.values;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.verticalOffset = global::ScamBuster.Droid.Resource.Attribute.verticalOffset;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.viewInflaterClass = global::ScamBuster.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.visibilityMode = global::ScamBuster.Droid.Resource.Attribute.visibilityMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.voiceIcon = global::ScamBuster.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.warmth = global::ScamBuster.Droid.Resource.Attribute.warmth;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.waveDecay = global::ScamBuster.Droid.Resource.Attribute.waveDecay;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.waveOffset = global::ScamBuster.Droid.Resource.Attribute.waveOffset;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.wavePeriod = global::ScamBuster.Droid.Resource.Attribute.wavePeriod;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.waveShape = global::ScamBuster.Droid.Resource.Attribute.waveShape;
+			global::Xamarin.CommunityToolkit.Resource.Attribute.waveVariesBy = global::ScamBuster.Droid.Resource.Attribute.waveVariesBy;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.windowActionBar = global::ScamBuster.Droid.Resource.Attribute.windowActionBar;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.windowActionBarOverlay = global::ScamBuster.Droid.Resource.Attribute.windowActionBarOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.windowActionModeOverlay = global::ScamBuster.Droid.Resource.Attribute.windowActionModeOverlay;
@@ -837,6 +1076,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.material_blue_grey_800 = global::ScamBuster.Droid.Resource.Color.material_blue_grey_800;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_blue_grey_900 = global::ScamBuster.Droid.Resource.Color.material_blue_grey_900;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_blue_grey_950 = global::ScamBuster.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_cursor_color = global::ScamBuster.Droid.Resource.Color.material_cursor_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_deep_teal_200 = global::ScamBuster.Droid.Resource.Color.material_deep_teal_200;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_deep_teal_500 = global::ScamBuster.Droid.Resource.Color.material_deep_teal_500;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_100 = global::ScamBuster.Droid.Resource.Color.material_grey_100;
@@ -862,6 +1102,11 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_inactive_tick_marks_color = global::ScamBuster.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_inactive_track_color = global::ScamBuster.Droid.Resource.Color.material_slider_inactive_track_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_slider_thumb_color = global::ScamBuster.Droid.Resource.Color.material_slider_thumb_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_button_background = global::ScamBuster.Droid.Resource.Color.material_timepicker_button_background;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_button_stroke = global::ScamBuster.Droid.Resource.Color.material_timepicker_button_stroke;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_clockface = global::ScamBuster.Droid.Resource.Color.material_timepicker_clockface;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_clock_text_color = global::ScamBuster.Droid.Resource.Color.material_timepicker_clock_text_color;
+			global::Xamarin.CommunityToolkit.Resource.Color.material_timepicker_modebutton_tint = global::ScamBuster.Droid.Resource.Color.material_timepicker_modebutton_tint;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_bg_color_selector = global::ScamBuster.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_ripple_color = global::ScamBuster.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_stroke_color_selector = global::ScamBuster.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
@@ -893,6 +1138,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_item_icon_tint = global::ScamBuster.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_item_text_color = global::ScamBuster.Droid.Resource.Color.mtrl_navigation_item_text_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::ScamBuster.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_on_surface_ripple_color = global::ScamBuster.Droid.Resource.Color.mtrl_on_surface_ripple_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_outlined_icon_tint = global::ScamBuster.Droid.Resource.Color.mtrl_outlined_icon_tint;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_outlined_stroke_color = global::ScamBuster.Droid.Resource.Color.mtrl_outlined_stroke_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_popupmenu_overlay_color = global::ScamBuster.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
@@ -1021,6 +1267,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.cardview_compat_inset_shadow = global::ScamBuster.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.cardview_default_elevation = global::ScamBuster.Droid.Resource.Dimension.cardview_default_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.cardview_default_radius = global::ScamBuster.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.clock_face_margin_start = global::ScamBuster.Droid.Resource.Dimension.clock_face_margin_start;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_button_inset_horizontal_material = global::ScamBuster.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_button_inset_vertical_material = global::ScamBuster.Droid.Resource.Dimension.compat_button_inset_vertical_material;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_button_padding_horizontal_material = global::ScamBuster.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
@@ -1039,6 +1286,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_icon_size = global::ScamBuster.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_item_max_width = global::ScamBuster.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_item_min_width = global::ScamBuster.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_label_padding = global::ScamBuster.Droid.Resource.Dimension.design_bottom_navigation_label_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_margin = global::ScamBuster.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_shadow_height = global::ScamBuster.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_text_size = global::ScamBuster.Droid.Resource.Dimension.design_bottom_navigation_text_size;
@@ -1091,11 +1339,35 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ScamBuster.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ScamBuster.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ScamBuster.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_display_padding = global::ScamBuster.Droid.Resource.Dimension.material_clock_display_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_face_margin_top = global::ScamBuster.Droid.Resource.Dimension.material_clock_face_margin_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_hand_center_dot_radius = global::ScamBuster.Droid.Resource.Dimension.material_clock_hand_center_dot_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_hand_padding = global::ScamBuster.Droid.Resource.Dimension.material_clock_hand_padding;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_hand_stroke_width = global::ScamBuster.Droid.Resource.Dimension.material_clock_hand_stroke_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_number_text_size = global::ScamBuster.Droid.Resource.Dimension.material_clock_number_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_period_toggle_height = global::ScamBuster.Droid.Resource.Dimension.material_clock_period_toggle_height;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_period_toggle_margin_left = global::ScamBuster.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_period_toggle_width = global::ScamBuster.Droid.Resource.Dimension.material_clock_period_toggle_width;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_clock_size = global::ScamBuster.Droid.Resource.Dimension.material_clock_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_cursor_inset_bottom = global::ScamBuster.Droid.Resource.Dimension.material_cursor_inset_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_cursor_inset_top = global::ScamBuster.Droid.Resource.Dimension.material_cursor_inset_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_cursor_width = global::ScamBuster.Droid.Resource.Dimension.material_cursor_width;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_disabled = global::ScamBuster.Droid.Resource.Dimension.material_emphasis_disabled;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_high_type = global::ScamBuster.Droid.Resource.Dimension.material_emphasis_high_type;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_medium = global::ScamBuster.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_filled_edittext_font_1_3_padding_bottom = global::ScamBuster.Droid.Resource.Dimension.material_filled_edittext_font_1_3_padding_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_filled_edittext_font_1_3_padding_top = global::ScamBuster.Droid.Resource.Dimension.material_filled_edittext_font_1_3_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_filled_edittext_font_2_0_padding_bottom = global::ScamBuster.Droid.Resource.Dimension.material_filled_edittext_font_2_0_padding_bottom;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_filled_edittext_font_2_0_padding_top = global::ScamBuster.Droid.Resource.Dimension.material_filled_edittext_font_2_0_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_font_1_3_box_collapsed_padding_top = global::ScamBuster.Droid.Resource.Dimension.material_font_1_3_box_collapsed_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_font_2_0_box_collapsed_padding_top = global::ScamBuster.Droid.Resource.Dimension.material_font_2_0_box_collapsed_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_helper_text_default_padding_top = global::ScamBuster.Droid.Resource.Dimension.material_helper_text_default_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_helper_text_font_1_3_padding_horizontal = global::ScamBuster.Droid.Resource.Dimension.material_helper_text_font_1_3_padding_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_helper_text_font_1_3_padding_top = global::ScamBuster.Droid.Resource.Dimension.material_helper_text_font_1_3_padding_top;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_input_text_to_prefix_suffix_padding = global::ScamBuster.Droid.Resource.Dimension.material_input_text_to_prefix_suffix_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.material_text_view_test_line_height = global::ScamBuster.Droid.Resource.Dimension.material_text_view_test_line_height;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.material_text_view_test_line_height_override = global::ScamBuster.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::ScamBuster.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::ScamBuster.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::ScamBuster.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::ScamBuster.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
@@ -1106,6 +1378,8 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_radius = global::ScamBuster.Droid.Resource.Dimension.mtrl_badge_radius;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::ScamBuster.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_text_size = global::ScamBuster.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_horizontal_offset = global::ScamBuster.Droid.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_horizontal_offset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_vertical_offset = global::ScamBuster.Droid.Resource.Dimension.mtrl_badge_toolbar_action_menu_item_vertical_offset;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_with_text_radius = global::ScamBuster.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::ScamBuster.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::ScamBuster.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
@@ -1129,12 +1403,14 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_padding_right = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_padding_right;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_padding_top = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_padding_top;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_pressed_z = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_snackbar_margin_horizontal = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_snackbar_margin_horizontal;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_stroke_size = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_stroke_size;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_size = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_z = global::ScamBuster.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_action_confirm_button_min_width = global::ScamBuster.Droid.Resource.Dimension.mtrl_calendar_action_confirm_button_min_width;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_action_height = global::ScamBuster.Droid.Resource.Dimension.mtrl_calendar_action_height;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_action_padding = global::ScamBuster.Droid.Resource.Dimension.mtrl_calendar_action_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_bottom_padding = global::ScamBuster.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
@@ -1225,6 +1501,20 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_icon_size = global::ScamBuster.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::ScamBuster.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::ScamBuster.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_inset = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_inset;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_inset_extra_small = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_inset_extra_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_inset_medium = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_inset_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_inset_small = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_inset_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_radius = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_size = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_size;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_size_extra_small = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_size_extra_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_size_medium = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_size_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_size_small = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_size_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_track_thickness_extra_small = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_extra_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_track_thickness_medium = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_medium;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_circular_track_thickness_small = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_circular_track_thickness_small;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_indicator_full_rounded_corner_radius = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_indicator_full_rounded_corner_radius;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_progress_track_thickness = global::ScamBuster.Droid.Resource.Dimension.mtrl_progress_track_thickness;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_large_component = global::ScamBuster.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::ScamBuster.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_small_component = global::ScamBuster.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
@@ -1242,6 +1532,8 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::ScamBuster.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::ScamBuster.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_margin = global::ScamBuster.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_message_margin_horizontal = global::ScamBuster.Droid.Resource.Dimension.mtrl_snackbar_message_margin_horizontal;
+			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_padding_horizontal = global::ScamBuster.Droid.Resource.Dimension.mtrl_snackbar_padding_horizontal;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_switch_thumb_elevation = global::ScamBuster.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::ScamBuster.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::ScamBuster.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
@@ -1372,14 +1664,19 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Drawable.design_ic_visibility_off = global::ScamBuster.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.design_password_eye = global::ScamBuster.Droid.Resource.Drawable.design_password_eye;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.design_snackbar_background = global::ScamBuster.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_clock_black_24dp = global::ScamBuster.Droid.Resource.Drawable.ic_clock_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_keyboard_black_24dp = global::ScamBuster.Droid.Resource.Drawable.ic_keyboard_black_24dp;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_checked_circle = global::ScamBuster.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_checked_black = global::ScamBuster.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_checked_circle = global::ScamBuster.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_close_circle = global::ScamBuster.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_cursor_drawable = global::ScamBuster.Droid.Resource.Drawable.material_cursor_drawable;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_calendar_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_clear_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_clear_black_24dp;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_edit_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_edit_black_24dp;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_keyboard_arrow_next_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_keyboard_arrow_next_black_24dp;
+			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_keyboard_arrow_previous_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_keyboard_arrow_previous_black_24dp;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::ScamBuster.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
@@ -1408,6 +1705,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Drawable.test_custom_background = global::ScamBuster.Droid.Resource.Drawable.test_custom_background;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.tooltip_frame_dark = global::ScamBuster.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.tooltip_frame_light = global::ScamBuster.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.CommunityToolkit.Resource.Id.accelerate = global::ScamBuster.Droid.Resource.Id.accelerate;
 			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_action_clickable_span = global::ScamBuster.Droid.Resource.Id.accessibility_action_clickable_span;
 			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_0 = global::ScamBuster.Droid.Resource.Id.accessibility_custom_action_0;
 			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_custom_action_1 = global::ScamBuster.Droid.Resource.Id.accessibility_custom_action_1;
@@ -1463,30 +1761,44 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.activity_chooser_view_content = global::ScamBuster.Droid.Resource.Id.activity_chooser_view_content;
 			global::Xamarin.CommunityToolkit.Resource.Id.add = global::ScamBuster.Droid.Resource.Id.add;
 			global::Xamarin.CommunityToolkit.Resource.Id.alertTitle = global::ScamBuster.Droid.Resource.Id.alertTitle;
+			global::Xamarin.CommunityToolkit.Resource.Id.aligned = global::ScamBuster.Droid.Resource.Id.aligned;
 			global::Xamarin.CommunityToolkit.Resource.Id.all = global::ScamBuster.Droid.Resource.Id.all;
 			global::Xamarin.CommunityToolkit.Resource.Id.ALT = global::ScamBuster.Droid.Resource.Id.ALT;
 			global::Xamarin.CommunityToolkit.Resource.Id.always = global::ScamBuster.Droid.Resource.Id.always;
+			global::Xamarin.CommunityToolkit.Resource.Id.animateToEnd = global::ScamBuster.Droid.Resource.Id.animateToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.animateToStart = global::ScamBuster.Droid.Resource.Id.animateToStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.asConfigured = global::ScamBuster.Droid.Resource.Id.asConfigured;
 			global::Xamarin.CommunityToolkit.Resource.Id.async = global::ScamBuster.Droid.Resource.Id.async;
 			global::Xamarin.CommunityToolkit.Resource.Id.auto = global::ScamBuster.Droid.Resource.Id.auto;
+			global::Xamarin.CommunityToolkit.Resource.Id.autoComplete = global::ScamBuster.Droid.Resource.Id.autoComplete;
+			global::Xamarin.CommunityToolkit.Resource.Id.autoCompleteToEnd = global::ScamBuster.Droid.Resource.Id.autoCompleteToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.autoCompleteToStart = global::ScamBuster.Droid.Resource.Id.autoCompleteToStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.barrier = global::ScamBuster.Droid.Resource.Id.barrier;
+			global::Xamarin.CommunityToolkit.Resource.Id.baseline = global::ScamBuster.Droid.Resource.Id.baseline;
 			global::Xamarin.CommunityToolkit.Resource.Id.beginning = global::ScamBuster.Droid.Resource.Id.beginning;
+			global::Xamarin.CommunityToolkit.Resource.Id.beginOnFirstDraw = global::ScamBuster.Droid.Resource.Id.beginOnFirstDraw;
 			global::Xamarin.CommunityToolkit.Resource.Id.blocking = global::ScamBuster.Droid.Resource.Id.blocking;
 			global::Xamarin.CommunityToolkit.Resource.Id.bottom = global::ScamBuster.Droid.Resource.Id.bottom;
 			global::Xamarin.CommunityToolkit.Resource.Id.bottomtab_navarea = global::ScamBuster.Droid.Resource.Id.bottomtab_navarea;
 			global::Xamarin.CommunityToolkit.Resource.Id.bottomtab_tabbar = global::ScamBuster.Droid.Resource.Id.bottomtab_tabbar;
 			global::Xamarin.CommunityToolkit.Resource.Id.BOTTOM_END = global::ScamBuster.Droid.Resource.Id.BOTTOM_END;
 			global::Xamarin.CommunityToolkit.Resource.Id.BOTTOM_START = global::ScamBuster.Droid.Resource.Id.BOTTOM_START;
+			global::Xamarin.CommunityToolkit.Resource.Id.bounce = global::ScamBuster.Droid.Resource.Id.bounce;
 			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_header_text = global::ScamBuster.Droid.Resource.Id.browser_actions_header_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_items = global::ScamBuster.Droid.Resource.Id.browser_actions_menu_items;
 			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_item_icon = global::ScamBuster.Droid.Resource.Id.browser_actions_menu_item_icon;
 			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_item_text = global::ScamBuster.Droid.Resource.Id.browser_actions_menu_item_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_view = global::ScamBuster.Droid.Resource.Id.browser_actions_menu_view;
 			global::Xamarin.CommunityToolkit.Resource.Id.buttonPanel = global::ScamBuster.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.CommunityToolkit.Resource.Id.cache_measures = global::ScamBuster.Droid.Resource.Id.cache_measures;
 			global::Xamarin.CommunityToolkit.Resource.Id.cameratexture = global::ScamBuster.Droid.Resource.Id.cameratexture;
 			global::Xamarin.CommunityToolkit.Resource.Id.cancel_action = global::ScamBuster.Droid.Resource.Id.cancel_action;
 			global::Xamarin.CommunityToolkit.Resource.Id.cancel_button = global::ScamBuster.Droid.Resource.Id.cancel_button;
 			global::Xamarin.CommunityToolkit.Resource.Id.center = global::ScamBuster.Droid.Resource.Id.center;
 			global::Xamarin.CommunityToolkit.Resource.Id.center_horizontal = global::ScamBuster.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.CommunityToolkit.Resource.Id.center_vertical = global::ScamBuster.Droid.Resource.Id.center_vertical;
+			global::Xamarin.CommunityToolkit.Resource.Id.chain = global::ScamBuster.Droid.Resource.Id.chain;
+			global::Xamarin.CommunityToolkit.Resource.Id.chains = global::ScamBuster.Droid.Resource.Id.chains;
 			global::Xamarin.CommunityToolkit.Resource.Id.checkbox = global::ScamBuster.Droid.Resource.Id.checkbox;
 			global::Xamarin.CommunityToolkit.Resource.Id.@checked = global::ScamBuster.Droid.Resource.Id.@checked;
 			global::Xamarin.CommunityToolkit.Resource.Id.chip = global::ScamBuster.Droid.Resource.Id.chip;
@@ -1495,32 +1807,57 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.chip3 = global::ScamBuster.Droid.Resource.Id.chip3;
 			global::Xamarin.CommunityToolkit.Resource.Id.chip_group = global::ScamBuster.Droid.Resource.Id.chip_group;
 			global::Xamarin.CommunityToolkit.Resource.Id.chronometer = global::ScamBuster.Droid.Resource.Id.chronometer;
+			global::Xamarin.CommunityToolkit.Resource.Id.circle_center = global::ScamBuster.Droid.Resource.Id.circle_center;
 			global::Xamarin.CommunityToolkit.Resource.Id.clear_text = global::ScamBuster.Droid.Resource.Id.clear_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.clip_horizontal = global::ScamBuster.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.CommunityToolkit.Resource.Id.clip_vertical = global::ScamBuster.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.CommunityToolkit.Resource.Id.clockwise = global::ScamBuster.Droid.Resource.Id.clockwise;
 			global::Xamarin.CommunityToolkit.Resource.Id.collapseActionView = global::ScamBuster.Droid.Resource.Id.collapseActionView;
 			global::Xamarin.CommunityToolkit.Resource.Id.confirm_button = global::ScamBuster.Droid.Resource.Id.confirm_button;
 			global::Xamarin.CommunityToolkit.Resource.Id.container = global::ScamBuster.Droid.Resource.Id.container;
 			global::Xamarin.CommunityToolkit.Resource.Id.content = global::ScamBuster.Droid.Resource.Id.content;
 			global::Xamarin.CommunityToolkit.Resource.Id.contentPanel = global::ScamBuster.Droid.Resource.Id.contentPanel;
+			global::Xamarin.CommunityToolkit.Resource.Id.contiguous = global::ScamBuster.Droid.Resource.Id.contiguous;
 			global::Xamarin.CommunityToolkit.Resource.Id.coordinator = global::ScamBuster.Droid.Resource.Id.coordinator;
+			global::Xamarin.CommunityToolkit.Resource.Id.cos = global::ScamBuster.Droid.Resource.Id.cos;
+			global::Xamarin.CommunityToolkit.Resource.Id.counterclockwise = global::ScamBuster.Droid.Resource.Id.counterclockwise;
 			global::Xamarin.CommunityToolkit.Resource.Id.CTRL = global::ScamBuster.Droid.Resource.Id.CTRL;
 			global::Xamarin.CommunityToolkit.Resource.Id.custom = global::ScamBuster.Droid.Resource.Id.custom;
 			global::Xamarin.CommunityToolkit.Resource.Id.customPanel = global::ScamBuster.Droid.Resource.Id.customPanel;
 			global::Xamarin.CommunityToolkit.Resource.Id.cut = global::ScamBuster.Droid.Resource.Id.cut;
 			global::Xamarin.CommunityToolkit.Resource.Id.date_picker_actions = global::ScamBuster.Droid.Resource.Id.date_picker_actions;
+			global::Xamarin.CommunityToolkit.Resource.Id.decelerate = global::ScamBuster.Droid.Resource.Id.decelerate;
+			global::Xamarin.CommunityToolkit.Resource.Id.decelerateAndComplete = global::ScamBuster.Droid.Resource.Id.decelerateAndComplete;
 			global::Xamarin.CommunityToolkit.Resource.Id.decor_content_parent = global::ScamBuster.Droid.Resource.Id.decor_content_parent;
 			global::Xamarin.CommunityToolkit.Resource.Id.default_activity_button = global::ScamBuster.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.deltaRelative = global::ScamBuster.Droid.Resource.Id.deltaRelative;
+			global::Xamarin.CommunityToolkit.Resource.Id.dependency_ordering = global::ScamBuster.Droid.Resource.Id.dependency_ordering;
 			global::Xamarin.CommunityToolkit.Resource.Id.design_bottom_sheet = global::ScamBuster.Droid.Resource.Id.design_bottom_sheet;
 			global::Xamarin.CommunityToolkit.Resource.Id.design_menu_item_action_area = global::ScamBuster.Droid.Resource.Id.design_menu_item_action_area;
 			global::Xamarin.CommunityToolkit.Resource.Id.design_menu_item_action_area_stub = global::ScamBuster.Droid.Resource.Id.design_menu_item_action_area_stub;
 			global::Xamarin.CommunityToolkit.Resource.Id.design_menu_item_text = global::ScamBuster.Droid.Resource.Id.design_menu_item_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.design_navigation_view = global::ScamBuster.Droid.Resource.Id.design_navigation_view;
 			global::Xamarin.CommunityToolkit.Resource.Id.dialog_button = global::ScamBuster.Droid.Resource.Id.dialog_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.dimensions = global::ScamBuster.Droid.Resource.Id.dimensions;
+			global::Xamarin.CommunityToolkit.Resource.Id.direct = global::ScamBuster.Droid.Resource.Id.direct;
 			global::Xamarin.CommunityToolkit.Resource.Id.disableHome = global::ScamBuster.Droid.Resource.Id.disableHome;
+			global::Xamarin.CommunityToolkit.Resource.Id.disablePostScroll = global::ScamBuster.Droid.Resource.Id.disablePostScroll;
+			global::Xamarin.CommunityToolkit.Resource.Id.disableScroll = global::ScamBuster.Droid.Resource.Id.disableScroll;
+			global::Xamarin.CommunityToolkit.Resource.Id.disjoint = global::ScamBuster.Droid.Resource.Id.disjoint;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragDown = global::ScamBuster.Droid.Resource.Id.dragDown;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragEnd = global::ScamBuster.Droid.Resource.Id.dragEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragLeft = global::ScamBuster.Droid.Resource.Id.dragLeft;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragRight = global::ScamBuster.Droid.Resource.Id.dragRight;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragStart = global::ScamBuster.Droid.Resource.Id.dragStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.dragUp = global::ScamBuster.Droid.Resource.Id.dragUp;
 			global::Xamarin.CommunityToolkit.Resource.Id.dropdown_menu = global::ScamBuster.Droid.Resource.Id.dropdown_menu;
+			global::Xamarin.CommunityToolkit.Resource.Id.easeIn = global::ScamBuster.Droid.Resource.Id.easeIn;
+			global::Xamarin.CommunityToolkit.Resource.Id.easeInOut = global::ScamBuster.Droid.Resource.Id.easeInOut;
+			global::Xamarin.CommunityToolkit.Resource.Id.easeOut = global::ScamBuster.Droid.Resource.Id.easeOut;
 			global::Xamarin.CommunityToolkit.Resource.Id.edit_query = global::ScamBuster.Droid.Resource.Id.edit_query;
+			global::Xamarin.CommunityToolkit.Resource.Id.elastic = global::ScamBuster.Droid.Resource.Id.elastic;
 			global::Xamarin.CommunityToolkit.Resource.Id.end = global::ScamBuster.Droid.Resource.Id.end;
+			global::Xamarin.CommunityToolkit.Resource.Id.endToStart = global::ScamBuster.Droid.Resource.Id.endToStart;
 			global::Xamarin.CommunityToolkit.Resource.Id.end_padder = global::ScamBuster.Droid.Resource.Id.end_padder;
 			global::Xamarin.CommunityToolkit.Resource.Id.enterAlways = global::ScamBuster.Droid.Resource.Id.enterAlways;
 			global::Xamarin.CommunityToolkit.Resource.Id.enterAlwaysCollapsed = global::ScamBuster.Droid.Resource.Id.enterAlwaysCollapsed;
@@ -1534,6 +1871,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.fill_vertical = global::ScamBuster.Droid.Resource.Id.fill_vertical;
 			global::Xamarin.CommunityToolkit.Resource.Id.fitToContents = global::ScamBuster.Droid.Resource.Id.fitToContents;
 			global::Xamarin.CommunityToolkit.Resource.Id.@fixed = global::ScamBuster.Droid.Resource.Id.@fixed;
+			global::Xamarin.CommunityToolkit.Resource.Id.flip = global::ScamBuster.Droid.Resource.Id.flip;
 			global::Xamarin.CommunityToolkit.Resource.Id.floating = global::ScamBuster.Droid.Resource.Id.floating;
 			global::Xamarin.CommunityToolkit.Resource.Id.flyoutcontent_appbar = global::ScamBuster.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Xamarin.CommunityToolkit.Resource.Id.forever = global::ScamBuster.Droid.Resource.Id.forever;
@@ -1542,21 +1880,37 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.ghost_view = global::ScamBuster.Droid.Resource.Id.ghost_view;
 			global::Xamarin.CommunityToolkit.Resource.Id.ghost_view_holder = global::ScamBuster.Droid.Resource.Id.ghost_view_holder;
 			global::Xamarin.CommunityToolkit.Resource.Id.gone = global::ScamBuster.Droid.Resource.Id.gone;
+			global::Xamarin.CommunityToolkit.Resource.Id.graph = global::ScamBuster.Droid.Resource.Id.graph;
+			global::Xamarin.CommunityToolkit.Resource.Id.graph_wrap = global::ScamBuster.Droid.Resource.Id.graph_wrap;
+			global::Xamarin.CommunityToolkit.Resource.Id.grouping = global::ScamBuster.Droid.Resource.Id.grouping;
+			global::Xamarin.CommunityToolkit.Resource.Id.groups = global::ScamBuster.Droid.Resource.Id.groups;
 			global::Xamarin.CommunityToolkit.Resource.Id.group_divider = global::ScamBuster.Droid.Resource.Id.group_divider;
+			global::Xamarin.CommunityToolkit.Resource.Id.guideline = global::ScamBuster.Droid.Resource.Id.guideline;
+			global::Xamarin.CommunityToolkit.Resource.Id.header_title = global::ScamBuster.Droid.Resource.Id.header_title;
 			global::Xamarin.CommunityToolkit.Resource.Id.hideable = global::ScamBuster.Droid.Resource.Id.hideable;
 			global::Xamarin.CommunityToolkit.Resource.Id.home = global::ScamBuster.Droid.Resource.Id.home;
 			global::Xamarin.CommunityToolkit.Resource.Id.homeAsUp = global::ScamBuster.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.CommunityToolkit.Resource.Id.honorRequest = global::ScamBuster.Droid.Resource.Id.honorRequest;
 			global::Xamarin.CommunityToolkit.Resource.Id.icon = global::ScamBuster.Droid.Resource.Id.icon;
 			global::Xamarin.CommunityToolkit.Resource.Id.icon_group = global::ScamBuster.Droid.Resource.Id.icon_group;
 			global::Xamarin.CommunityToolkit.Resource.Id.ifRoom = global::ScamBuster.Droid.Resource.Id.ifRoom;
+			global::Xamarin.CommunityToolkit.Resource.Id.ignore = global::ScamBuster.Droid.Resource.Id.ignore;
+			global::Xamarin.CommunityToolkit.Resource.Id.ignoreRequest = global::ScamBuster.Droid.Resource.Id.ignoreRequest;
 			global::Xamarin.CommunityToolkit.Resource.Id.image = global::ScamBuster.Droid.Resource.Id.image;
 			global::Xamarin.CommunityToolkit.Resource.Id.info = global::ScamBuster.Droid.Resource.Id.info;
+			global::Xamarin.CommunityToolkit.Resource.Id.invisible = global::ScamBuster.Droid.Resource.Id.invisible;
+			global::Xamarin.CommunityToolkit.Resource.Id.inward = global::ScamBuster.Droid.Resource.Id.inward;
 			global::Xamarin.CommunityToolkit.Resource.Id.italic = global::ScamBuster.Droid.Resource.Id.italic;
 			global::Xamarin.CommunityToolkit.Resource.Id.item_touch_helper_previous_elevation = global::ScamBuster.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Id.jumpToEnd = global::ScamBuster.Droid.Resource.Id.jumpToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.jumpToStart = global::ScamBuster.Droid.Resource.Id.jumpToStart;
 			global::Xamarin.CommunityToolkit.Resource.Id.labeled = global::ScamBuster.Droid.Resource.Id.labeled;
+			global::Xamarin.CommunityToolkit.Resource.Id.layout = global::ScamBuster.Droid.Resource.Id.layout;
 			global::Xamarin.CommunityToolkit.Resource.Id.left = global::ScamBuster.Droid.Resource.Id.left;
+			global::Xamarin.CommunityToolkit.Resource.Id.leftToRight = global::ScamBuster.Droid.Resource.Id.leftToRight;
 			global::Xamarin.CommunityToolkit.Resource.Id.line1 = global::ScamBuster.Droid.Resource.Id.line1;
 			global::Xamarin.CommunityToolkit.Resource.Id.line3 = global::ScamBuster.Droid.Resource.Id.line3;
+			global::Xamarin.CommunityToolkit.Resource.Id.linear = global::ScamBuster.Droid.Resource.Id.linear;
 			global::Xamarin.CommunityToolkit.Resource.Id.listMode = global::ScamBuster.Droid.Resource.Id.listMode;
 			global::Xamarin.CommunityToolkit.Resource.Id.list_item = global::ScamBuster.Droid.Resource.Id.list_item;
 			global::Xamarin.CommunityToolkit.Resource.Id.main_appbar = global::ScamBuster.Droid.Resource.Id.main_appbar;
@@ -1564,6 +1918,25 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.main_toolbar = global::ScamBuster.Droid.Resource.Id.main_toolbar;
 			global::Xamarin.CommunityToolkit.Resource.Id.main_viewpager = global::ScamBuster.Droid.Resource.Id.main_viewpager;
 			global::Xamarin.CommunityToolkit.Resource.Id.masked = global::ScamBuster.Droid.Resource.Id.masked;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_display = global::ScamBuster.Droid.Resource.Id.material_clock_display;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_face = global::ScamBuster.Droid.Resource.Id.material_clock_face;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_hand = global::ScamBuster.Droid.Resource.Id.material_clock_hand;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_period_am_button = global::ScamBuster.Droid.Resource.Id.material_clock_period_am_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_period_pm_button = global::ScamBuster.Droid.Resource.Id.material_clock_period_pm_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_clock_period_toggle = global::ScamBuster.Droid.Resource.Id.material_clock_period_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_hour_text_input = global::ScamBuster.Droid.Resource.Id.material_hour_text_input;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_hour_tv = global::ScamBuster.Droid.Resource.Id.material_hour_tv;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_label = global::ScamBuster.Droid.Resource.Id.material_label;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_minute_text_input = global::ScamBuster.Droid.Resource.Id.material_minute_text_input;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_minute_tv = global::ScamBuster.Droid.Resource.Id.material_minute_tv;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_textinput_timepicker = global::ScamBuster.Droid.Resource.Id.material_textinput_timepicker;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_cancel_button = global::ScamBuster.Droid.Resource.Id.material_timepicker_cancel_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_container = global::ScamBuster.Droid.Resource.Id.material_timepicker_container;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_edit_text = global::ScamBuster.Droid.Resource.Id.material_timepicker_edit_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_mode_button = global::ScamBuster.Droid.Resource.Id.material_timepicker_mode_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_ok_button = global::ScamBuster.Droid.Resource.Id.material_timepicker_ok_button;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_timepicker_view = global::ScamBuster.Droid.Resource.Id.material_timepicker_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.material_value_index = global::ScamBuster.Droid.Resource.Id.material_value_index;
 			global::Xamarin.CommunityToolkit.Resource.Id.media_actions = global::ScamBuster.Droid.Resource.Id.media_actions;
 			global::Xamarin.CommunityToolkit.Resource.Id.media_controller_compat_view_tag = global::ScamBuster.Droid.Resource.Id.media_controller_compat_view_tag;
 			global::Xamarin.CommunityToolkit.Resource.Id.message = global::ScamBuster.Droid.Resource.Id.message;
@@ -1576,6 +1949,8 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_next = global::ScamBuster.Droid.Resource.Id.month_navigation_next;
 			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_previous = global::ScamBuster.Droid.Resource.Id.month_navigation_previous;
 			global::Xamarin.CommunityToolkit.Resource.Id.month_title = global::ScamBuster.Droid.Resource.Id.month_title;
+			global::Xamarin.CommunityToolkit.Resource.Id.motion_base = global::ScamBuster.Droid.Resource.Id.motion_base;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_anchor_parent = global::ScamBuster.Droid.Resource.Id.mtrl_anchor_parent;
 			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_days_of_week = global::ScamBuster.Droid.Resource.Id.mtrl_calendar_days_of_week;
 			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_day_selector_frame = global::ScamBuster.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
 			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_frame = global::ScamBuster.Droid.Resource.Id.mtrl_calendar_frame;
@@ -1597,6 +1972,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_text_input_range_end = global::ScamBuster.Droid.Resource.Id.mtrl_picker_text_input_range_end;
 			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_text_input_range_start = global::ScamBuster.Droid.Resource.Id.mtrl_picker_text_input_range_start;
 			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_title_text = global::ScamBuster.Droid.Resource.Id.mtrl_picker_title_text;
+			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_view_tag_bottom_padding = global::ScamBuster.Droid.Resource.Id.mtrl_view_tag_bottom_padding;
 			global::Xamarin.CommunityToolkit.Resource.Id.multiply = global::ScamBuster.Droid.Resource.Id.multiply;
 			global::Xamarin.CommunityToolkit.Resource.Id.navigation_header_container = global::ScamBuster.Droid.Resource.Id.navigation_header_container;
 			global::Xamarin.CommunityToolkit.Resource.Id.never = global::ScamBuster.Droid.Resource.Id.never;
@@ -1606,25 +1982,40 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.notification_background = global::ScamBuster.Droid.Resource.Id.notification_background;
 			global::Xamarin.CommunityToolkit.Resource.Id.notification_main_column = global::ScamBuster.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.CommunityToolkit.Resource.Id.notification_main_column_container = global::ScamBuster.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.CommunityToolkit.Resource.Id.NO_DEBUG = global::ScamBuster.Droid.Resource.Id.NO_DEBUG;
 			global::Xamarin.CommunityToolkit.Resource.Id.off = global::ScamBuster.Droid.Resource.Id.off;
 			global::Xamarin.CommunityToolkit.Resource.Id.on = global::ScamBuster.Droid.Resource.Id.on;
 			global::Xamarin.CommunityToolkit.Resource.Id.outline = global::ScamBuster.Droid.Resource.Id.outline;
+			global::Xamarin.CommunityToolkit.Resource.Id.outward = global::ScamBuster.Droid.Resource.Id.outward;
+			global::Xamarin.CommunityToolkit.Resource.Id.packed = global::ScamBuster.Droid.Resource.Id.packed;
 			global::Xamarin.CommunityToolkit.Resource.Id.parallax = global::ScamBuster.Droid.Resource.Id.parallax;
+			global::Xamarin.CommunityToolkit.Resource.Id.parent = global::ScamBuster.Droid.Resource.Id.parent;
 			global::Xamarin.CommunityToolkit.Resource.Id.parentPanel = global::ScamBuster.Droid.Resource.Id.parentPanel;
+			global::Xamarin.CommunityToolkit.Resource.Id.parentRelative = global::ScamBuster.Droid.Resource.Id.parentRelative;
 			global::Xamarin.CommunityToolkit.Resource.Id.parent_matrix = global::ScamBuster.Droid.Resource.Id.parent_matrix;
 			global::Xamarin.CommunityToolkit.Resource.Id.password_toggle = global::ScamBuster.Droid.Resource.Id.password_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Id.path = global::ScamBuster.Droid.Resource.Id.path;
+			global::Xamarin.CommunityToolkit.Resource.Id.pathRelative = global::ScamBuster.Droid.Resource.Id.pathRelative;
 			global::Xamarin.CommunityToolkit.Resource.Id.peekHeight = global::ScamBuster.Droid.Resource.Id.peekHeight;
+			global::Xamarin.CommunityToolkit.Resource.Id.percent = global::ScamBuster.Droid.Resource.Id.percent;
 			global::Xamarin.CommunityToolkit.Resource.Id.pin = global::ScamBuster.Droid.Resource.Id.pin;
+			global::Xamarin.CommunityToolkit.Resource.Id.position = global::ScamBuster.Droid.Resource.Id.position;
+			global::Xamarin.CommunityToolkit.Resource.Id.postLayout = global::ScamBuster.Droid.Resource.Id.postLayout;
 			global::Xamarin.CommunityToolkit.Resource.Id.progress_circular = global::ScamBuster.Droid.Resource.Id.progress_circular;
 			global::Xamarin.CommunityToolkit.Resource.Id.progress_horizontal = global::ScamBuster.Droid.Resource.Id.progress_horizontal;
 			global::Xamarin.CommunityToolkit.Resource.Id.radio = global::ScamBuster.Droid.Resource.Id.radio;
+			global::Xamarin.CommunityToolkit.Resource.Id.ratio = global::ScamBuster.Droid.Resource.Id.ratio;
+			global::Xamarin.CommunityToolkit.Resource.Id.rectangles = global::ScamBuster.Droid.Resource.Id.rectangles;
+			global::Xamarin.CommunityToolkit.Resource.Id.reverseSawtooth = global::ScamBuster.Droid.Resource.Id.reverseSawtooth;
 			global::Xamarin.CommunityToolkit.Resource.Id.right = global::ScamBuster.Droid.Resource.Id.right;
+			global::Xamarin.CommunityToolkit.Resource.Id.rightToLeft = global::ScamBuster.Droid.Resource.Id.rightToLeft;
 			global::Xamarin.CommunityToolkit.Resource.Id.right_icon = global::ScamBuster.Droid.Resource.Id.right_icon;
 			global::Xamarin.CommunityToolkit.Resource.Id.right_side = global::ScamBuster.Droid.Resource.Id.right_side;
 			global::Xamarin.CommunityToolkit.Resource.Id.rounded = global::ScamBuster.Droid.Resource.Id.rounded;
 			global::Xamarin.CommunityToolkit.Resource.Id.row_index_key = global::ScamBuster.Droid.Resource.Id.row_index_key;
 			global::Xamarin.CommunityToolkit.Resource.Id.save_non_transition_alpha = global::ScamBuster.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xamarin.CommunityToolkit.Resource.Id.save_overlay_view = global::ScamBuster.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.CommunityToolkit.Resource.Id.sawtooth = global::ScamBuster.Droid.Resource.Id.sawtooth;
 			global::Xamarin.CommunityToolkit.Resource.Id.scale = global::ScamBuster.Droid.Resource.Id.scale;
 			global::Xamarin.CommunityToolkit.Resource.Id.screen = global::ScamBuster.Droid.Resource.Id.screen;
 			global::Xamarin.CommunityToolkit.Resource.Id.scroll = global::ScamBuster.Droid.Resource.Id.scroll;
@@ -1643,6 +2034,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.search_src_text = global::ScamBuster.Droid.Resource.Id.search_src_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.search_voice_btn = global::ScamBuster.Droid.Resource.Id.search_voice_btn;
 			global::Xamarin.CommunityToolkit.Resource.Id.selected = global::ScamBuster.Droid.Resource.Id.selected;
+			global::Xamarin.CommunityToolkit.Resource.Id.selection_type = global::ScamBuster.Droid.Resource.Id.selection_type;
 			global::Xamarin.CommunityToolkit.Resource.Id.select_dialog_listview = global::ScamBuster.Droid.Resource.Id.select_dialog_listview;
 			global::Xamarin.CommunityToolkit.Resource.Id.shellcontent_appbar = global::ScamBuster.Droid.Resource.Id.shellcontent_appbar;
 			global::Xamarin.CommunityToolkit.Resource.Id.shellcontent_toolbar = global::ScamBuster.Droid.Resource.Id.shellcontent_toolbar;
@@ -1651,6 +2043,10 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.showCustom = global::ScamBuster.Droid.Resource.Id.showCustom;
 			global::Xamarin.CommunityToolkit.Resource.Id.showHome = global::ScamBuster.Droid.Resource.Id.showHome;
 			global::Xamarin.CommunityToolkit.Resource.Id.showTitle = global::ScamBuster.Droid.Resource.Id.showTitle;
+			global::Xamarin.CommunityToolkit.Resource.Id.SHOW_ALL = global::ScamBuster.Droid.Resource.Id.SHOW_ALL;
+			global::Xamarin.CommunityToolkit.Resource.Id.SHOW_PATH = global::ScamBuster.Droid.Resource.Id.SHOW_PATH;
+			global::Xamarin.CommunityToolkit.Resource.Id.SHOW_PROGRESS = global::ScamBuster.Droid.Resource.Id.SHOW_PROGRESS;
+			global::Xamarin.CommunityToolkit.Resource.Id.sin = global::ScamBuster.Droid.Resource.Id.sin;
 			global::Xamarin.CommunityToolkit.Resource.Id.skipCollapsed = global::ScamBuster.Droid.Resource.Id.skipCollapsed;
 			global::Xamarin.CommunityToolkit.Resource.Id.slide = global::ScamBuster.Droid.Resource.Id.slide;
 			global::Xamarin.CommunityToolkit.Resource.Id.sliding_tabs = global::ScamBuster.Droid.Resource.Id.sliding_tabs;
@@ -1659,12 +2055,24 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.snap = global::ScamBuster.Droid.Resource.Id.snap;
 			global::Xamarin.CommunityToolkit.Resource.Id.snapMargins = global::ScamBuster.Droid.Resource.Id.snapMargins;
 			global::Xamarin.CommunityToolkit.Resource.Id.spacer = global::ScamBuster.Droid.Resource.Id.spacer;
+			global::Xamarin.CommunityToolkit.Resource.Id.special_effects_controller_view_tag = global::ScamBuster.Droid.Resource.Id.special_effects_controller_view_tag;
+			global::Xamarin.CommunityToolkit.Resource.Id.spline = global::ScamBuster.Droid.Resource.Id.spline;
 			global::Xamarin.CommunityToolkit.Resource.Id.split_action_bar = global::ScamBuster.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.CommunityToolkit.Resource.Id.spread = global::ScamBuster.Droid.Resource.Id.spread;
+			global::Xamarin.CommunityToolkit.Resource.Id.spread_inside = global::ScamBuster.Droid.Resource.Id.spread_inside;
+			global::Xamarin.CommunityToolkit.Resource.Id.square = global::ScamBuster.Droid.Resource.Id.square;
 			global::Xamarin.CommunityToolkit.Resource.Id.src_atop = global::ScamBuster.Droid.Resource.Id.src_atop;
 			global::Xamarin.CommunityToolkit.Resource.Id.src_in = global::ScamBuster.Droid.Resource.Id.src_in;
 			global::Xamarin.CommunityToolkit.Resource.Id.src_over = global::ScamBuster.Droid.Resource.Id.src_over;
+			global::Xamarin.CommunityToolkit.Resource.Id.standard = global::ScamBuster.Droid.Resource.Id.standard;
 			global::Xamarin.CommunityToolkit.Resource.Id.start = global::ScamBuster.Droid.Resource.Id.start;
+			global::Xamarin.CommunityToolkit.Resource.Id.startHorizontal = global::ScamBuster.Droid.Resource.Id.startHorizontal;
+			global::Xamarin.CommunityToolkit.Resource.Id.startToEnd = global::ScamBuster.Droid.Resource.Id.startToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.startVertical = global::ScamBuster.Droid.Resource.Id.startVertical;
+			global::Xamarin.CommunityToolkit.Resource.Id.staticLayout = global::ScamBuster.Droid.Resource.Id.staticLayout;
+			global::Xamarin.CommunityToolkit.Resource.Id.staticPostLayout = global::ScamBuster.Droid.Resource.Id.staticPostLayout;
 			global::Xamarin.CommunityToolkit.Resource.Id.status_bar_latest_event_content = global::ScamBuster.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.CommunityToolkit.Resource.Id.stop = global::ScamBuster.Droid.Resource.Id.stop;
 			global::Xamarin.CommunityToolkit.Resource.Id.stretch = global::ScamBuster.Droid.Resource.Id.stretch;
 			global::Xamarin.CommunityToolkit.Resource.Id.submenuarrow = global::ScamBuster.Droid.Resource.Id.submenuarrow;
 			global::Xamarin.CommunityToolkit.Resource.Id.submit_area = global::ScamBuster.Droid.Resource.Id.submit_area;
@@ -1694,34 +2102,43 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.textSpacerNoButtons = global::ScamBuster.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xamarin.CommunityToolkit.Resource.Id.textSpacerNoTitle = global::ScamBuster.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xamarin.CommunityToolkit.Resource.Id.textStart = global::ScamBuster.Droid.Resource.Id.textStart;
+			global::Xamarin.CommunityToolkit.Resource.Id.textTop = global::ScamBuster.Droid.Resource.Id.textTop;
 			global::Xamarin.CommunityToolkit.Resource.Id.text_input_end_icon = global::ScamBuster.Droid.Resource.Id.text_input_end_icon;
+			global::Xamarin.CommunityToolkit.Resource.Id.text_input_error_icon = global::ScamBuster.Droid.Resource.Id.text_input_error_icon;
 			global::Xamarin.CommunityToolkit.Resource.Id.text_input_start_icon = global::ScamBuster.Droid.Resource.Id.text_input_start_icon;
 			global::Xamarin.CommunityToolkit.Resource.Id.time = global::ScamBuster.Droid.Resource.Id.time;
 			global::Xamarin.CommunityToolkit.Resource.Id.title = global::ScamBuster.Droid.Resource.Id.title;
 			global::Xamarin.CommunityToolkit.Resource.Id.titleDividerNoCustom = global::ScamBuster.Droid.Resource.Id.titleDividerNoCustom;
 			global::Xamarin.CommunityToolkit.Resource.Id.title_template = global::ScamBuster.Droid.Resource.Id.title_template;
+			global::Xamarin.CommunityToolkit.Resource.Id.toggle = global::ScamBuster.Droid.Resource.Id.toggle;
 			global::Xamarin.CommunityToolkit.Resource.Id.toolbar = global::ScamBuster.Droid.Resource.Id.toolbar;
 			global::Xamarin.CommunityToolkit.Resource.Id.top = global::ScamBuster.Droid.Resource.Id.top;
 			global::Xamarin.CommunityToolkit.Resource.Id.topPanel = global::ScamBuster.Droid.Resource.Id.topPanel;
 			global::Xamarin.CommunityToolkit.Resource.Id.TOP_END = global::ScamBuster.Droid.Resource.Id.TOP_END;
 			global::Xamarin.CommunityToolkit.Resource.Id.TOP_START = global::ScamBuster.Droid.Resource.Id.TOP_START;
 			global::Xamarin.CommunityToolkit.Resource.Id.touch_outside = global::ScamBuster.Droid.Resource.Id.touch_outside;
+			global::Xamarin.CommunityToolkit.Resource.Id.transitionToEnd = global::ScamBuster.Droid.Resource.Id.transitionToEnd;
+			global::Xamarin.CommunityToolkit.Resource.Id.transitionToStart = global::ScamBuster.Droid.Resource.Id.transitionToStart;
 			global::Xamarin.CommunityToolkit.Resource.Id.transition_current_scene = global::ScamBuster.Droid.Resource.Id.transition_current_scene;
 			global::Xamarin.CommunityToolkit.Resource.Id.transition_layout_save = global::ScamBuster.Droid.Resource.Id.transition_layout_save;
 			global::Xamarin.CommunityToolkit.Resource.Id.transition_position = global::ScamBuster.Droid.Resource.Id.transition_position;
 			global::Xamarin.CommunityToolkit.Resource.Id.transition_scene_layoutid_cache = global::ScamBuster.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xamarin.CommunityToolkit.Resource.Id.transition_transform = global::ScamBuster.Droid.Resource.Id.transition_transform;
+			global::Xamarin.CommunityToolkit.Resource.Id.triangle = global::ScamBuster.Droid.Resource.Id.triangle;
 			global::Xamarin.CommunityToolkit.Resource.Id.@unchecked = global::ScamBuster.Droid.Resource.Id.@unchecked;
 			global::Xamarin.CommunityToolkit.Resource.Id.uniform = global::ScamBuster.Droid.Resource.Id.uniform;
 			global::Xamarin.CommunityToolkit.Resource.Id.unlabeled = global::ScamBuster.Droid.Resource.Id.unlabeled;
 			global::Xamarin.CommunityToolkit.Resource.Id.up = global::ScamBuster.Droid.Resource.Id.up;
 			global::Xamarin.CommunityToolkit.Resource.Id.useLogo = global::ScamBuster.Droid.Resource.Id.useLogo;
 			global::Xamarin.CommunityToolkit.Resource.Id.view_offset_helper = global::ScamBuster.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.CommunityToolkit.Resource.Id.view_tree_lifecycle_owner = global::ScamBuster.Droid.Resource.Id.view_tree_lifecycle_owner;
 			global::Xamarin.CommunityToolkit.Resource.Id.view_tree_saved_state_registry_owner = global::ScamBuster.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Xamarin.CommunityToolkit.Resource.Id.view_tree_view_model_store_owner = global::ScamBuster.Droid.Resource.Id.view_tree_view_model_store_owner;
 			global::Xamarin.CommunityToolkit.Resource.Id.visible = global::ScamBuster.Droid.Resource.Id.visible;
 			global::Xamarin.CommunityToolkit.Resource.Id.visible_removing_fragment_view_tag = global::ScamBuster.Droid.Resource.Id.visible_removing_fragment_view_tag;
 			global::Xamarin.CommunityToolkit.Resource.Id.withinBounds = global::ScamBuster.Droid.Resource.Id.withinBounds;
 			global::Xamarin.CommunityToolkit.Resource.Id.withText = global::ScamBuster.Droid.Resource.Id.withText;
+			global::Xamarin.CommunityToolkit.Resource.Id.wrap = global::ScamBuster.Droid.Resource.Id.wrap;
 			global::Xamarin.CommunityToolkit.Resource.Id.wrap_content = global::ScamBuster.Droid.Resource.Id.wrap_content;
 			global::Xamarin.CommunityToolkit.Resource.Id.zero_corner_chip = global::ScamBuster.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.CommunityToolkit.Resource.Integer.abc_config_activityDefaultDur = global::ScamBuster.Droid.Resource.Integer.abc_config_activityDefaultDur;
@@ -1807,6 +2224,20 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackTabbarDoNotUse = global::ScamBuster.Droid.Resource.Layout.FallbackTabbarDoNotUse;
 			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackToolbarDoNotUse = global::ScamBuster.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.CommunityToolkit.Resource.Layout.FlyoutContent = global::ScamBuster.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_chip_input_combo = global::ScamBuster.Droid.Resource.Layout.material_chip_input_combo;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clockface_textview = global::ScamBuster.Droid.Resource.Layout.material_clockface_textview;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clockface_view = global::ScamBuster.Droid.Resource.Layout.material_clockface_view;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clock_display = global::ScamBuster.Droid.Resource.Layout.material_clock_display;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clock_display_divider = global::ScamBuster.Droid.Resource.Layout.material_clock_display_divider;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clock_period_toggle = global::ScamBuster.Droid.Resource.Layout.material_clock_period_toggle;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_clock_period_toggle_land = global::ScamBuster.Droid.Resource.Layout.material_clock_period_toggle_land;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_radial_view_group = global::ScamBuster.Droid.Resource.Layout.material_radial_view_group;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_textinput_timepicker = global::ScamBuster.Droid.Resource.Layout.material_textinput_timepicker;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_timepicker = global::ScamBuster.Droid.Resource.Layout.material_timepicker;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_timepicker_dialog = global::ScamBuster.Droid.Resource.Layout.material_timepicker_dialog;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_timepicker_textinput_display = global::ScamBuster.Droid.Resource.Layout.material_timepicker_textinput_display;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_time_chip = global::ScamBuster.Droid.Resource.Layout.material_time_chip;
+			global::Xamarin.CommunityToolkit.Resource.Layout.material_time_input = global::ScamBuster.Droid.Resource.Layout.material_time_input;
 			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog = global::ScamBuster.Droid.Resource.Layout.mtrl_alert_dialog;
 			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog_actions = global::ScamBuster.Droid.Resource.Layout.mtrl_alert_dialog_actions;
 			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog_title = global::ScamBuster.Droid.Resource.Layout.mtrl_alert_dialog_title;
@@ -1901,6 +2332,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.String.abc_shareactionprovider_share_with_application = global::ScamBuster.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.CommunityToolkit.Resource.String.abc_toolbar_collapse_description = global::ScamBuster.Droid.Resource.String.abc_toolbar_collapse_description;
 			global::Xamarin.CommunityToolkit.Resource.String.appbar_scrolling_view_behavior = global::ScamBuster.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.CommunityToolkit.Resource.String.bottomsheet_action_expand_halfway = global::ScamBuster.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Xamarin.CommunityToolkit.Resource.String.bottom_sheet_behavior = global::ScamBuster.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.CommunityToolkit.Resource.String.character_counter_content_description = global::ScamBuster.Droid.Resource.String.character_counter_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.character_counter_overflowed_content_description = global::ScamBuster.Droid.Resource.String.character_counter_overflowed_content_description;
@@ -1918,8 +2350,21 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.String.hide_bottom_view_on_scroll_behavior = global::ScamBuster.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
 			global::Xamarin.CommunityToolkit.Resource.String.icon_content_description = global::ScamBuster.Droid.Resource.String.icon_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.item_view_role_description = global::ScamBuster.Droid.Resource.String.item_view_role_description;
+			global::Xamarin.CommunityToolkit.Resource.String.material_clock_display_divider = global::ScamBuster.Droid.Resource.String.material_clock_display_divider;
+			global::Xamarin.CommunityToolkit.Resource.String.material_clock_toggle_content_description = global::ScamBuster.Droid.Resource.String.material_clock_toggle_content_description;
+			global::Xamarin.CommunityToolkit.Resource.String.material_hour_selection = global::ScamBuster.Droid.Resource.String.material_hour_selection;
+			global::Xamarin.CommunityToolkit.Resource.String.material_hour_suffix = global::ScamBuster.Droid.Resource.String.material_hour_suffix;
+			global::Xamarin.CommunityToolkit.Resource.String.material_minute_selection = global::ScamBuster.Droid.Resource.String.material_minute_selection;
+			global::Xamarin.CommunityToolkit.Resource.String.material_minute_suffix = global::ScamBuster.Droid.Resource.String.material_minute_suffix;
 			global::Xamarin.CommunityToolkit.Resource.String.material_slider_range_end = global::ScamBuster.Droid.Resource.String.material_slider_range_end;
 			global::Xamarin.CommunityToolkit.Resource.String.material_slider_range_start = global::ScamBuster.Droid.Resource.String.material_slider_range_start;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_am = global::ScamBuster.Droid.Resource.String.material_timepicker_am;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_clock_mode_description = global::ScamBuster.Droid.Resource.String.material_timepicker_clock_mode_description;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_hour = global::ScamBuster.Droid.Resource.String.material_timepicker_hour;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_minute = global::ScamBuster.Droid.Resource.String.material_timepicker_minute;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_pm = global::ScamBuster.Droid.Resource.String.material_timepicker_pm;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_select_time = global::ScamBuster.Droid.Resource.String.material_timepicker_select_time;
+			global::Xamarin.CommunityToolkit.Resource.String.material_timepicker_text_input_mode_description = global::ScamBuster.Droid.Resource.String.material_timepicker_text_input_mode_description;
 			global::Xamarin.CommunityToolkit.Resource.String.mtrl_badge_numberless_content_description = global::ScamBuster.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.mtrl_chip_close_icon_content_description = global::ScamBuster.Droid.Resource.String.mtrl_chip_close_icon_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.mtrl_exceed_max_badge_number_content_description = global::ScamBuster.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
@@ -2180,11 +2625,13 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_Chip = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_MaterialCalendar_NavigationButton = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_MaterialCalendar_NavigationButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_Slider = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
+			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_Snackbar = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_Snackbar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextView = global::ScamBuster.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
@@ -2354,6 +2801,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Overline = global::ScamBuster.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::ScamBuster.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::ScamBuster.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_TimePicker_Title = global::ScamBuster.Droid.Resource.Style.TextAppearance_MaterialComponents_TimePicker_Title;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::ScamBuster.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ScamBuster.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ScamBuster.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
@@ -2403,6 +2851,8 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ScamBuster.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::ScamBuster.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ScamBuster.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker = global::ScamBuster.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker;
+			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker_Display = global::ScamBuster.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TimePicker_Display;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::ScamBuster.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::ScamBuster.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat = global::ScamBuster.Droid.Resource.Style.Theme_AppCompat;
@@ -2607,6 +3057,11 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Medium = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Medium;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Small = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_CircularProgressIndicator_Small;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CollapsingToolbar = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_CollapsingToolbar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
@@ -2614,6 +3069,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_LinearProgressIndicator = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_LinearProgressIndicator;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
@@ -2622,6 +3078,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
@@ -2630,7 +3087,10 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthTextView = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_MonthTextView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_YearNavigationButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_NavigationView = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
@@ -2638,6 +3098,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ProgressIndicator = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_ProgressIndicator;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Slider = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Snackbar = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
@@ -2659,6 +3120,13 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextView = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TimePicker;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_Button = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Button;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_Clock = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Clock;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_Display = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Display;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_Display_TextInputEditText = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_Display_TextInputEditText;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton;
+			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::ScamBuster.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
@@ -2925,6 +3393,16 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_maxCharacterCount = global::ScamBuster.Droid.Resource.Styleable.Badge_maxCharacterCount;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_number = global::ScamBuster.Droid.Resource.Styleable.Badge_number;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_verticalOffset = global::ScamBuster.Droid.Resource.Styleable.Badge_verticalOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_android_indeterminate = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_android_indeterminate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_hideAnimationBehavior = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_hideAnimationBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_indicatorColor = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_indicatorColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_minHideDelay = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_minHideDelay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_showAnimationBehavior = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_showAnimationBehavior;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_showDelay = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_showDelay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_trackColor = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_trackColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_trackCornerRadius = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_trackCornerRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.BaseProgressIndicator_trackThickness = global::ScamBuster.Droid.Resource.Styleable.BaseProgressIndicator_trackThickness;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar = global::ScamBuster.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_backgroundTint = global::ScamBuster.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_elevation = global::ScamBuster.Droid.Resource.Styleable.BottomAppBar_elevation;
@@ -2984,6 +3462,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_text = global::ScamBuster.Droid.Resource.Styleable.Chip_android_text;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_textAppearance = global::ScamBuster.Droid.Resource.Styleable.Chip_android_textAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_textColor = global::ScamBuster.Droid.Resource.Styleable.Chip_android_textColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_textSize = global::ScamBuster.Droid.Resource.Styleable.Chip_android_textSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIcon = global::ScamBuster.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIconEnabled = global::ScamBuster.Droid.Resource.Styleable.Chip_checkedIconEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIconTint = global::ScamBuster.Droid.Resource.Styleable.Chip_checkedIconTint;
@@ -3019,6 +3498,17 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_showMotionSpec = global::ScamBuster.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_textEndPadding = global::ScamBuster.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_textStartPadding = global::ScamBuster.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CircularProgressIndicator = global::ScamBuster.Droid.Resource.Styleable.CircularProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CircularProgressIndicator_indicatorDirectionCircular = global::ScamBuster.Droid.Resource.Styleable.CircularProgressIndicator_indicatorDirectionCircular;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CircularProgressIndicator_indicatorInset = global::ScamBuster.Droid.Resource.Styleable.CircularProgressIndicator_indicatorInset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CircularProgressIndicator_indicatorSize = global::ScamBuster.Droid.Resource.Styleable.CircularProgressIndicator_indicatorSize;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockFaceView = global::ScamBuster.Droid.Resource.Styleable.ClockFaceView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockFaceView_clockFaceBackgroundColor = global::ScamBuster.Droid.Resource.Styleable.ClockFaceView_clockFaceBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockFaceView_clockNumberTextColor = global::ScamBuster.Droid.Resource.Styleable.ClockFaceView_clockNumberTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockHandView = global::ScamBuster.Droid.Resource.Styleable.ClockHandView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockHandView_clockHandColor = global::ScamBuster.Droid.Resource.Styleable.ClockHandView_clockHandColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockHandView_materialCircleRadius = global::ScamBuster.Droid.Resource.Styleable.ClockHandView_materialCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ClockHandView_selectorSize = global::ScamBuster.Droid.Resource.Styleable.ClockHandView_selectorSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout = global::ScamBuster.Droid.Resource.Styleable.CollapsingToolbarLayout;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ScamBuster.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ScamBuster.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
@@ -3049,6 +3539,323 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CompoundButton_buttonCompat = global::ScamBuster.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CompoundButton_buttonTint = global::ScamBuster.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CompoundButton_buttonTintMode = global::ScamBuster.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint = global::ScamBuster.Droid.Resource.Styleable.Constraint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_elevation = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_minHeight = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_minWidth = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_orientation = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_padding = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_padding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingBottom = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingEnd = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingLeft = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingRight = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingStart = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_paddingTop = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_paddingTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_android_visibility = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_barrierDirection = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_barrierMargin = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_constraintSet = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_constraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_tags = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalAlign = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalGap = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_maxElementsWrap = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_verticalAlign = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_verticalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_verticalGap = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_verticalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_flow_wrapMode = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_flow_wrapMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layoutDescription = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layoutDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTag = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_Layout_layout_optimizationLevel;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_placeholder = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_placeholder;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_placeholder_content = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_placeholder_content;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintLayout_placeholder_placeholder_emptyVisibility = global::ScamBuster.Droid.Resource.Styleable.ConstraintLayout_placeholder_placeholder_emptyVisibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_alpha = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_elevation = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_id = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_height = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginBottom = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_layout_marginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginEnd = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_layout_marginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginLeft = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_layout_marginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginRight = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_layout_marginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginStart = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_layout_marginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_marginTop = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_layout_marginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_layout_width = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_maxHeight = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_maxWidth = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_minHeight = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_minWidth = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_orientation = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_pivotX = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_pivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_pivotY = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_pivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_rotation = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_rotationX = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_rotationY = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_scaleX = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_scaleY = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_transformPivotX = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_transformPivotY = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_translationX = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_translationY = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_translationZ = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_android_visibility = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_barrierDirection = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_barrierMargin = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_chainUseRtl = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_drawPath = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_firstHorizontalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_firstHorizontalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_firstVerticalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_firstVerticalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_horizontalAlign = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_horizontalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_horizontalGap = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_horizontalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_lastHorizontalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_lastHorizontalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_lastVerticalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_lastVerticalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_maxElementsWrap = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_verticalAlign = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_verticalBias = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_verticalGap = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_verticalStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_flow_wrapMode = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_flow_wrapMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constrainedHeight = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constrainedWidth = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintCircle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_end = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_default = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_max = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_min = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintTag = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_creator = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_default = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_max = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_min = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_editor_absoluteX = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_editor_absoluteY = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginBottom = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginEnd = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginLeft = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginRight = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginStart = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_layout_goneMarginTop = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_motionProgress = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_motionStagger = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_pathMotionArc = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_pivotAnchor = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_pivotAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_transitionEasing = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ConstraintSet_transitionPathRotate = global::ScamBuster.Droid.Resource.Styleable.ConstraintSet_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_alpha = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_elevation = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_id = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_height = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginBottom = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_layout_marginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginEnd = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_layout_marginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginLeft = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_layout_marginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginRight = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_layout_marginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginStart = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_layout_marginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_marginTop = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_layout_marginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_layout_width = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_maxHeight = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_maxWidth = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_minHeight = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_minWidth = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_minWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_orientation = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_rotation = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_rotationX = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_rotationY = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_scaleX = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_scaleY = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_transformPivotX = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_transformPivotY = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_translationX = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_translationY = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_translationZ = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_android_visibility = global::ScamBuster.Droid.Resource.Styleable.Constraint_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_barrierAllowsGoneWidgets = global::ScamBuster.Droid.Resource.Styleable.Constraint_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_barrierDirection = global::ScamBuster.Droid.Resource.Styleable.Constraint_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_barrierMargin = global::ScamBuster.Droid.Resource.Styleable.Constraint_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_chainUseRtl = global::ScamBuster.Droid.Resource.Styleable.Constraint_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_constraint_referenced_ids = global::ScamBuster.Droid.Resource.Styleable.Constraint_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_constraint_referenced_tags = global::ScamBuster.Droid.Resource.Styleable.Constraint_constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_drawPath = global::ScamBuster.Droid.Resource.Styleable.Constraint_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_firstHorizontalBias = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_firstHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_firstHorizontalStyle = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_firstHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_firstVerticalBias = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_firstVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_firstVerticalStyle = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_firstVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_horizontalAlign = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_horizontalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_horizontalBias = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_horizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_horizontalGap = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_horizontalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_horizontalStyle = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_horizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_lastHorizontalBias = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_lastHorizontalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_lastHorizontalStyle = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_lastHorizontalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_lastVerticalBias = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_lastVerticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_lastVerticalStyle = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_lastVerticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_maxElementsWrap = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_maxElementsWrap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_verticalAlign = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_verticalAlign;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_verticalBias = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_verticalBias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_verticalGap = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_verticalGap;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_verticalStyle = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_verticalStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_flow_wrapMode = global::ScamBuster.Droid.Resource.Styleable.Constraint_flow_wrapMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constrainedHeight = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constrainedWidth = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBaseline_creator = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBaseline_toBaselineOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBottom_creator = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBottom_toBottomOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintBottom_toTopOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintCircle = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintCircleAngle = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintCircleRadius = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintDimensionRatio = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintEnd_toEndOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintEnd_toStartOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintGuide_begin = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintGuide_end = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintGuide_percent = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight_default = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight_max = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight_min = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHeight_percent = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHorizontal_bias = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHorizontal_chainStyle = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintHorizontal_weight = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintLeft_creator = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintLeft_toLeftOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintLeft_toRightOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintRight_creator = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintRight_toLeftOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintRight_toRightOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintStart_toEndOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintStart_toStartOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintTag = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintTop_creator = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintTop_toBottomOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintTop_toTopOf = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintVertical_bias = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintVertical_chainStyle = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintVertical_weight = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth_default = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth_max = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth_min = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_constraintWidth_percent = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_editor_absoluteX = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_editor_absoluteY = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginBottom = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginEnd = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginLeft = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginRight = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginStart = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_layout_goneMarginTop = global::ScamBuster.Droid.Resource.Styleable.Constraint_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_motionProgress = global::ScamBuster.Droid.Resource.Styleable.Constraint_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_motionStagger = global::ScamBuster.Droid.Resource.Styleable.Constraint_motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_pathMotionArc = global::ScamBuster.Droid.Resource.Styleable.Constraint_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_pivotAnchor = global::ScamBuster.Droid.Resource.Styleable.Constraint_pivotAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_transitionEasing = global::ScamBuster.Droid.Resource.Styleable.Constraint_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_transitionPathRotate = global::ScamBuster.Droid.Resource.Styleable.Constraint_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Constraint_visibilityMode = global::ScamBuster.Droid.Resource.Styleable.Constraint_visibilityMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout = global::ScamBuster.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_keylines = global::ScamBuster.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout = global::ScamBuster.Droid.Resource.Styleable.CoordinatorLayout_Layout;
@@ -3060,6 +3867,16 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ScamBuster.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ScamBuster.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ScamBuster.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_attributeName = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_attributeName;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customBoolean = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_customBoolean;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customColorDrawableValue = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_customColorDrawableValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customColorValue = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_customColorValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customDimension = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_customDimension;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customFloatValue = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_customFloatValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customIntegerValue = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_customIntegerValue;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customPixelDimension = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_customPixelDimension;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.CustomAttribute_customStringValue = global::ScamBuster.Droid.Resource.Styleable.CustomAttribute_customStringValue;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle = global::ScamBuster.Droid.Resource.Styleable.DrawerArrowToggle;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ScamBuster.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ScamBuster.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
@@ -3075,6 +3892,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::ScamBuster.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::ScamBuster.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::ScamBuster.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_collapsedSize = global::ScamBuster.Droid.Resource.Styleable.ExtendedFloatingActionButton_collapsedSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::ScamBuster.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::ScamBuster.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::ScamBuster.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
@@ -3148,12 +3966,179 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_startY = global::ScamBuster.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_tileMode = global::ScamBuster.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.GradientColor_android_type = global::ScamBuster.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_altSrc = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_altSrc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_brightness = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_brightness;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_contrast = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_contrast;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_crossfade = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_crossfade;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_overlay = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_overlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_round = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_round;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_roundPercent = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_roundPercent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_saturation = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_saturation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ImageFilterView_warmth = global::ScamBuster.Droid.Resource.Styleable.ImageFilterView_warmth;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets = global::ScamBuster.Droid.Resource.Styleable.Insets;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::ScamBuster.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::ScamBuster.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::ScamBuster.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ItemsViewRendererTheme = global::ScamBuster.Droid.Resource.Styleable.ItemsViewRendererTheme;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::ScamBuster.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_alpha = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_elevation = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_rotation = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_rotationX = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_rotationY = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_scaleX = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_scaleY = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_transformPivotX = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_transformPivotY = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_translationX = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_translationY = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_android_translationZ = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_curveFit = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_framePosition = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_motionProgress = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_motionTarget = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_transitionEasing = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyAttribute_transitionPathRotate = global::ScamBuster.Droid.Resource.Styleable.KeyAttribute_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle = global::ScamBuster.Droid.Resource.Styleable.KeyCycle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_alpha = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_elevation = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_rotation = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_rotationX = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_rotationY = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_scaleX = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_scaleY = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_translationX = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_translationY = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_android_translationZ = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_curveFit = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_framePosition = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_motionProgress = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_motionTarget = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_transitionEasing = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_transitionPathRotate = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_waveOffset = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_waveOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_wavePeriod = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_wavePeriod;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_waveShape = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_waveShape;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyCycle_waveVariesBy = global::ScamBuster.Droid.Resource.Styleable.KeyCycle_waveVariesBy;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyFrame = global::ScamBuster.Droid.Resource.Styleable.KeyFrame;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyFramesAcceleration = global::ScamBuster.Droid.Resource.Styleable.KeyFramesAcceleration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyFramesVelocity = global::ScamBuster.Droid.Resource.Styleable.KeyFramesVelocity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition = global::ScamBuster.Droid.Resource.Styleable.KeyPosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_curveFit = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_drawPath = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_framePosition = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_keyPositionType = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_keyPositionType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_motionTarget = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_pathMotionArc = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_percentHeight = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_percentHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_percentWidth = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_percentWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_percentX = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_percentX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_percentY = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_percentY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_sizePercent = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_sizePercent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyPosition_transitionEasing = global::ScamBuster.Droid.Resource.Styleable.KeyPosition_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_alpha = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_elevation = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_rotation = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_rotationX = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_rotationY = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_scaleX = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_scaleY = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_translationX = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_translationY = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_android_translationZ = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_curveFit = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_curveFit;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_framePosition = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_motionProgress = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_motionTarget = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_transitionEasing = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_transitionEasing;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_transitionPathRotate = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_transitionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_waveDecay = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_waveDecay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_waveOffset = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_waveOffset;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_wavePeriod = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_wavePeriod;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTimeCycle_waveShape = global::ScamBuster.Droid.Resource.Styleable.KeyTimeCycle_waveShape;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_framePosition = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_framePosition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_motionTarget = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_motionTarget;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_motion_postLayoutCollision = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_motion_postLayoutCollision;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_motion_triggerOnCollision = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_motion_triggerOnCollision;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_onCross = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_onCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_onNegativeCross = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_onNegativeCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_onPositiveCross = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_onPositiveCross;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_triggerId = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_triggerId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_triggerReceiver = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_triggerReceiver;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.KeyTrigger_triggerSlack = global::ScamBuster.Droid.Resource.Styleable.KeyTrigger_triggerSlack;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout = global::ScamBuster.Droid.Resource.Styleable.Layout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_height = global::ScamBuster.Droid.Resource.Styleable.Layout_android_layout_height;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginBottom = global::ScamBuster.Droid.Resource.Styleable.Layout_android_layout_marginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginEnd = global::ScamBuster.Droid.Resource.Styleable.Layout_android_layout_marginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginLeft = global::ScamBuster.Droid.Resource.Styleable.Layout_android_layout_marginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginRight = global::ScamBuster.Droid.Resource.Styleable.Layout_android_layout_marginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginStart = global::ScamBuster.Droid.Resource.Styleable.Layout_android_layout_marginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_marginTop = global::ScamBuster.Droid.Resource.Styleable.Layout_android_layout_marginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_layout_width = global::ScamBuster.Droid.Resource.Styleable.Layout_android_layout_width;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_android_orientation = global::ScamBuster.Droid.Resource.Styleable.Layout_android_orientation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_barrierAllowsGoneWidgets = global::ScamBuster.Droid.Resource.Styleable.Layout_barrierAllowsGoneWidgets;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_barrierDirection = global::ScamBuster.Droid.Resource.Styleable.Layout_barrierDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_barrierMargin = global::ScamBuster.Droid.Resource.Styleable.Layout_barrierMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_chainUseRtl = global::ScamBuster.Droid.Resource.Styleable.Layout_chainUseRtl;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_constraint_referenced_ids = global::ScamBuster.Droid.Resource.Styleable.Layout_constraint_referenced_ids;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_constraint_referenced_tags = global::ScamBuster.Droid.Resource.Styleable.Layout_constraint_referenced_tags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constrainedHeight = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constrainedHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constrainedWidth = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constrainedWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBaseline_creator = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintBaseline_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBaseline_toBaselineOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintBaseline_toBaselineOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBottom_creator = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintBottom_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBottom_toBottomOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintBottom_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintBottom_toTopOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintBottom_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintCircle = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintCircle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintCircleAngle = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintCircleAngle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintCircleRadius = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintCircleRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintDimensionRatio = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintDimensionRatio;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintEnd_toEndOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintEnd_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintEnd_toStartOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintEnd_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintGuide_begin = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintGuide_begin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintGuide_end = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintGuide_end;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintGuide_percent = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintGuide_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight_default = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintHeight_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight_max = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintHeight_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight_min = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintHeight_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHeight_percent = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintHeight_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHorizontal_bias = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHorizontal_chainStyle = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintHorizontal_weight = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintHorizontal_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintLeft_creator = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintLeft_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintLeft_toLeftOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintLeft_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintLeft_toRightOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintLeft_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintRight_creator = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintRight_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintRight_toLeftOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintRight_toLeftOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintRight_toRightOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintRight_toRightOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintStart_toEndOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintStart_toEndOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintStart_toStartOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintStart_toStartOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintTop_creator = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintTop_creator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintTop_toBottomOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintTop_toBottomOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintTop_toTopOf = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintTop_toTopOf;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintVertical_bias = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintVertical_bias;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintVertical_chainStyle = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintVertical_chainStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintVertical_weight = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintVertical_weight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth_default = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintWidth_default;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth_max = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintWidth_max;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth_min = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintWidth_min;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_constraintWidth_percent = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_constraintWidth_percent;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_editor_absoluteX = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_editor_absoluteX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_editor_absoluteY = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_editor_absoluteY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginBottom = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_goneMarginBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginEnd = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_goneMarginEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginLeft = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_goneMarginLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginRight = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_goneMarginRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginStart = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_goneMarginStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_layout_goneMarginTop = global::ScamBuster.Droid.Resource.Styleable.Layout_layout_goneMarginTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_maxHeight = global::ScamBuster.Droid.Resource.Styleable.Layout_maxHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_maxWidth = global::ScamBuster.Droid.Resource.Styleable.Layout_maxWidth;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_minHeight = global::ScamBuster.Droid.Resource.Styleable.Layout_minHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Layout_minWidth = global::ScamBuster.Droid.Resource.Styleable.Layout_minWidth;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat = global::ScamBuster.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ScamBuster.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ScamBuster.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -3169,6 +4154,9 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ScamBuster.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ScamBuster.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearLayoutCompat_showDividers = global::ScamBuster.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearProgressIndicator = global::ScamBuster.Droid.Resource.Styleable.LinearProgressIndicator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearProgressIndicator_indeterminateAnimationType = global::ScamBuster.Droid.Resource.Styleable.LinearProgressIndicator_indeterminateAnimationType;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.LinearProgressIndicator_indicatorDirectionLinear = global::ScamBuster.Droid.Resource.Styleable.LinearProgressIndicator_indicatorDirectionLinear;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow = global::ScamBuster.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ScamBuster.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ScamBuster.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
@@ -3228,6 +4216,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::ScamBuster.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_dayStyle = global::ScamBuster.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::ScamBuster.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_nestedScrollable = global::ScamBuster.Droid.Resource.Styleable.MaterialCalendar_nestedScrollable;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_rangeFillColor = global::ScamBuster.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::ScamBuster.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_yearStyle = global::ScamBuster.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
@@ -3236,6 +4225,8 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_android_checkable = global::ScamBuster.Droid.Resource.Styleable.MaterialCardView_android_checkable;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_cardForegroundColor = global::ScamBuster.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIcon = global::ScamBuster.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIconMargin = global::ScamBuster.Droid.Resource.Styleable.MaterialCardView_checkedIconMargin;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIconSize = global::ScamBuster.Droid.Resource.Styleable.MaterialCardView_checkedIconSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIconTint = global::ScamBuster.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_rippleColor = global::ScamBuster.Droid.Resource.Styleable.MaterialCardView_rippleColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_shapeAppearance = global::ScamBuster.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
@@ -3253,12 +4244,18 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialShape_shapeAppearance = global::ScamBuster.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::ScamBuster.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance = global::ScamBuster.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance_android_letterSpacing = global::ScamBuster.Droid.Resource.Styleable.MaterialTextAppearance_android_letterSpacing;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::ScamBuster.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance_lineHeight = global::ScamBuster.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView = global::ScamBuster.Droid.Resource.Styleable.MaterialTextView;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_android_lineHeight = global::ScamBuster.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_android_textAppearance = global::ScamBuster.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_lineHeight = global::ScamBuster.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTimePicker = global::ScamBuster.Droid.Resource.Styleable.MaterialTimePicker;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTimePicker_clockIcon = global::ScamBuster.Droid.Resource.Styleable.MaterialTimePicker_clockIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTimePicker_keyboardIcon = global::ScamBuster.Droid.Resource.Styleable.MaterialTimePicker_keyboardIcon;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialToolbar = global::ScamBuster.Droid.Resource.Styleable.MaterialToolbar;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialToolbar_navigationIconTint = global::ScamBuster.Droid.Resource.Styleable.MaterialToolbar_navigationIconTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup = global::ScamBuster.Droid.Resource.Styleable.MenuGroup;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ScamBuster.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_enabled = global::ScamBuster.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -3300,6 +4297,36 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ScamBuster.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_preserveIconSpacing = global::ScamBuster.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuView_subMenuArrow = global::ScamBuster.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView = global::ScamBuster.Droid.Resource.Styleable.MockView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_diagonalsColor = global::ScamBuster.Droid.Resource.Styleable.MockView_mock_diagonalsColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_label = global::ScamBuster.Droid.Resource.Styleable.MockView_mock_label;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_labelBackgroundColor = global::ScamBuster.Droid.Resource.Styleable.MockView_mock_labelBackgroundColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_labelColor = global::ScamBuster.Droid.Resource.Styleable.MockView_mock_labelColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_showDiagonals = global::ScamBuster.Droid.Resource.Styleable.MockView_mock_showDiagonals;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MockView_mock_showLabel = global::ScamBuster.Droid.Resource.Styleable.MockView_mock_showLabel;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion = global::ScamBuster.Droid.Resource.Styleable.Motion;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionHelper = global::ScamBuster.Droid.Resource.Styleable.MotionHelper;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionHelper_onHide = global::ScamBuster.Droid.Resource.Styleable.MotionHelper_onHide;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionHelper_onShow = global::ScamBuster.Droid.Resource.Styleable.MotionHelper_onShow;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout = global::ScamBuster.Droid.Resource.Styleable.MotionLayout;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_applyMotionScene = global::ScamBuster.Droid.Resource.Styleable.MotionLayout_applyMotionScene;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_currentState = global::ScamBuster.Droid.Resource.Styleable.MotionLayout_currentState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_layoutDescription = global::ScamBuster.Droid.Resource.Styleable.MotionLayout_layoutDescription;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_motionDebug = global::ScamBuster.Droid.Resource.Styleable.MotionLayout_motionDebug;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_motionProgress = global::ScamBuster.Droid.Resource.Styleable.MotionLayout_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionLayout_showPaths = global::ScamBuster.Droid.Resource.Styleable.MotionLayout_showPaths;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionScene = global::ScamBuster.Droid.Resource.Styleable.MotionScene;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionScene_defaultDuration = global::ScamBuster.Droid.Resource.Styleable.MotionScene_defaultDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionScene_layoutDuringTransition = global::ScamBuster.Droid.Resource.Styleable.MotionScene_layoutDuringTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionTelltales = global::ScamBuster.Droid.Resource.Styleable.MotionTelltales;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionTelltales_telltales_tailColor = global::ScamBuster.Droid.Resource.Styleable.MotionTelltales_telltales_tailColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionTelltales_telltales_tailScale = global::ScamBuster.Droid.Resource.Styleable.MotionTelltales_telltales_tailScale;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.MotionTelltales_telltales_velocityMode = global::ScamBuster.Droid.Resource.Styleable.MotionTelltales_telltales_velocityMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_drawPath = global::ScamBuster.Droid.Resource.Styleable.Motion_drawPath;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_motionPathRotate = global::ScamBuster.Droid.Resource.Styleable.Motion_motionPathRotate;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_motionStagger = global::ScamBuster.Droid.Resource.Styleable.Motion_motionStagger;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_pathMotionArc = global::ScamBuster.Droid.Resource.Styleable.Motion_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Motion_transitionEasing = global::ScamBuster.Droid.Resource.Styleable.Motion_transitionEasing;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView = global::ScamBuster.Droid.Resource.Styleable.NavigationView;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_android_background = global::ScamBuster.Droid.Resource.Styleable.NavigationView_android_background;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ScamBuster.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
@@ -3322,13 +4349,40 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemTextAppearance = global::ScamBuster.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemTextColor = global::ScamBuster.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_menu = global::ScamBuster.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_shapeAppearance = global::ScamBuster.Droid.Resource.Styleable.NavigationView_shapeAppearance;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_shapeAppearanceOverlay = global::ScamBuster.Droid.Resource.Styleable.NavigationView_shapeAppearanceOverlay;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnClick = global::ScamBuster.Droid.Resource.Styleable.OnClick;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnClick_clickAction = global::ScamBuster.Droid.Resource.Styleable.OnClick_clickAction;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnClick_targetId = global::ScamBuster.Droid.Resource.Styleable.OnClick_targetId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe = global::ScamBuster.Droid.Resource.Styleable.OnSwipe;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_dragDirection = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_dragDirection;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_dragScale = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_dragScale;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_dragThreshold = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_dragThreshold;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_limitBoundsTo = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_limitBoundsTo;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_maxAcceleration = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_maxAcceleration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_maxVelocity = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_maxVelocity;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_moveWhenScrollAtTop = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_moveWhenScrollAtTop;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_nestedScrollFlags = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_nestedScrollFlags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_onTouchUp = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_onTouchUp;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_touchAnchorId = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_touchAnchorId;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_touchAnchorSide = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_touchAnchorSide;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.OnSwipe_touchRegionId = global::ScamBuster.Droid.Resource.Styleable.OnSwipe_touchRegionId;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindow = global::ScamBuster.Droid.Resource.Styleable.PopupWindow;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindowBackgroundState = global::ScamBuster.Droid.Resource.Styleable.PopupWindowBackgroundState;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ScamBuster.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ScamBuster.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindow_android_popupBackground = global::ScamBuster.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.PopupWindow_overlapAnchor = global::ScamBuster.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet = global::ScamBuster.Droid.Resource.Styleable.PropertySet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_android_alpha = global::ScamBuster.Droid.Resource.Styleable.PropertySet_android_alpha;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_android_visibility = global::ScamBuster.Droid.Resource.Styleable.PropertySet_android_visibility;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_layout_constraintTag = global::ScamBuster.Droid.Resource.Styleable.PropertySet_layout_constraintTag;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_motionProgress = global::ScamBuster.Droid.Resource.Styleable.PropertySet_motionProgress;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.PropertySet_visibilityMode = global::ScamBuster.Droid.Resource.Styleable.PropertySet_visibilityMode;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RadialViewGroup = global::ScamBuster.Droid.Resource.Styleable.RadialViewGroup;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RadialViewGroup_materialCircleRadius = global::ScamBuster.Droid.Resource.Styleable.RadialViewGroup_materialCircleRadius;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.RangeSlider = global::ScamBuster.Droid.Resource.Styleable.RangeSlider;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.RangeSlider_minSeparation = global::ScamBuster.Droid.Resource.Styleable.RangeSlider_minSeparation;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.RangeSlider_values = global::ScamBuster.Droid.Resource.Styleable.RangeSlider_values;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.RecycleListView = global::ScamBuster.Droid.Resource.Styleable.RecycleListView;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ScamBuster.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
@@ -3371,6 +4425,13 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_suggestionRowLayout = global::ScamBuster.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_voiceIcon = global::ScamBuster.Droid.Resource.Styleable.SearchView_voiceIcon;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPadding = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_contentPadding;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingBottom = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_contentPaddingBottom;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingEnd = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_contentPaddingEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingLeft = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_contentPaddingLeft;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingRight = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_contentPaddingRight;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingStart = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_contentPaddingStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_contentPaddingTop = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_contentPaddingTop;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_shapeAppearance = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeableImageView_strokeColor = global::ScamBuster.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
@@ -3399,9 +4460,12 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbColor = global::ScamBuster.Droid.Resource.Styleable.Slider_thumbColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbElevation = global::ScamBuster.Droid.Resource.Styleable.Slider_thumbElevation;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbRadius = global::ScamBuster.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbStrokeColor = global::ScamBuster.Droid.Resource.Styleable.Slider_thumbStrokeColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_thumbStrokeWidth = global::ScamBuster.Droid.Resource.Styleable.Slider_thumbStrokeWidth;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_tickColor = global::ScamBuster.Droid.Resource.Styleable.Slider_tickColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_tickColorActive = global::ScamBuster.Droid.Resource.Styleable.Slider_tickColorActive;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_tickColorInactive = global::ScamBuster.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_tickVisible = global::ScamBuster.Droid.Resource.Styleable.Slider_tickVisible;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_trackColor = global::ScamBuster.Droid.Resource.Styleable.Slider_trackColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_trackColorActive = global::ScamBuster.Droid.Resource.Styleable.Slider_trackColorActive;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Slider_trackColorInactive = global::ScamBuster.Droid.Resource.Styleable.Slider_trackColorInactive;
@@ -3425,6 +4489,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner_android_popupBackground = global::ScamBuster.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner_android_prompt = global::ScamBuster.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Spinner_popupTheme = global::ScamBuster.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.State = global::ScamBuster.Droid.Resource.Styleable.State;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable = global::ScamBuster.Droid.Resource.Styleable.StateListDrawable;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawableItem = global::ScamBuster.Droid.Resource.Styleable.StateListDrawableItem;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawableItem_android_drawable = global::ScamBuster.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
@@ -3434,6 +4499,10 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::ScamBuster.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_variablePadding = global::ScamBuster.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_visible = global::ScamBuster.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateSet = global::ScamBuster.Droid.Resource.Styleable.StateSet;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.StateSet_defaultState = global::ScamBuster.Droid.Resource.Styleable.StateSet_defaultState;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.State_android_id = global::ScamBuster.Droid.Resource.Styleable.State_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.State_constraints = global::ScamBuster.Droid.Resource.Styleable.State_constraints;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwipeRefreshLayout = global::ScamBuster.Droid.Resource.Styleable.SwipeRefreshLayout;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::ScamBuster.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat = global::ScamBuster.Droid.Resource.Styleable.SwitchCompat;
@@ -3465,6 +4534,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIconTintMode = global::ScamBuster.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicator = global::ScamBuster.Droid.Resource.Styleable.TabLayout_tabIndicator;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::ScamBuster.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorAnimationMode = global::ScamBuster.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorColor = global::ScamBuster.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::ScamBuster.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabLayout_tabIndicatorGravity = global::ScamBuster.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
@@ -3536,6 +4606,7 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorIconTintMode = global::ScamBuster.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ScamBuster.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorTextColor = global::ScamBuster.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_expandedHintEnabled = global::ScamBuster.Droid.Resource.Styleable.TextInputLayout_expandedHintEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperText = global::ScamBuster.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperTextEnabled = global::ScamBuster.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::ScamBuster.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
@@ -3608,6 +4679,36 @@ namespace ScamBuster.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_android_text = global::ScamBuster.Droid.Resource.Styleable.Tooltip_android_text;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_android_textAppearance = global::ScamBuster.Droid.Resource.Styleable.Tooltip_android_textAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Tooltip_backgroundTint = global::ScamBuster.Droid.Resource.Styleable.Tooltip_backgroundTint;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform = global::ScamBuster.Droid.Resource.Styleable.Transform;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_elevation = global::ScamBuster.Droid.Resource.Styleable.Transform_android_elevation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_rotation = global::ScamBuster.Droid.Resource.Styleable.Transform_android_rotation;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_rotationX = global::ScamBuster.Droid.Resource.Styleable.Transform_android_rotationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_rotationY = global::ScamBuster.Droid.Resource.Styleable.Transform_android_rotationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_scaleX = global::ScamBuster.Droid.Resource.Styleable.Transform_android_scaleX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_scaleY = global::ScamBuster.Droid.Resource.Styleable.Transform_android_scaleY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_transformPivotX = global::ScamBuster.Droid.Resource.Styleable.Transform_android_transformPivotX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_transformPivotY = global::ScamBuster.Droid.Resource.Styleable.Transform_android_transformPivotY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_translationX = global::ScamBuster.Droid.Resource.Styleable.Transform_android_translationX;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_translationY = global::ScamBuster.Droid.Resource.Styleable.Transform_android_translationY;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transform_android_translationZ = global::ScamBuster.Droid.Resource.Styleable.Transform_android_translationZ;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition = global::ScamBuster.Droid.Resource.Styleable.Transition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_android_id = global::ScamBuster.Droid.Resource.Styleable.Transition_android_id;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_autoTransition = global::ScamBuster.Droid.Resource.Styleable.Transition_autoTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_constraintSetEnd = global::ScamBuster.Droid.Resource.Styleable.Transition_constraintSetEnd;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_constraintSetStart = global::ScamBuster.Droid.Resource.Styleable.Transition_constraintSetStart;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_duration = global::ScamBuster.Droid.Resource.Styleable.Transition_duration;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_layoutDuringTransition = global::ScamBuster.Droid.Resource.Styleable.Transition_layoutDuringTransition;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_motionInterpolator = global::ScamBuster.Droid.Resource.Styleable.Transition_motionInterpolator;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_pathMotionArc = global::ScamBuster.Droid.Resource.Styleable.Transition_pathMotionArc;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_staggered = global::ScamBuster.Droid.Resource.Styleable.Transition_staggered;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_transitionDisable = global::ScamBuster.Droid.Resource.Styleable.Transition_transitionDisable;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Transition_transitionFlags = global::ScamBuster.Droid.Resource.Styleable.Transition_transitionFlags;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant = global::ScamBuster.Droid.Resource.Styleable.Variant;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_constraints = global::ScamBuster.Droid.Resource.Styleable.Variant_constraints;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_region_heightLessThan = global::ScamBuster.Droid.Resource.Styleable.Variant_region_heightLessThan;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_region_heightMoreThan = global::ScamBuster.Droid.Resource.Styleable.Variant_region_heightMoreThan;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_region_widthLessThan = global::ScamBuster.Droid.Resource.Styleable.Variant_region_widthLessThan;
+			global::Xamarin.CommunityToolkit.Resource.Styleable.Variant_region_widthMoreThan = global::ScamBuster.Droid.Resource.Styleable.Variant_region_widthMoreThan;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.View = global::ScamBuster.Droid.Resource.Styleable.View;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper = global::ScamBuster.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper_android_background = global::ScamBuster.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
@@ -16322,239 +17423,236 @@ namespace ScamBuster.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7F080010
+			public const int accelerate = 2131230736;
+			
 			// aapt resource value: 0x7F080011
-			public const int accelerate = 2131230737;
+			public const int accessibility_action_clickable_span = 2131230737;
 			
 			// aapt resource value: 0x7F080012
-			public const int accessibility_action_clickable_span = 2131230738;
+			public const int accessibility_custom_action_0 = 2131230738;
 			
 			// aapt resource value: 0x7F080013
-			public const int accessibility_custom_action_0 = 2131230739;
+			public const int accessibility_custom_action_1 = 2131230739;
 			
 			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_1 = 2131230740;
+			public const int accessibility_custom_action_10 = 2131230740;
 			
 			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_10 = 2131230741;
+			public const int accessibility_custom_action_11 = 2131230741;
 			
 			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_11 = 2131230742;
+			public const int accessibility_custom_action_12 = 2131230742;
 			
 			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_12 = 2131230743;
+			public const int accessibility_custom_action_13 = 2131230743;
 			
 			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_13 = 2131230744;
+			public const int accessibility_custom_action_14 = 2131230744;
 			
 			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_14 = 2131230745;
+			public const int accessibility_custom_action_15 = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_15 = 2131230746;
+			public const int accessibility_custom_action_16 = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_16 = 2131230747;
+			public const int accessibility_custom_action_17 = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_17 = 2131230748;
+			public const int accessibility_custom_action_18 = 2131230748;
 			
 			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_18 = 2131230749;
+			public const int accessibility_custom_action_19 = 2131230749;
 			
 			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_19 = 2131230750;
+			public const int accessibility_custom_action_2 = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_2 = 2131230751;
+			public const int accessibility_custom_action_20 = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_20 = 2131230752;
+			public const int accessibility_custom_action_21 = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_21 = 2131230753;
+			public const int accessibility_custom_action_22 = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_22 = 2131230754;
+			public const int accessibility_custom_action_23 = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_23 = 2131230755;
+			public const int accessibility_custom_action_24 = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_24 = 2131230756;
+			public const int accessibility_custom_action_25 = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_25 = 2131230757;
+			public const int accessibility_custom_action_26 = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_26 = 2131230758;
+			public const int accessibility_custom_action_27 = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int accessibility_custom_action_27 = 2131230759;
+			public const int accessibility_custom_action_28 = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int accessibility_custom_action_28 = 2131230760;
+			public const int accessibility_custom_action_29 = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int accessibility_custom_action_29 = 2131230761;
+			public const int accessibility_custom_action_3 = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int accessibility_custom_action_3 = 2131230762;
+			public const int accessibility_custom_action_30 = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int accessibility_custom_action_30 = 2131230763;
+			public const int accessibility_custom_action_31 = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int accessibility_custom_action_31 = 2131230764;
+			public const int accessibility_custom_action_4 = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int accessibility_custom_action_4 = 2131230765;
+			public const int accessibility_custom_action_5 = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int accessibility_custom_action_5 = 2131230766;
+			public const int accessibility_custom_action_6 = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int accessibility_custom_action_6 = 2131230767;
+			public const int accessibility_custom_action_7 = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int accessibility_custom_action_7 = 2131230768;
+			public const int accessibility_custom_action_8 = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int accessibility_custom_action_8 = 2131230769;
+			public const int accessibility_custom_action_9 = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int accessibility_custom_action_9 = 2131230770;
-			
-			// aapt resource value: 0x7F080033
-			public const int action0 = 2131230771;
-			
-			// aapt resource value: 0x7F080045
-			public const int actions = 2131230789;
-			
-			// aapt resource value: 0x7F080034
-			public const int action_bar = 2131230772;
-			
-			// aapt resource value: 0x7F080035
-			public const int action_bar_activity_content = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int action_bar_container = 2131230774;
-			
-			// aapt resource value: 0x7F080037
-			public const int action_bar_root = 2131230775;
-			
-			// aapt resource value: 0x7F080038
-			public const int action_bar_spinner = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int action_bar_subtitle = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int action_bar_title = 2131230778;
-			
-			// aapt resource value: 0x7F08003B
-			public const int action_container = 2131230779;
-			
-			// aapt resource value: 0x7F08003C
-			public const int action_context_bar = 2131230780;
-			
-			// aapt resource value: 0x7F08003D
-			public const int action_divider = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int action_image = 2131230782;
-			
-			// aapt resource value: 0x7F08003F
-			public const int action_menu_divider = 2131230783;
-			
-			// aapt resource value: 0x7F080040
-			public const int action_menu_presenter = 2131230784;
-			
-			// aapt resource value: 0x7F080041
-			public const int action_mode_bar = 2131230785;
-			
-			// aapt resource value: 0x7F080042
-			public const int action_mode_bar_stub = 2131230786;
-			
-			// aapt resource value: 0x7F080043
-			public const int action_mode_close_button = 2131230787;
+			public const int action0 = 2131230770;
 			
 			// aapt resource value: 0x7F080044
-			public const int action_text = 2131230788;
+			public const int actions = 2131230788;
+			
+			// aapt resource value: 0x7F080033
+			public const int action_bar = 2131230771;
+			
+			// aapt resource value: 0x7F080034
+			public const int action_bar_activity_content = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int action_bar_container = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int action_bar_root = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int action_bar_spinner = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int action_bar_subtitle = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int action_bar_title = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int action_container = 2131230778;
+			
+			// aapt resource value: 0x7F08003B
+			public const int action_context_bar = 2131230779;
+			
+			// aapt resource value: 0x7F08003C
+			public const int action_divider = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int action_image = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int action_menu_divider = 2131230782;
+			
+			// aapt resource value: 0x7F08003F
+			public const int action_menu_presenter = 2131230783;
+			
+			// aapt resource value: 0x7F080040
+			public const int action_mode_bar = 2131230784;
+			
+			// aapt resource value: 0x7F080041
+			public const int action_mode_bar_stub = 2131230785;
+			
+			// aapt resource value: 0x7F080042
+			public const int action_mode_close_button = 2131230786;
+			
+			// aapt resource value: 0x7F080043
+			public const int action_text = 2131230787;
+			
+			// aapt resource value: 0x7F080045
+			public const int activity_chooser_view_content = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int activity_chooser_view_content = 2131230790;
+			public const int add = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int add = 2131230791;
+			public const int alertTitle = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int alertTitle = 2131230792;
+			public const int aligned = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int aligned = 2131230793;
-			
-			// aapt resource value: 0x7F08004A
-			public const int all = 2131230794;
+			public const int all = 2131230793;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
+			// aapt resource value: 0x7F08004A
+			public const int always = 2131230794;
+			
 			// aapt resource value: 0x7F08004B
-			public const int always = 2131230795;
+			public const int animateToEnd = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int animateToEnd = 2131230796;
+			public const int animateToStart = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int animateToStart = 2131230797;
+			public const int asConfigured = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int asConfigured = 2131230798;
+			public const int async = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int async = 2131230799;
+			public const int auto = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int cancel_action = 2131230800;
+			public const int autoComplete = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int cancel_button = 2131230801;
+			public const int autoCompleteToEnd = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int center = 2131230802;
+			public const int autoCompleteToStart = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int center_horizontal = 2131230803;
+			public const int barrier = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int center_vertical = 2131230804;
+			public const int baseline = 2131230804;
+			
+			// aapt resource value: 0x7F080056
+			public const int beginning = 2131230806;
 			
 			// aapt resource value: 0x7F080055
-			public const int checkbox = 2131230805;
-			
-			// aapt resource value: 0x7F080056
-			public const int @checked = 2131230806;
+			public const int beginOnFirstDraw = 2131230805;
 			
 			// aapt resource value: 0x7F080057
-			public const int chip = 2131230807;
-			
-			// aapt resource value: 0x7F080056
-			public const int beginOnFirstDraw = 2131230806;
+			public const int blocking = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int chip1 = 2131230808;
+			public const int bottom = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int chip2 = 2131230809;
+			public const int bottomNavigationView1 = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int chip3 = 2131230810;
+			public const int bottomtab_navarea = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int chip_group = 2131230811;
-			
-			// aapt resource value: 0x7F08005C
-			public const int chronometer = 2131230812;
+			public const int bottomtab_tabbar = 2131230811;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -16562,725 +17660,1118 @@ namespace ScamBuster.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
+			// aapt resource value: 0x7F08005C
+			public const int bounce = 2131230812;
+			
 			// aapt resource value: 0x7F08005D
-			public const int clear_text = 2131230813;
-			
-			// aapt resource value: 0x7F08005E
-			public const int clip_horizontal = 2131230814;
-			
-			// aapt resource value: 0x7F080061
-			public const int browser_actions_menu_items = 2131230817;
-			
-			// aapt resource value: 0x7F08005F
-			public const int clip_vertical = 2131230815;
+			public const int browser_actions_header_text = 2131230813;
 			
 			// aapt resource value: 0x7F080060
-			public const int collapseActionView = 2131230816;
+			public const int browser_actions_menu_items = 2131230816;
+			
+			// aapt resource value: 0x7F08005E
+			public const int browser_actions_menu_item_icon = 2131230814;
+			
+			// aapt resource value: 0x7F08005F
+			public const int browser_actions_menu_item_text = 2131230815;
 			
 			// aapt resource value: 0x7F080061
-			public const int confirm_button = 2131230817;
+			public const int browser_actions_menu_view = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int container = 2131230818;
+			public const int buttonPanel = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int content = 2131230819;
+			public const int cache_measures = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int contentPanel = 2131230820;
+			public const int cameratexture = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int coordinator = 2131230821;
-			
-			// aapt resource value: 0x7F080003
-			public const int CTRL = 2131230723;
+			public const int cancel_action = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int custom = 2131230822;
+			public const int cancel_button = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int customPanel = 2131230823;
+			public const int center = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int cut = 2131230824;
+			public const int center_horizontal = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int date_picker_actions = 2131230825;
+			public const int center_vertical = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int decor_content_parent = 2131230826;
+			public const int chain = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int default_activity_button = 2131230827;
+			public const int chains = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int design_bottom_sheet = 2131230828;
+			public const int checkbox = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int design_menu_item_action_area = 2131230829;
+			public const int @checked = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int design_menu_item_action_area_stub = 2131230830;
+			public const int chip = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int design_menu_item_text = 2131230831;
+			public const int chip1 = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int design_navigation_view = 2131230832;
+			public const int chip2 = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int dialog_button = 2131230833;
+			public const int chip3 = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int disableHome = 2131230834;
+			public const int chip_group = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int dropdown_menu = 2131230835;
+			public const int chronometer = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int edit_query = 2131230836;
+			public const int circle_center = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int end = 2131230837;
+			public const int clear_text = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int end_padder = 2131230838;
+			public const int clip_horizontal = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int enterAlways = 2131230839;
+			public const int clip_vertical = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int enterAlwaysCollapsed = 2131230840;
+			public const int clockwise = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int exitUntilCollapsed = 2131230841;
-			
-			// aapt resource value: 0x7F08007B
-			public const int expanded_menu = 2131230843;
+			public const int collapseActionView = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int expand_activities_button = 2131230842;
+			public const int confirm_button = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
 			public const int container = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int fade = 2131230844;
+			public const int content = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int fill = 2131230845;
-			
-			// aapt resource value: 0x7F080080
-			public const int filled = 2131230848;
+			public const int contentPanel = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int fill_horizontal = 2131230846;
+			public const int content_frame = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int fill_vertical = 2131230847;
+			public const int contiguous = 2131230847;
+			
+			// aapt resource value: 0x7F080080
+			public const int coordinator = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int fitToContents = 2131230849;
+			public const int cos = 2131230849;
+			
+			// aapt resource value: 0x7F080082
+			public const int counterclockwise = 2131230850;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F080082
-			public const int @fixed = 2131230850;
-			
 			// aapt resource value: 0x7F080083
-			public const int floating = 2131230851;
+			public const int custom = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int flyout = 2131230852;
+			public const int customPanel = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int flyoutcontent_appbar = 2131230853;
+			public const int cut = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int forever = 2131230854;
+			public const int date_picker_actions = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int fragment_container_view_tag = 2131230855;
-			
-			// aapt resource value: 0x7F080004
-			public const int FUNCTION = 2131230724;
+			public const int decelerate = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int ghost_view = 2131230856;
+			public const int decelerateAndComplete = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int ghost_view_holder = 2131230857;
+			public const int decor_content_parent = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int gone = 2131230858;
+			public const int default_activity_button = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int group_divider = 2131230859;
+			public const int deltaRelative = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int hideable = 2131230860;
+			public const int dependency_ordering = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int home = 2131230861;
+			public const int design_bottom_sheet = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int homeAsUp = 2131230862;
+			public const int design_menu_item_action_area = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int icon = 2131230863;
+			public const int design_menu_item_action_area_stub = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int icon_group = 2131230864;
+			public const int design_menu_item_text = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int ifRoom = 2131230865;
+			public const int design_navigation_view = 2131230865;
+			
+			// aapt resource value: 0x7F080092
+			public const int detection = 2131230866;
 			
 			// aapt resource value: 0x7F080004
 			public const int Detection_Layout = 2131230724;
 			
-			// aapt resource value: 0x7F080092
-			public const int image = 2131230866;
-			
 			// aapt resource value: 0x7F080093
-			public const int info = 2131230867;
+			public const int dialog_button = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int italic = 2131230868;
+			public const int dimensions = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int item_touch_helper_previous_elevation = 2131230869;
+			public const int direct = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int labeled = 2131230870;
+			public const int disableHome = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int largeLabel = 2131230871;
+			public const int disablePostScroll = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int left = 2131230872;
+			public const int disableScroll = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int line1 = 2131230873;
+			public const int disjoint = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int line3 = 2131230874;
+			public const int dragDown = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int listMode = 2131230875;
+			public const int dragEnd = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int list_item = 2131230876;
+			public const int dragLeft = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int main_appbar = 2131230877;
+			public const int dragRight = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int main_tablayout = 2131230878;
+			public const int dragStart = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int main_toolbar = 2131230879;
+			public const int dragUp = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int main_viewpager = 2131230880;
+			public const int dropdown_menu = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int masked = 2131230881;
+			public const int easeIn = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int media_actions = 2131230882;
+			public const int easeInOut = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int media_controller_compat_view_tag = 2131230883;
+			public const int easeOut = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int message = 2131230884;
-			
-			// aapt resource value: 0x7F080005
-			public const int META = 2131230725;
+			public const int edit_query = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int middle = 2131230885;
+			public const int elastic = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int mini = 2131230886;
+			public const int end = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int month_grid = 2131230887;
+			public const int endToStart = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int month_navigation_bar = 2131230888;
+			public const int end_padder = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int month_navigation_fragment_toggle = 2131230889;
+			public const int enterAlways = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int month_navigation_next = 2131230890;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int expanded_menu = 2131230892;
+			public const int enterAlwaysCollapsed = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int month_navigation_previous = 2131230891;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int month_title = 2131230892;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int mtrl_calendar_days_of_week = 2131230894;
+			public const int exitUntilCollapsed = 2131230891;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int mtrl_calendar_day_selector_frame = 2131230893;
+			public const int expanded_menu = 2131230893;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int expand_activities_button = 2131230892;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int fade = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int mtrl_calendar_frame = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int mtrl_calendar_main_pane = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int mtrl_calendar_months = 2131230897;
+			public const int fill = 2131230895;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int mtrl_calendar_selection_frame = 2131230898;
+			public const int filled = 2131230898;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int fill_horizontal = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int fill_vertical = 2131230897;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int mtrl_calendar_text_input_frame = 2131230899;
+			public const int fitToContents = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int mtrl_calendar_year_selector_frame = 2131230900;
+			public const int @fixed = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int mtrl_card_checked_layer_id = 2131230901;
+			public const int flip = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int mtrl_child_content_container = 2131230902;
+			public const int floating = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int mtrl_internal_children_alpha_tag = 2131230903;
+			public const int flyout = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int mtrl_motion_snapshot_view = 2131230904;
+			public const int flyoutcontent_appbar = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int mtrl_picker_fullscreen = 2131230905;
+			public const int forever = 2131230905;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int fragment_container_view_tag = 2131230906;
 			
 			// aapt resource value: 0x7F080005
 			public const int FUNCTION = 2131230725;
 			
-			// aapt resource value: 0x7F0800BA
-			public const int mtrl_picker_header = 2131230906;
-			
 			// aapt resource value: 0x7F0800BB
-			public const int mtrl_picker_header_selection_text = 2131230907;
+			public const int ghost_view = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int mtrl_picker_header_title_and_selection = 2131230908;
+			public const int ghost_view_holder = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int mtrl_picker_header_toggle = 2131230909;
+			public const int gone = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int mtrl_picker_text_input_date = 2131230910;
+			public const int graph = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int mtrl_picker_text_input_range_end = 2131230911;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int mtrl_picker_text_input_range_start = 2131230912;
+			public const int graph_wrap = 2131230911;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int mtrl_picker_title_text = 2131230913;
+			public const int grouping = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int multiply = 2131230914;
+			public const int groups = 2131230914;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int group_divider = 2131230912;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int navigation_header_container = 2131230915;
+			public const int guideline = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int never = 2131230916;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int none = 2131230918;
-			
-			// aapt resource value: 0x7F0800C7
-			public const int normal = 2131230919;
+			public const int header_title = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int noScroll = 2131230917;
-			
-			// aapt resource value: 0x7F0800C8
-			public const int notification_background = 2131230920;
-			
-			// aapt resource value: 0x7F0800C9
-			public const int notification_main_column = 2131230921;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int notification_main_column_container = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int notifiedText = 2131230923;
-			
-			// aapt resource value: 0x7F0800CC
-			public const int off = 2131230924;
-			
-			// aapt resource value: 0x7F0800CD
-			public const int on = 2131230925;
-			
-			// aapt resource value: 0x7F0800CE
-			public const int outline = 2131230926;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int parallax = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int parentPanel = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int parent_matrix = 2131230929;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int password_toggle = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int peekHeight = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int pin = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int progress_circular = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int progress_horizontal = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int radio = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int right = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int right_icon = 2131230937;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int right_side = 2131230938;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int root = 2131230939;
-			
-			// aapt resource value: 0x7F0800DC
-			public const int rounded = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int row_index_key = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int save_non_transition_alpha = 2131230942;
-			
-			// aapt resource value: 0x7F0800DF
-			public const int save_overlay_view = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int scale = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int screen = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int scroll = 2131230946;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int scrollable = 2131230950;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int scrollIndicatorDown = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int scrollIndicatorUp = 2131230948;
-			
-			// aapt resource value: 0x7F0800E5
-			public const int scrollView = 2131230949;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int search_badge = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int search_bar = 2131230952;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int search_button = 2131230953;
-			
-			// aapt resource value: 0x7F0800EA
-			public const int search_close_btn = 2131230954;
-			
-			// aapt resource value: 0x7F0800EB
-			public const int search_edit_frame = 2131230955;
-			
-			// aapt resource value: 0x7F0800EC
-			public const int search_go_btn = 2131230956;
-			
-			// aapt resource value: 0x7F0800ED
-			public const int search_mag_icon = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int search_plate = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int search_src_text = 2131230959;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int search_voice_btn = 2131230960;
-			
-			// aapt resource value: 0x7F0800F2
-			public const int selected = 2131230962;
-			
-			// aapt resource value: 0x7F0800F1
-			public const int select_dialog_listview = 2131230961;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int shellcontent_appbar = 2131230963;
-			
-			// aapt resource value: 0x7F0800F4
-			public const int shellcontent_toolbar = 2131230964;
+			public const int hideable = 2131230917;
 			
 			// aapt resource value: 0x7F080006
-			public const int SHIFT = 2131230726;
+			public const int Home = 2131230726;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int home = 2131230918;
+			
+			// aapt resource value: 0x7F0800C7
+			public const int homeAsUp = 2131230919;
+			
+			// aapt resource value: 0x7F0800C8
+			public const int honorRequest = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int icon = 2131230921;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int icon_group = 2131230922;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int ifRoom = 2131230923;
+			
+			// aapt resource value: 0x7F0800CC
+			public const int ignore = 2131230924;
+			
+			// aapt resource value: 0x7F0800CD
+			public const int ignoreRequest = 2131230925;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int image = 2131230926;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int imageView1 = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int info = 2131230928;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int invisible = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int inward = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int italic = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int item_touch_helper_previous_elevation = 2131230932;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int jumpToEnd = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int jumpToStart = 2131230934;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int labeled = 2131230936;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int labelGroup = 2131230935;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int largeLabel = 2131230937;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int layout = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int left = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int leftToRight = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int line1 = 2131230941;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int line3 = 2131230942;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int linear = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int listMode = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int list_item = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int main_appbar = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int main_tablayout = 2131230947;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int main_toolbar = 2131230948;
+			
+			// aapt resource value: 0x7F0800E5
+			public const int main_viewpager = 2131230949;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int masked = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int material_clock_display = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int material_clock_face = 2131230952;
+			
+			// aapt resource value: 0x7F0800E9
+			public const int material_clock_hand = 2131230953;
+			
+			// aapt resource value: 0x7F0800EA
+			public const int material_clock_period_am_button = 2131230954;
+			
+			// aapt resource value: 0x7F0800EB
+			public const int material_clock_period_pm_button = 2131230955;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int material_clock_period_toggle = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int material_hour_text_input = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int material_hour_tv = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int material_label = 2131230959;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int material_minute_text_input = 2131230960;
+			
+			// aapt resource value: 0x7F0800F1
+			public const int material_minute_tv = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int material_textinput_timepicker = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int material_timepicker_cancel_button = 2131230963;
+			
+			// aapt resource value: 0x7F0800F4
+			public const int material_timepicker_container = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int shortcut = 2131230965;
+			public const int material_timepicker_edit_text = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int showCustom = 2131230966;
+			public const int material_timepicker_mode_button = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int showHome = 2131230967;
+			public const int material_timepicker_ok_button = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int showTitle = 2131230968;
+			public const int material_timepicker_view = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int skipCollapsed = 2131230969;
+			public const int material_value_index = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int slide = 2131230970;
+			public const int media_actions = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int sliding_tabs = 2131230971;
+			public const int media_controller_compat_view_tag = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int smallLabel = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int snackbar_action = 2131230973;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int snackbar_text = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int snap = 2131230975;
-			
-			// aapt resource value: 0x7F080100
-			public const int snapMargins = 2131230976;
-			
-			// aapt resource value: 0x7F080101
-			public const int spacer = 2131230977;
-			
-			// aapt resource value: 0x7F080102
-			public const int split_action_bar = 2131230978;
-			
-			// aapt resource value: 0x7F080103
-			public const int src_atop = 2131230979;
-			
-			// aapt resource value: 0x7F080104
-			public const int src_in = 2131230980;
-			
-			// aapt resource value: 0x7F080105
-			public const int src_over = 2131230981;
-			
-			// aapt resource value: 0x7F080106
-			public const int start = 2131230982;
-			
-			// aapt resource value: 0x7F080107
-			public const int status_bar_latest_event_content = 2131230983;
-			
-			// aapt resource value: 0x7F080108
-			public const int stretch = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int submenuarrow = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int submit_area = 2131230986;
+			public const int message = 2131230972;
 			
 			// aapt resource value: 0x7F080007
-			public const int SYM = 2131230727;
+			public const int META = 2131230727;
+			
+			// aapt resource value: 0x7F0800FD
+			public const int middle = 2131230973;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int mini = 2131230974;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int month_grid = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int month_navigation_bar = 2131230976;
+			
+			// aapt resource value: 0x7F080101
+			public const int month_navigation_fragment_toggle = 2131230977;
+			
+			// aapt resource value: 0x7F080102
+			public const int month_navigation_next = 2131230978;
+			
+			// aapt resource value: 0x7F080103
+			public const int month_navigation_previous = 2131230979;
+			
+			// aapt resource value: 0x7F080104
+			public const int month_title = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int motion_base = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int mtrl_anchor_parent = 2131230982;
+			
+			// aapt resource value: 0x7F080108
+			public const int mtrl_calendar_days_of_week = 2131230984;
+			
+			// aapt resource value: 0x7F080107
+			public const int mtrl_calendar_day_selector_frame = 2131230983;
+			
+			// aapt resource value: 0x7F080109
+			public const int mtrl_calendar_frame = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int mtrl_calendar_main_pane = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int tabMode = 2131230987;
+			public const int mtrl_calendar_months = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int tag_accessibility_actions = 2131230988;
+			public const int mtrl_calendar_selection_frame = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int tag_accessibility_clickable_spans = 2131230989;
+			public const int mtrl_calendar_text_input_frame = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int tag_accessibility_heading = 2131230990;
+			public const int mtrl_calendar_year_selector_frame = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int tag_accessibility_pane_title = 2131230991;
+			public const int mtrl_card_checked_layer_id = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int tag_screen_reader_focusable = 2131230992;
+			public const int mtrl_child_content_container = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int tag_transition_group = 2131230993;
+			public const int mtrl_internal_children_alpha_tag = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int tag_unhandled_key_event_manager = 2131230994;
+			public const int mtrl_motion_snapshot_view = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int tag_unhandled_key_listeners = 2131230995;
+			public const int mtrl_picker_fullscreen = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int test_checkbox_android_button_tint = 2131230996;
+			public const int mtrl_picker_header = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int test_checkbox_app_button_tint = 2131230997;
+			public const int mtrl_picker_header_selection_text = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int test_radiobutton_android_button_tint = 2131230998;
+			public const int mtrl_picker_header_title_and_selection = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int test_radiobutton_app_button_tint = 2131230999;
+			public const int mtrl_picker_header_toggle = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int text = 2131231000;
+			public const int mtrl_picker_text_input_date = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int text2 = 2131231001;
+			public const int mtrl_picker_text_input_range_end = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int textEnd = 2131231002;
-			
-			// aapt resource value: 0x7F080120
-			public const int textinput_counter = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int textinput_error = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int textinput_helper_text = 2131231010;
-			
-			// aapt resource value: 0x7F080123
-			public const int textinput_placeholder = 2131231011;
-			
-			// aapt resource value: 0x7F080124
-			public const int textinput_prefix_text = 2131231012;
-			
-			// aapt resource value: 0x7F080125
-			public const int textinput_suffix_text = 2131231013;
+			public const int mtrl_picker_text_input_range_start = 2131231002;
 			
 			// aapt resource value: 0x7F08011B
-			public const int textSpacerNoButtons = 2131231003;
+			public const int mtrl_picker_title_text = 2131231003;
 			
 			// aapt resource value: 0x7F08011C
-			public const int textSpacerNoTitle = 2131231004;
+			public const int mtrl_view_tag_bottom_padding = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int textStart = 2131231005;
+			public const int multiply = 2131231005;
 			
 			// aapt resource value: 0x7F08011E
-			public const int text_input_end_icon = 2131231006;
+			public const int navigation_header_container = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int text_input_start_icon = 2131231007;
+			public const int never = 2131231007;
+			
+			// aapt resource value: 0x7F080121
+			public const int none = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int normal = 2131231010;
+			
+			// aapt resource value: 0x7F080120
+			public const int noScroll = 2131231008;
+			
+			// aapt resource value: 0x7F080123
+			public const int notification_background = 2131231011;
+			
+			// aapt resource value: 0x7F080124
+			public const int notification_main_column = 2131231012;
+			
+			// aapt resource value: 0x7F080125
+			public const int notification_main_column_container = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int time = 2131231014;
-			
-			// aapt resource value: 0x7F080127
-			public const int title = 2131231015;
-			
-			// aapt resource value: 0x7F080128
-			public const int titleDividerNoCustom = 2131231016;
-			
-			// aapt resource value: 0x7F080129
-			public const int title_template = 2131231017;
-			
-			// aapt resource value: 0x7F08012A
-			public const int toolbar = 2131231018;
-			
-			// aapt resource value: 0x7F08012B
-			public const int top = 2131231019;
-			
-			// aapt resource value: 0x7F08012C
-			public const int topPanel = 2131231020;
+			public const int notifiedText = 2131231014;
 			
 			// aapt resource value: 0x7F080008
-			public const int TOP_END = 2131230728;
+			public const int NO_DEBUG = 2131230728;
 			
-			// aapt resource value: 0x7F080009
-			public const int TOP_START = 2131230729;
+			// aapt resource value: 0x7F080127
+			public const int off = 2131231015;
+			
+			// aapt resource value: 0x7F080128
+			public const int on = 2131231016;
+			
+			// aapt resource value: 0x7F080129
+			public const int outline = 2131231017;
+			
+			// aapt resource value: 0x7F08012A
+			public const int outward = 2131231018;
+			
+			// aapt resource value: 0x7F08012B
+			public const int packed = 2131231019;
+			
+			// aapt resource value: 0x7F08012C
+			public const int parallax = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int touch_outside = 2131231021;
+			public const int parent = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int transition_current_scene = 2131231022;
+			public const int parentPanel = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int transition_layout_save = 2131231023;
+			public const int parentRelative = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int transition_position = 2131231024;
+			public const int parent_matrix = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int transition_scene_layoutid_cache = 2131231025;
+			public const int password_toggle = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int transition_transform = 2131231026;
+			public const int path = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int @unchecked = 2131231027;
+			public const int pathRelative = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int uniform = 2131231028;
+			public const int peekHeight = 2131231028;
 			
 			// aapt resource value: 0x7F080135
-			public const int unlabeled = 2131231029;
+			public const int percent = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int up = 2131231030;
+			public const int pin = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int useLogo = 2131231031;
+			public const int position = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int view_offset_helper = 2131231032;
+			public const int postLayout = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int view_tree_saved_state_registry_owner = 2131231033;
+			public const int progress_circular = 2131231033;
 			
 			// aapt resource value: 0x7F08013A
-			public const int visible = 2131231034;
+			public const int progress_horizontal = 2131231034;
 			
 			// aapt resource value: 0x7F08013B
-			public const int visible_removing_fragment_view_tag = 2131231035;
-			
-			// aapt resource value: 0x7F08013D
-			public const int withinBounds = 2131231037;
+			public const int radio = 2131231035;
 			
 			// aapt resource value: 0x7F08013C
-			public const int withText = 2131231036;
+			public const int ratio = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int rectangles = 2131231037;
 			
 			// aapt resource value: 0x7F08013E
-			public const int wrap_content = 2131231038;
+			public const int reverseSawtooth = 2131231038;
 			
 			// aapt resource value: 0x7F08013F
-			public const int zero_corner_chip = 2131231039;
+			public const int right = 2131231039;
+			
+			// aapt resource value: 0x7F080140
+			public const int rightToLeft = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int right_icon = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int right_side = 2131231042;
+			
+			// aapt resource value: 0x7F080143
+			public const int root = 2131231043;
+			
+			// aapt resource value: 0x7F080144
+			public const int rounded = 2131231044;
+			
+			// aapt resource value: 0x7F080145
+			public const int row_index_key = 2131231045;
+			
+			// aapt resource value: 0x7F080146
+			public const int save_non_transition_alpha = 2131231046;
+			
+			// aapt resource value: 0x7F080147
+			public const int save_overlay_view = 2131231047;
+			
+			// aapt resource value: 0x7F080148
+			public const int sawtooth = 2131231048;
+			
+			// aapt resource value: 0x7F080149
+			public const int scale = 2131231049;
+			
+			// aapt resource value: 0x7F08014A
+			public const int screen = 2131231050;
+			
+			// aapt resource value: 0x7F08014B
+			public const int scroll = 2131231051;
+			
+			// aapt resource value: 0x7F08014F
+			public const int scrollable = 2131231055;
+			
+			// aapt resource value: 0x7F08014C
+			public const int scrollIndicatorDown = 2131231052;
+			
+			// aapt resource value: 0x7F08014D
+			public const int scrollIndicatorUp = 2131231053;
+			
+			// aapt resource value: 0x7F08014E
+			public const int scrollView = 2131231054;
+			
+			// aapt resource value: 0x7F080150
+			public const int search_badge = 2131231056;
+			
+			// aapt resource value: 0x7F080151
+			public const int search_bar = 2131231057;
+			
+			// aapt resource value: 0x7F080152
+			public const int search_button = 2131231058;
+			
+			// aapt resource value: 0x7F080153
+			public const int search_close_btn = 2131231059;
+			
+			// aapt resource value: 0x7F080154
+			public const int search_edit_frame = 2131231060;
+			
+			// aapt resource value: 0x7F080155
+			public const int search_go_btn = 2131231061;
+			
+			// aapt resource value: 0x7F080156
+			public const int search_mag_icon = 2131231062;
+			
+			// aapt resource value: 0x7F080157
+			public const int search_plate = 2131231063;
+			
+			// aapt resource value: 0x7F080158
+			public const int search_src_text = 2131231064;
+			
+			// aapt resource value: 0x7F080159
+			public const int search_voice_btn = 2131231065;
+			
+			// aapt resource value: 0x7F08015B
+			public const int selected = 2131231067;
+			
+			// aapt resource value: 0x7F08015C
+			public const int selection_type = 2131231068;
+			
+			// aapt resource value: 0x7F08015A
+			public const int select_dialog_listview = 2131231066;
+			
+			// aapt resource value: 0x7F08015D
+			public const int shellcontent_appbar = 2131231069;
+			
+			// aapt resource value: 0x7F08015E
+			public const int shellcontent_toolbar = 2131231070;
+			
+			// aapt resource value: 0x7F080009
+			public const int SHIFT = 2131230729;
+			
+			// aapt resource value: 0x7F08015F
+			public const int shortcut = 2131231071;
+			
+			// aapt resource value: 0x7F080160
+			public const int showCustom = 2131231072;
+			
+			// aapt resource value: 0x7F080161
+			public const int showHome = 2131231073;
+			
+			// aapt resource value: 0x7F080162
+			public const int showTitle = 2131231074;
+			
+			// aapt resource value: 0x7F08000A
+			public const int SHOW_ALL = 2131230730;
+			
+			// aapt resource value: 0x7F08000B
+			public const int SHOW_PATH = 2131230731;
+			
+			// aapt resource value: 0x7F08000C
+			public const int SHOW_PROGRESS = 2131230732;
+			
+			// aapt resource value: 0x7F080163
+			public const int sin = 2131231075;
+			
+			// aapt resource value: 0x7F080164
+			public const int skipCollapsed = 2131231076;
+			
+			// aapt resource value: 0x7F080165
+			public const int slide = 2131231077;
+			
+			// aapt resource value: 0x7F080166
+			public const int sliding_tabs = 2131231078;
+			
+			// aapt resource value: 0x7F080167
+			public const int smallLabel = 2131231079;
+			
+			// aapt resource value: 0x7F080168
+			public const int snackbar_action = 2131231080;
+			
+			// aapt resource value: 0x7F080169
+			public const int snackbar_text = 2131231081;
+			
+			// aapt resource value: 0x7F08016A
+			public const int snap = 2131231082;
+			
+			// aapt resource value: 0x7F08016B
+			public const int snapMargins = 2131231083;
+			
+			// aapt resource value: 0x7F08016C
+			public const int spacer = 2131231084;
+			
+			// aapt resource value: 0x7F08016D
+			public const int special_effects_controller_view_tag = 2131231085;
+			
+			// aapt resource value: 0x7F08016E
+			public const int spline = 2131231086;
+			
+			// aapt resource value: 0x7F08016F
+			public const int split_action_bar = 2131231087;
+			
+			// aapt resource value: 0x7F080170
+			public const int spread = 2131231088;
+			
+			// aapt resource value: 0x7F080171
+			public const int spread_inside = 2131231089;
+			
+			// aapt resource value: 0x7F080172
+			public const int square = 2131231090;
+			
+			// aapt resource value: 0x7F080173
+			public const int src_atop = 2131231091;
+			
+			// aapt resource value: 0x7F080174
+			public const int src_in = 2131231092;
+			
+			// aapt resource value: 0x7F080175
+			public const int src_over = 2131231093;
+			
+			// aapt resource value: 0x7F080176
+			public const int standard = 2131231094;
+			
+			// aapt resource value: 0x7F080177
+			public const int start = 2131231095;
+			
+			// aapt resource value: 0x7F080178
+			public const int startHorizontal = 2131231096;
+			
+			// aapt resource value: 0x7F080179
+			public const int startToEnd = 2131231097;
+			
+			// aapt resource value: 0x7F08017A
+			public const int startVertical = 2131231098;
+			
+			// aapt resource value: 0x7F08017B
+			public const int staticLayout = 2131231099;
+			
+			// aapt resource value: 0x7F08017C
+			public const int staticPostLayout = 2131231100;
+			
+			// aapt resource value: 0x7F08017D
+			public const int status_bar_latest_event_content = 2131231101;
+			
+			// aapt resource value: 0x7F08017E
+			public const int stop = 2131231102;
+			
+			// aapt resource value: 0x7F08017F
+			public const int stretch = 2131231103;
+			
+			// aapt resource value: 0x7F080180
+			public const int submenuarrow = 2131231104;
+			
+			// aapt resource value: 0x7F080181
+			public const int submit_area = 2131231105;
+			
+			// aapt resource value: 0x7F08000D
+			public const int SYM = 2131230733;
+			
+			// aapt resource value: 0x7F080182
+			public const int tabMode = 2131231106;
+			
+			// aapt resource value: 0x7F080183
+			public const int tag_accessibility_actions = 2131231107;
+			
+			// aapt resource value: 0x7F080184
+			public const int tag_accessibility_clickable_spans = 2131231108;
+			
+			// aapt resource value: 0x7F080185
+			public const int tag_accessibility_heading = 2131231109;
+			
+			// aapt resource value: 0x7F080186
+			public const int tag_accessibility_pane_title = 2131231110;
+			
+			// aapt resource value: 0x7F080187
+			public const int tag_screen_reader_focusable = 2131231111;
+			
+			// aapt resource value: 0x7F080188
+			public const int tag_transition_group = 2131231112;
+			
+			// aapt resource value: 0x7F080189
+			public const int tag_unhandled_key_event_manager = 2131231113;
+			
+			// aapt resource value: 0x7F08018A
+			public const int tag_unhandled_key_listeners = 2131231114;
+			
+			// aapt resource value: 0x7F08018B
+			public const int test_checkbox_android_button_tint = 2131231115;
+			
+			// aapt resource value: 0x7F08018C
+			public const int test_checkbox_app_button_tint = 2131231116;
+			
+			// aapt resource value: 0x7F08018D
+			public const int test_radiobutton_android_button_tint = 2131231117;
+			
+			// aapt resource value: 0x7F08018E
+			public const int test_radiobutton_app_button_tint = 2131231118;
+			
+			// aapt resource value: 0x7F08018F
+			public const int text = 2131231119;
+			
+			// aapt resource value: 0x7F080190
+			public const int text2 = 2131231120;
+			
+			// aapt resource value: 0x7F080191
+			public const int textEnd = 2131231121;
+			
+			// aapt resource value: 0x7F08019B
+			public const int textinput_counter = 2131231131;
+			
+			// aapt resource value: 0x7F08019C
+			public const int textinput_error = 2131231132;
+			
+			// aapt resource value: 0x7F08019D
+			public const int textinput_helper_text = 2131231133;
+			
+			// aapt resource value: 0x7F08019E
+			public const int textinput_placeholder = 2131231134;
+			
+			// aapt resource value: 0x7F08019F
+			public const int textinput_prefix_text = 2131231135;
+			
+			// aapt resource value: 0x7F0801A0
+			public const int textinput_suffix_text = 2131231136;
+			
+			// aapt resource value: 0x7F080192
+			public const int textSpacerNoButtons = 2131231122;
+			
+			// aapt resource value: 0x7F080193
+			public const int textSpacerNoTitle = 2131231123;
+			
+			// aapt resource value: 0x7F080194
+			public const int textStart = 2131231124;
+			
+			// aapt resource value: 0x7F080195
+			public const int textTop = 2131231125;
+			
+			// aapt resource value: 0x7F080196
+			public const int textView1 = 2131231126;
+			
+			// aapt resource value: 0x7F080197
+			public const int textView2 = 2131231127;
+			
+			// aapt resource value: 0x7F080198
+			public const int text_input_end_icon = 2131231128;
+			
+			// aapt resource value: 0x7F080199
+			public const int text_input_error_icon = 2131231129;
+			
+			// aapt resource value: 0x7F08019A
+			public const int text_input_start_icon = 2131231130;
+			
+			// aapt resource value: 0x7F0801A1
+			public const int time = 2131231137;
+			
+			// aapt resource value: 0x7F0801A2
+			public const int title = 2131231138;
+			
+			// aapt resource value: 0x7F0801A3
+			public const int titleDividerNoCustom = 2131231139;
+			
+			// aapt resource value: 0x7F0801A4
+			public const int title_template = 2131231140;
+			
+			// aapt resource value: 0x7F0801A5
+			public const int toggle = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int toolbar = 2131231142;
+			
+			// aapt resource value: 0x7F0801A7
+			public const int top = 2131231143;
+			
+			// aapt resource value: 0x7F0801A8
+			public const int topPanel = 2131231144;
+			
+			// aapt resource value: 0x7F08000E
+			public const int TOP_END = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int TOP_START = 2131230735;
+			
+			// aapt resource value: 0x7F0801A9
+			public const int touch_outside = 2131231145;
+			
+			// aapt resource value: 0x7F0801AA
+			public const int transitionToEnd = 2131231146;
+			
+			// aapt resource value: 0x7F0801AB
+			public const int transitionToStart = 2131231147;
+			
+			// aapt resource value: 0x7F0801AC
+			public const int transition_current_scene = 2131231148;
+			
+			// aapt resource value: 0x7F0801AD
+			public const int transition_layout_save = 2131231149;
+			
+			// aapt resource value: 0x7F0801AE
+			public const int transition_position = 2131231150;
+			
+			// aapt resource value: 0x7F0801AF
+			public const int transition_scene_layoutid_cache = 2131231151;
+			
+			// aapt resource value: 0x7F0801B0
+			public const int transition_transform = 2131231152;
+			
+			// aapt resource value: 0x7F0801B1
+			public const int triangle = 2131231153;
+			
+			// aapt resource value: 0x7F0801B2
+			public const int @unchecked = 2131231154;
+			
+			// aapt resource value: 0x7F0801B3
+			public const int uniform = 2131231155;
+			
+			// aapt resource value: 0x7F0801B4
+			public const int unlabeled = 2131231156;
+			
+			// aapt resource value: 0x7F0801B5
+			public const int up = 2131231157;
+			
+			// aapt resource value: 0x7F0801B6
+			public const int useLogo = 2131231158;
+			
+			// aapt resource value: 0x7F0801B7
+			public const int view_offset_helper = 2131231159;
+			
+			// aapt resource value: 0x7F0801B8
+			public const int view_tree_lifecycle_owner = 2131231160;
+			
+			// aapt resource value: 0x7F0801B9
+			public const int view_tree_saved_state_registry_owner = 2131231161;
+			
+			// aapt resource value: 0x7F0801BA
+			public const int view_tree_view_model_store_owner = 2131231162;
+			
+			// aapt resource value: 0x7F0801BB
+			public const int visible = 2131231163;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int visible_removing_fragment_view_tag = 2131231164;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int withinBounds = 2131231166;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int withText = 2131231165;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int wrap = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int wrap_content = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int zero_corner_chip = 2131231169;
 			
 			static Id()
 			{
@@ -17559,274 +19050,265 @@ namespace ScamBuster.Droid
 			public const int design_text_input_end_icon = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int FallbackTabbarDoNotUse = 2131427375;
+			public const int design_text_input_start_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int FallbackTabbarDoNotUse = 2131427376;
+			public const int Detection_Layout = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int FallbackToolbarDoNotUse = 2131427377;
+			public const int FallbackTabbarDoNotUse = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int FloatingNotifier = 2131427378;
+			public const int FallbackToolbarDoNotUse = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int FlyoutContent = 2131427379;
+			public const int FloatingNotifier = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mtrl_alert_dialog_actions = 2131427380;
+			public const int FlyoutContent = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mtrl_alert_dialog_title = 2131427381;
+			public const int Home_Layout = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mtrl_alert_select_dialog_item = 2131427382;
-			
-			// aapt resource value: 0x7F0B0037
-			public const int mtrl_alert_select_dialog_multichoice = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427384;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int mtrl_calendar_day = 2131427385;
+			public const int material_chip_input_combo = 2131427382;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mtrl_calendar_days_of_week = 2131427387;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int mtrl_calendar_day_of_week = 2131427386;
+			public const int material_clockface_textview = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mtrl_calendar_horizontal = 2131427388;
+			public const int material_clockface_view = 2131427388;
+			
+			// aapt resource value: 0x7F0B0037
+			public const int material_clock_display = 2131427383;
+			
+			// aapt resource value: 0x7F0B0038
+			public const int material_clock_display_divider = 2131427384;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int material_clock_period_toggle = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int material_clock_period_toggle_land = 2131427386;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mtrl_calendar_month = 2131427389;
-			
-			// aapt resource value: 0x7F0B0040
-			public const int mtrl_calendar_months = 2131427392;
+			public const int material_radial_view_group = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int mtrl_calendar_month_labeled = 2131427390;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int mtrl_calendar_month_navigation = 2131427391;
+			public const int material_textinput_timepicker = 2131427390;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int mtrl_calendar_vertical = 2131427393;
+			public const int material_timepicker = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mtrl_calendar_year = 2131427394;
-			
-			// aapt resource value: 0x7F0B003E
-			public const int material_time_chip = 2131427390;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int material_time_input = 2131427391;
+			public const int material_timepicker_dialog = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_layout_snackbar = 2131427395;
+			public const int material_timepicker_textinput_display = 2131427395;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int material_time_chip = 2131427391;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int material_time_input = 2131427392;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_layout_snackbar_include = 2131427396;
+			public const int mtrl_alert_dialog = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_picker_actions = 2131427397;
+			public const int mtrl_alert_dialog_actions = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_picker_dialog = 2131427398;
+			public const int mtrl_alert_dialog_title = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_picker_fullscreen = 2131427399;
+			public const int mtrl_alert_select_dialog_item = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_picker_header_dialog = 2131427400;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_picker_header_fullscreen = 2131427401;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int mtrl_picker_header_selection_text = 2131427402;
-			
-			// aapt resource value: 0x7F0B004B
-			public const int mtrl_picker_header_title_text = 2131427403;
-			
-			// aapt resource value: 0x7F0B004A
-			public const int mtrl_calendar_day_of_week = 2131427402;
+			public const int mtrl_calendar_day = 2131427402;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int mtrl_picker_header_toggle = 2131427404;
+			public const int mtrl_calendar_days_of_week = 2131427404;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int mtrl_calendar_day_of_week = 2131427403;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_picker_text_input_date = 2131427405;
-			
-			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_months = 2131427408;
+			public const int mtrl_calendar_horizontal = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int mtrl_picker_text_input_date_range = 2131427406;
-			
-			// aapt resource value: 0x7F0B004F
-			public const int notification_action = 2131427407;
-			
-			// aapt resource value: 0x7F0B0050
-			public const int notification_action_tombstone = 2131427408;
+			public const int mtrl_calendar_month = 2131427406;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int notification_media_action = 2131427409;
+			public const int mtrl_calendar_months = 2131427409;
+			
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_month_labeled = 2131427407;
+			
+			// aapt resource value: 0x7F0B0050
+			public const int mtrl_calendar_month_navigation = 2131427408;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int notification_media_cancel_action = 2131427410;
+			public const int mtrl_calendar_vertical = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int notification_template_big_media = 2131427411;
+			public const int mtrl_calendar_year = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int notification_template_big_media_custom = 2131427412;
+			public const int mtrl_layout_snackbar = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int notification_template_big_media_narrow = 2131427413;
+			public const int mtrl_layout_snackbar_include = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int notification_template_big_media_narrow_custom = 2131427414;
+			public const int mtrl_picker_actions = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int notification_template_custom_big = 2131427415;
+			public const int mtrl_picker_dialog = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int notification_template_icon_group = 2131427416;
+			public const int mtrl_picker_fullscreen = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int notification_template_lines_media = 2131427417;
+			public const int mtrl_picker_header_dialog = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int notification_template_media = 2131427418;
+			public const int mtrl_picker_header_fullscreen = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int notification_template_media_custom = 2131427419;
+			public const int mtrl_picker_header_selection_text = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int notification_template_part_chronometer = 2131427420;
+			public const int mtrl_picker_header_title_text = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int notification_template_part_time = 2131427421;
+			public const int mtrl_picker_header_toggle = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int RootLayout = 2131427422;
+			public const int mtrl_picker_text_input_date = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int select_dialog_item_material = 2131427423;
+			public const int mtrl_picker_text_input_date_range = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int select_dialog_multichoice_material = 2131427424;
+			public const int notification_action = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int select_dialog_singlechoice_material = 2131427425;
+			public const int notification_action_tombstone = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int ShellContent = 2131427426;
+			public const int notification_media_action = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int support_simple_spinner_dropdown_item = 2131427427;
+			public const int notification_media_cancel_action = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int Tabbar = 2131427428;
+			public const int notification_template_big_media = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int test_action_chip = 2131427429;
+			public const int notification_template_big_media_custom = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int test_chip_zero_corner_radius = 2131427430;
+			public const int notification_template_big_media_narrow = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int test_design_checkbox = 2131427431;
+			public const int notification_template_big_media_narrow_custom = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int test_design_radiobutton = 2131427432;
+			public const int notification_template_custom_big = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int test_reflow_chipgroup = 2131427433;
+			public const int notification_template_icon_group = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int test_toolbar = 2131427434;
+			public const int notification_template_lines_media = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int test_toolbar_custom_background = 2131427435;
+			public const int notification_template_media = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int test_toolbar_elevation = 2131427436;
+			public const int notification_template_media_custom = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int test_toolbar_surface = 2131427437;
-			
-			// aapt resource value: 0x7F0B0072
-			public const int text_view_without_line_height = 2131427442;
+			public const int notification_template_part_chronometer = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int text_view_with_line_height_from_appearance = 2131427438;
+			public const int notification_template_part_time = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int text_view_with_line_height_from_layout = 2131427439;
+			public const int RootLayout = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int text_view_with_line_height_from_style = 2131427440;
+			public const int rounded_corner = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int text_view_with_theme_line_height = 2131427441;
+			public const int select_dialog_item_material = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int ShellContent = 2131427442;
+			public const int select_dialog_multichoice_material = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int Toolbar = 2131427443;
+			public const int select_dialog_singlechoice_material = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int Tabbar = 2131427444;
+			public const int ShellContent = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int test_action_chip = 2131427445;
+			public const int support_simple_spinner_dropdown_item = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int test_chip_zero_corner_radius = 2131427446;
+			public const int Tabbar = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int test_design_checkbox = 2131427447;
+			public const int test_action_chip = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int test_design_radiobutton = 2131427448;
+			public const int test_chip_zero_corner_radius = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int test_reflow_chipgroup = 2131427449;
+			public const int test_design_checkbox = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int test_toolbar = 2131427450;
+			public const int test_design_radiobutton = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int test_toolbar_custom_background = 2131427451;
+			public const int test_reflow_chipgroup = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int test_toolbar_elevation = 2131427452;
+			public const int test_toolbar = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int test_toolbar_surface = 2131427453;
-			
-			// aapt resource value: 0x7F0B0082
-			public const int text_view_without_line_height = 2131427458;
+			public const int test_toolbar_custom_background = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int text_view_with_line_height_from_appearance = 2131427454;
+			public const int test_toolbar_elevation = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int text_view_with_line_height_from_layout = 2131427455;
+			public const int test_toolbar_surface = 2131427455;
+			
+			// aapt resource value: 0x7F0B0084
+			public const int text_view_without_line_height = 2131427460;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int text_view_with_line_height_from_style = 2131427456;
+			public const int text_view_with_line_height_from_appearance = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int text_view_with_theme_line_height = 2131427457;
+			public const int text_view_with_line_height_from_layout = 2131427457;
+			
+			// aapt resource value: 0x7F0B0082
+			public const int text_view_with_line_height_from_style = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int Toolbar = 2131427459;
+			public const int text_view_with_theme_line_height = 2131427459;
+			
+			// aapt resource value: 0x7F0B0085
+			public const int Toolbar = 2131427461;
 			
 			static Layout()
 			{

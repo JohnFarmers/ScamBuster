@@ -10,6 +10,6 @@
         android:id="@+id/detection"
         android:title="Detections"
         android:enabled="true"
-        android:icon="@drawable/detections_inactive"
+        android:icon="@drawable/detections_active"
         android:showAsAction="ifRoom"/>
 </menu>
