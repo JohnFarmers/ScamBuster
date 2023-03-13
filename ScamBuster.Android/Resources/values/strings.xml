@@ -4,7 +4,7 @@
   <string name="title_activity_kimera">Scam Buster</string>
   <string name="service_name">NLService</string>
   <string name="main">You\'re Protected</string>
-	<string name="notready">You\'re in risk</string>
-	<string name="notready_desc">We\'re not ready to bust \nthose scammers yet...</string>
+  <string name="notready">You\'re in risk</string>
+  <string name="notready_desc">We\'re not ready to bust \nthose scammers yet...</string>
   <string name="protected_desc">Ready to bust those scammers!</string>
 </resources>

@@ -27,4 +27,5 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/bottomNavigationView1"
         android:id="@+id/content_frame" />
+
 </RelativeLayout>

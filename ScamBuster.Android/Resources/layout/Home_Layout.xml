@@ -21,7 +21,6 @@
         android:background="@android:color/transparent"
         android:adjustViewBounds="false"
         android:layout_marginTop="148.5dp" />
-
     <TextView
         android:text="@string/main"
         android:layout_width="wrap_content"
@@ -44,8 +43,5 @@
         android:layout_centerHorizontal="true"
         android:textSize="20sp"
         android:id="@+id/textView2"
-        android:layout_below="@+id/textView1"/>
-
-
-
+        android:layout_below="@+id/textView1" />
 </RelativeLayout>

@@ -1,22 +1,7 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Util;
+﻿using Android.OS;
 using Android.Views;
 using Android.Widget;
-using Xamarin.Essentials;
-using AndroidX.Activity;
-using AndroidX.AppCompat;
-using Java.Util.Zip;
-using AndroidX.Core.App;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Android.Content.PM;
-using AndroidX.Core.Content;
-using System.Runtime.Remoting.Contexts;
 
 namespace ScamBuster.Droid
 {
