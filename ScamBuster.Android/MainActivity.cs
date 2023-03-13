@@ -53,7 +53,6 @@ namespace ScamBuster.Droid
         {
             isPCL = false; isNLservice = false;
 			StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), REQUEST_CODE);
-			SetContentView(Resource.Layout.Main);
 			StartService(new Intent(this, typeof(FloatingNotifier)));
 			ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE" }, 123);
 			StartActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
@@ -61,6 +60,7 @@ namespace ScamBuster.Droid
 
         private void InitalizeHomePage()
         {
+			SetContentView(Resource.Layout.Main);
 			bottomnavigation = (BottomNavigationView)FindViewById(Resource.Id.bottomNavigationView1);
 			bottomnavigation.NavigationItemSelected += NavigationItemSelected;
 			LoadFragment(Resource.Id.Home);
