@@ -4,5 +4,11 @@
     android:minWidth="25px"
     android:minHeight="25px"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/Detection_Layout" />
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/textView1" />
+</RelativeLayout>
