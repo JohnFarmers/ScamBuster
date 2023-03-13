@@ -22,17 +22,11 @@ namespace ScamBuster.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), REQUEST_CODE);
-            SetContentView(Resource.Layout.Home_Layout);
-            StartService(new Intent(this, typeof(FloatingNotifier)));
-            ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE" }, 123);
-            StartActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 			global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            bottomnavigation = (BottomNavigationView)FindViewById(Resource.Id.bottomNavigationView1);
-            bottomnavigation.NavigationItemSelected += NavigationItemSelected;
-            LoadFragment(Resource.Id.Home);
             LoadApplication(new App());
+            InitializeService();
+            InitalizeHomePage();
 		}
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
@@ -42,10 +36,28 @@ namespace ScamBuster.Droid
             if (requestCode == 123 && grantResults.Length > 0 && grantResults[0] == Permission.Granted)
                 StartService(new Intent(this, typeof(PhoneCallListener)));
         }
+
+        private void InitializeService()
+        {
+			StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), REQUEST_CODE);
+			SetContentView(Resource.Layout.Home_Layout);
+			StartService(new Intent(this, typeof(FloatingNotifier)));
+			ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE" }, 123);
+			StartActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
+		}
+
+        private void InitalizeHomePage()
+        {
+			bottomnavigation = (BottomNavigationView)FindViewById(Resource.Id.bottomNavigationView1);
+			bottomnavigation.NavigationItemSelected += NavigationItemSelected;
+			LoadFragment(Resource.Id.Home);
+		}
+
         public void NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
         {
             LoadFragment(e.Item.ItemId);
         }
+
         public void LoadFragment(int id)
         {
             var frag = SupportFragmentManager.BeginTransaction();
