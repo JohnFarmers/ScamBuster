@@ -13,6 +13,7 @@ using ScamBuster.Droid.Resources;
 using Android.Widget;
 using Android.Views;
 using AndroidX.Fragment.App;
+using AndroidX.Core.Content;
 
 namespace ScamBuster.Droid
 {
@@ -22,6 +23,8 @@ namespace ScamBuster.Droid
         public static int REQUEST_CODE = 9999;
         public static BottomNavigationView bottomnavigation;
         public static bool isProtected = true;
+        public static bool isNLservice = false;
+        public static bool isPCL = false;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -39,13 +42,16 @@ namespace ScamBuster.Droid
             if (requestCode == 123 && grantResults.Length > 0 && grantResults[0] == Permission.Granted)
             {
                 StartService(new Intent(this, typeof(PhoneCallListener)));
-                isProtected = true;
+                isPCL = true;
             }
-            else isProtected = false;
+            else isPCL = false;
+            isProtected = isPCL && isNLservice;
+            LoadFragment(Resource.Id.Home);
         }
 
         private void InitializeService()
         {
+            isPCL = false; isNLservice = false;
 			StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), REQUEST_CODE);
 			SetContentView(Resource.Layout.Main);
 			StartService(new Intent(this, typeof(FloatingNotifier)));
