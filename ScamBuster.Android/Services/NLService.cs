@@ -49,7 +49,7 @@ namespace ScamBuster.Droid.Services
 			scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), configuration).GetRecords<ScamText>().ToArray();
 			scamNumbers = new CsvReader(new StreamReader(Assets.Open("ScamPhoneNumber.csv")), configuration).GetRecords<ScammerPhoneNumber>().ToArray();
 			Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
-            global::Xamarin.Forms.Forms.Init(this, null);
+			Forms.Init(this, null);
 			Device.StartTimer(TimeSpan.FromSeconds(2), () => { 
                 if(responses.Count > 0 && !checkingURL)
                 {
