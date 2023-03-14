@@ -37,9 +37,11 @@ namespace ScamBuster.Droid.Services
         private ScamText[] scamTexts;
         private ScammerPhoneNumber[] scamNumbers;
         private readonly Regex linkParser = new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-        private readonly List<UrlSafetyCheckResponseFull> responses = new List<UrlSafetyCheckResponseFull>();
+        private readonly List<UrlSafetyCheckResponseFull> urlSafetyResponses = new List<UrlSafetyCheckResponseFull>();
+        private readonly List<PhishingCheckResponse> phishingResponses = new List<PhishingCheckResponse>();
         private double recentDangerLevel = 0;
         private bool checkingURL = false;
+        private readonly DomainApi domainApi = new DomainApi();
 
 		public override void OnCreate()
         {
@@ -50,17 +52,20 @@ namespace ScamBuster.Droid.Services
 			scamNumbers = new CsvReader(new StreamReader(Assets.Open("ScamPhoneNumber.csv")), configuration).GetRecords<ScammerPhoneNumber>().ToArray();
 			Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
 			Forms.Init(this, null);
+            void CheckSafety(bool cleanURL)
+            {
+				if (!cleanURL)
+					FloatingNotifier.instance.NotifiedURLSafety();
+				else
+					FloatingNotifier.instance.NotifiedDangerLevel(recentDangerLevel);
+			}
 			Device.StartTimer(TimeSpan.FromSeconds(2), () => { 
-                if(responses.Count > 0 && !checkingURL)
+                if(phishingResponses.Count > 0 && !checkingURL)
                 {
                     checkingURL = true;
-                    responses.ForEach(response => {
-                        if (!(bool)response.CleanURL)
-                            FloatingNotifier.instance.NotifiedURLSafety();
-                        else
-                            FloatingNotifier.instance.NotifiedDangerLevel(recentDangerLevel);
-					});
-                    responses.Clear();
+                    urlSafetyResponses.ForEach(response => CheckSafety((bool)response.CleanURL));
+					phishingResponses.ForEach(response => CheckSafety((bool)response.CleanURL));
+					phishingResponses.Clear();
                     recentDangerLevel = 0;
                     checkingURL = false;
 				}
@@ -113,8 +118,10 @@ namespace ScamBuster.Droid.Services
                 {
                     new Thread(new ThreadStart(async delegate
                     {
-                        var response = await CheckURLSafety(match.Value);
-                        responses.Add(response);
+                        UrlSafetyCheckResponseFull urlSafetyResponse = await domainApi.DomainSafetyCheckAsync(new UrlSafetyCheckRequestFull(match.Value));
+                        PhishingCheckResponse phishingResponse = await domainApi.DomainPhishingCheckAsync(new PhishingCheckRequest(match.Value));
+                        urlSafetyResponses.Add(urlSafetyResponse);
+                        phishingResponses.Add(phishingResponse);
                     })).Start();
                     checkURL = true;
                 }
@@ -177,8 +184,6 @@ namespace ScamBuster.Droid.Services
             int stepsToSame = ComputeLevenshteinDistance(source, target);
             return 1.0 - ((double)stepsToSame / (double)Math.Max(source.Length, target.Length));
         }
-
-        private async Task<UrlSafetyCheckResponseFull> CheckURLSafety(string link) => new DomainApi().DomainSafetyCheck(new UrlSafetyCheckRequestFull(link));
 
         public void SendNotification(string sender, string message)
 		{
