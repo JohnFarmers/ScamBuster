@@ -6,19 +6,9 @@ using Android.OS;
 using Android.Content;
 using AndroidX.Core.App;
 using Android.Provider;
-using Android;
 using ScamBuster.Droid.Services;
 using Google.Android.Material.BottomNavigation;
 using ScamBuster.Droid.Resources;
-using Android.Widget;
-using Android.Views;
-using AndroidX.Fragment.App;
-using AndroidX.Core.Content;
-using AndroidX.ViewPager.Widget;
-using Google.Android.Material.Tabs;
-using Xamarin.Forms;
-using Java.Util.Zip;
-using System.ComponentModel;
 
 namespace ScamBuster.Droid
 {
@@ -32,6 +22,7 @@ namespace ScamBuster.Droid
         public static bool isProtected = true;
         public static bool isNLservice = false;
         public static bool isPCL = false;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);

@@ -46,7 +46,6 @@ namespace ScamBuster.Droid.Services
 			Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
 			Forms.Init(this, null);
 			Device.StartTimer(TimeSpan.FromSeconds(3), () => {
-				FloatingNotifier.instance.floatingView.Visibility = ViewStates.Visible;
 				bool DangerUrl(bool[] results)
 				{
 					foreach (var cleanUrl in results)
