@@ -30,18 +30,18 @@ namespace ScamBuster.Droid.Services
     [IntentFilter(new[] { "android.service.notification.NotificationListenerService" })]
     public class NLService : NotificationListenerService
     {
-        public static NLService instance;
-        private const string channelID = "ScamBuster";
-        private const string packageName = "com.potatolab.scambuster";
-        private const string androidPackageName = "android";
-        private ScamText[] scamTexts;
-        private ScammerPhoneNumber[] scamNumbers;
-        private readonly Regex linkParser = new Regex(@"\b(?:https?://|www\.)\S+\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-        private readonly List<UrlSafetyCheckResponseFull> urlSafetyResponses = new List<UrlSafetyCheckResponseFull>();
-        private readonly List<PhishingCheckResponse> phishingResponses = new List<PhishingCheckResponse>();
-        private double recentDangerLevel = 0;
-        private bool checkingURL = false;
-        private readonly DomainApi domainApi = new DomainApi();
+		public static NLService instance;
+		private const string channelID = "ScamBuster";
+		private const string packageName = "com.potatolab.scambuster";
+		private const string androidPackageName = "android";
+		private ScamText[] scamTexts;
+		private ScammerPhoneNumber[] scamNumbers;
+		private readonly Regex httpExtract = new Regex("(http(s)?://)?([\\w-]+\\.)+[\\w-]+[.com]+(/[/?%&=]*)?", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+		private readonly List<UrlSafetyCheckResponseFull> urlSafetyResponses = new List<UrlSafetyCheckResponseFull>();
+		private readonly List<PhishingCheckResponse> phishingResponses = new List<PhishingCheckResponse>();
+		private double recentDangerLevel = 0;
+		private bool checkingURL = false;
+		private readonly DomainApi domainApi = new DomainApi();
 
 		public override void OnCreate()
         {
@@ -74,7 +74,19 @@ namespace ScamBuster.Droid.Services
 			System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
 		}
 
-        public override void OnDestroy()
+		public override void OnListenerConnected()
+		{
+			MainActivity.isNLservice = true;
+			base.OnListenerConnected();
+		}
+
+		public override void OnListenerDisconnected()
+		{
+			MainActivity.isNLservice = false;
+			base.OnListenerDisconnected();
+		}
+
+		public override void OnDestroy()
         {
             base.OnDestroy();
             if(instance == this)
@@ -91,67 +103,58 @@ namespace ScamBuster.Droid.Services
             return base.OnUnbind(intent);
         }
 
-        public override void OnNotificationPosted(StatusBarNotification sbn)
-        {
-            base.OnNotificationPosted(sbn);
-            if (sbn.Notification.Extras == null || sbn.PackageName == packageName || sbn.PackageName == androidPackageName)
-                return;
-            if (int.TryParse(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString(), out int incomingNumber))
-            {
-                foreach (ScammerPhoneNumber number in scamNumbers)
-                {
+		public override void OnNotificationPosted(StatusBarNotification sbn)
+		{
+			base.OnNotificationPosted(sbn);
+			if (sbn.Notification.Extras == null || sbn.PackageName == packageName || sbn.PackageName == androidPackageName)
+				return;
+			if (int.TryParse(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString(), out int incomingNumber))
+			{
+				foreach (ScammerPhoneNumber number in scamNumbers)
+				{
 					if (incomingNumber.ToString() == number.Number)
 					{
 						FloatingNotifier.instance.NotifiedPhoneNumberSafety(false);
 						return;
 					}
 				}
-                FloatingNotifier.instance.NotifiedPhoneNumberSafety(true);
-            }
-            else
-            {
-                string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
-                FloatingNotifier.instance.ShowCheckingLink(true);
-                bool checkURL = false;
-                foreach (Match match in linkParser.Matches(text).Cast<Match>())
-                {
-                    new Thread(new ThreadStart(async delegate
-                    {
-                        UrlSafetyCheckResponseFull urlSafetyResponse = await domainApi.DomainSafetyCheckAsync(new UrlSafetyCheckRequestFull(match.Value));
-                        PhishingCheckResponse phishingResponse = await domainApi.DomainPhishingCheckAsync(new PhishingCheckRequest(match.Value));
-                        urlSafetyResponses.Add(urlSafetyResponse);
-                        phishingResponses.Add(phishingResponse);
-                    })).Start();
-                    checkURL = true;
-                }
-                double susLevel = 0;
-                foreach (ScamText scam in scamTexts)
-                {
-                    double _susLevel = CalculateSimilarity(text.ToLower(), scam.Text.ToLower());
-                    susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
-                }
-                double dangerPrecent = Math.Round(susLevel *= 100);
-                if (checkURL)
-                    recentDangerLevel = dangerPrecent;
-                else
-                    FloatingNotifier.instance?.NotifiedDangerLevel(dangerPrecent);
-            }
-        }
+				FloatingNotifier.instance.NotifiedPhoneNumberSafety(true);
+			}
+			else
+			{
+				string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
+				FloatingNotifier.instance.ShowCheckingLink(true);
+				bool checkURL = false;
+				foreach (string match in httpExtract.Matches(text).Cast<Match>().Select(m => m.Value).ToArray())
+				{
+					new Thread(new ThreadStart(async delegate
+					{
+						UrlSafetyCheckResponseFull urlSafetyResponse = await domainApi.DomainSafetyCheckAsync(new UrlSafetyCheckRequestFull(match));
+						PhishingCheckResponse phishingResponse = await domainApi.DomainPhishingCheckAsync(new PhishingCheckRequest(match));
+						urlSafetyResponses.Add(urlSafetyResponse);
+						phishingResponses.Add(phishingResponse);
+					})).Start();
+					checkURL = true;
+				}
+				double susLevel = 0;
+				foreach (ScamText scam in scamTexts)
+				{
+					double _susLevel = CalculateSimilarity(text.ToLower(), scam.Text.ToLower());
+					susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
+				}
+				double dangerPrecent = Math.Round(susLevel *= 100);
+				if (checkURL)
+					recentDangerLevel = dangerPrecent;
+				else
+					FloatingNotifier.instance?.NotifiedDangerLevel(dangerPrecent);
+			}
+		}
 
-        public override void OnNotificationRemoved(StatusBarNotification sbn)
+		public override void OnNotificationRemoved(StatusBarNotification sbn)
         {
             base.OnNotificationRemoved(sbn);
         }
-        public override void OnListenerConnected()
-        {
-            MainActivity.isNLservice = true;
-            base.OnListenerConnected();
-        }
-        public override void OnListenerDisconnected()
-        {
-            MainActivity.isNLservice = false;
-            base.OnListenerDisconnected();
-        }
+
         private int ComputeLevenshteinDistance(string source, string target)
         {
             if ((source == null) || (target == null)) return 0;
