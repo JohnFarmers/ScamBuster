@@ -5,10 +5,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ScamBuster.Droid.Services
@@ -19,7 +15,7 @@ namespace ScamBuster.Droid.Services
         public static FloatingNotifier instance;
         private IWindowManager windowManager;
         private WindowManagerLayoutParams layoutParams;
-        private View floatingView;
+        public View floatingView;
         private int initialX;
         private int initialY;
         private float initialTouchX;
