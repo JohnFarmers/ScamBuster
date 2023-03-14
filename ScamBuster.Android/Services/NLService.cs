@@ -36,11 +36,10 @@ namespace ScamBuster.Droid.Services
 		private const string androidPackageName = "android";
 		private ScamText[] scamTexts;
 		private ScammerPhoneNumber[] scamNumbers;
-		private readonly Regex httpExtract = new Regex("(http(s)?://)?([\\w-]+\\.)+[\\w-]+[.com]+(/[/?%&=]*)?", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+		private readonly Regex urlExtractRegex = new Regex("(http(s)?://)?([\\w-]+\\.)+[\\w-]+[.com]+(/[/?%&=]*)?", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 		private readonly List<UrlSafetyCheckResponseFull> urlSafetyResponses = new List<UrlSafetyCheckResponseFull>();
 		private readonly List<PhishingCheckResponse> phishingResponses = new List<PhishingCheckResponse>();
 		private double recentDangerLevel = 0;
-		private bool checkingURL = false;
 		private readonly DomainApi domainApi = new DomainApi();
 
 		public override void OnCreate()
@@ -52,23 +51,26 @@ namespace ScamBuster.Droid.Services
 			scamNumbers = new CsvReader(new StreamReader(Assets.Open("ScamPhoneNumber.csv")), configuration).GetRecords<ScammerPhoneNumber>().ToArray();
 			Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
 			Forms.Init(this, null);
-            void NotifyURLSafety(bool cleanURL)
-            {
-				if (!cleanURL)
-					FloatingNotifier.instance.NotifyDangerURL();
-				else
-					FloatingNotifier.instance.NotifyDangerLevel(recentDangerLevel);
-			}
-			Device.StartTimer(TimeSpan.FromSeconds(2), () => { 
-                if(phishingResponses.Count > 0 && !checkingURL)
+			Device.StartTimer(TimeSpan.FromSeconds(3), () => {
+				bool DangerUrl(bool[] results)
+				{
+					foreach (var cleanUrl in results)
+						if (!cleanUrl)
+							return true;
+					return false;
+				}
+				if (phishingResponses.Count > 0 && urlSafetyResponses.Count > 0)
                 {
-                    checkingURL = true;
-                    urlSafetyResponses.ForEach(response => NotifyURLSafety((bool)response.CleanURL));
-					phishingResponses.ForEach(response => NotifyURLSafety((bool)response.CleanURL));
+					List<bool> results = new List<bool>();
+                    urlSafetyResponses.ForEach(response => results.Add((bool)response.CleanURL));
+					phishingResponses.ForEach(response => results.Add((bool)response.CleanURL));
+					if (DangerUrl(results.ToArray()))
+						FloatingNotifier.instance.NotifyDangerURL();
+					else
+						FloatingNotifier.instance.NotifyDangerLevel(recentDangerLevel);
 					urlSafetyResponses.Clear();
 					phishingResponses.Clear();
-                    recentDangerLevel = 0;
-                    checkingURL = false;
+					recentDangerLevel = 0;
 				}
                 return true; 
             });
@@ -126,8 +128,9 @@ namespace ScamBuster.Droid.Services
 				string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
 				FloatingNotifier.instance.ShowCheckingLink(true);
 				bool checkURL = false;
-				foreach (string match in httpExtract.Matches(text).Cast<Match>().Select(m => m.Value).ToArray())
+				foreach (string match in urlExtractRegex.Matches(text).Cast<Match>().Select(m => m.Value).ToArray())
 				{
+					checkURL = true;
 					new Thread(new ThreadStart(async delegate
 					{
 						UrlSafetyCheckResponseFull urlSafetyResponse = await domainApi.DomainSafetyCheckAsync(new UrlSafetyCheckRequestFull(match));
@@ -135,7 +138,6 @@ namespace ScamBuster.Droid.Services
 						urlSafetyResponses.Add(urlSafetyResponse);
 						phishingResponses.Add(phishingResponse);
 					})).Start();
-					checkURL = true;
 				}
 				double susLevel = 0;
 				foreach (ScamText scam in scamTexts)
