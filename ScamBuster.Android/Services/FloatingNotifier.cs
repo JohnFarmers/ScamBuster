@@ -82,7 +82,7 @@ namespace ScamBuster.Droid.Services
             textView.Text = show ? "Checking URL safety..." : string.Empty;
 		}
 
-        public async void NotifiedDangerLevel(double percent)
+        public async void NotifyDangerLevel(double percent)
 		{
             textContainer.Visibility = ViewStates.Visible;
             textView.Text = percent >= 50 ? $"BE CAREFUL! The recent message has {percent}% danger level!" : $"SAFE! The recent message has {percent}% danger level, but ALWAY STAY CAUTIOUS!";
@@ -91,7 +91,7 @@ namespace ScamBuster.Droid.Services
             textView.Text = string.Empty;
         }
 
-		public async void NotifiedURLSafety()
+		public async void NotifyDangerURL()
 		{
 			textContainer.Visibility = ViewStates.Visible;
 			textView.Text = "BE CAREFUL! The recent message contains DANGEROUS URL!";
@@ -100,7 +100,7 @@ namespace ScamBuster.Droid.Services
 			textView.Text = string.Empty;
 		}
 
-        public async void NotifiedPhoneNumberSafety(bool safe)
+        public async void NotifyPhoneNumberSafety(bool safe)
         {
             textContainer.Visibility = ViewStates.Visible;
             textView.Text = safe ? "SAFE! The incoming number does not have any record of being dangerous, but ALWAY STAY CAUTIOUS!" : "BE CAREFUL! The incoming number has a record of being DANGER!";
