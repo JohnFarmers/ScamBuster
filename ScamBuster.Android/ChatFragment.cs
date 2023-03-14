@@ -16,9 +16,15 @@ namespace ScamBuster.Droid
     public class ChatFragment : AndroidX.Fragment.App.Fragment
     {
         View view;
+        ListView ChatList;
+        public static List<String> ChatListItems = new List<String>();
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             view = inflater.Inflate(Resource.Layout.Chats_Fragment, container, false);
+            ChatListItems.Add("Chat");
+            ChatList = view.FindViewById<ListView>(Resource.Id.ChatlistView1);
+            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Context, Resource.Layout.List, Resource.Id.ListText, ChatListItems.ToArray());
+            ChatList.SetAdapter(arrayAdapter);
             return view;
         }
     }

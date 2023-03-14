@@ -15,8 +15,8 @@
         android:layout_marginBottom="0.0dp"
         android:layout_alignParentBottom="true"
         app:labelVisibilityMode="labeled"
-        app:itemTextColor="@color/BrightGreen"
-        app:itemIconTint="@color/BrightGreen"
+        app:itemTextColor="@color/White"
+        app:itemIconTint="@color/White"
         app:itemIconSize="20dp"
         app:elevation="10dp">
     </com.google.android.material.bottomnavigation.BottomNavigationView>

@@ -15,8 +15,8 @@ namespace ScamBuster.Droid
 {
     public class ViewPagerAdapter : FragmentPagerAdapter
     {
-        List<AndroidX.Fragment.App.Fragment> fragments { get; set; }
-        List<string> fragmentNames { get; set; }
+        List<AndroidX.Fragment.App.Fragment> fragments;
+        List<string> fragmentNames;
         public ViewPagerAdapter(AndroidX.Fragment.App.FragmentManager fragmentManager) : base(fragmentManager)
         {
             fragments = new List<AndroidX.Fragment.App.Fragment>();
@@ -43,7 +43,7 @@ namespace ScamBuster.Droid
             switch(position)
             {
                 case 0:
-                    return new Java.Lang.String("Calls");
+                    return new Java.Lang.String("Chats");
                 case 1:
                     return new Java.Lang.String("Phone Numbers");
                 case 2:

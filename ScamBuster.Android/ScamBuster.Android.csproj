@@ -201,5 +201,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Links_Fragment.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\List.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

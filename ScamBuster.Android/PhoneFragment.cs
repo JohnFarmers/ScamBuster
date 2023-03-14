@@ -16,9 +16,14 @@ namespace ScamBuster.Droid
     public class PhoneFragment : AndroidX.Fragment.App.Fragment
     {
         View view;
+        ListView PhoneList;
+        public static List<String> PhoneListItems = new List<String>();
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             view = inflater.Inflate(Resource.Layout.Phones_Fragment, container, false);
+            PhoneList = view.FindViewById<ListView>(Resource.Id.PhoneListView1);
+            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Context, Resource.Layout.List, Resource.Id.ListText, PhoneListItems.ToArray());
+            PhoneList.SetAdapter(arrayAdapter);
             return view;
         }
     }

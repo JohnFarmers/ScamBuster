@@ -116,6 +116,7 @@ namespace ScamBuster.Droid.Services
 			{
 				foreach (ScammerPhoneNumber number in scamNumbers)
 				{
+					PhoneFragment.PhoneListItems.Add(number.ToString());
 					if (incomingNumber.ToString() == number.Number)
 					{
 						FloatingNotifier.instance.NotifyPhoneNumberSafety(false);
@@ -127,10 +128,12 @@ namespace ScamBuster.Droid.Services
 			else
 			{
 				string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
+				ChatFragment.ChatListItems.Add(text);
 				FloatingNotifier.instance.ShowCheckingLink(true);
 				bool checkURL = false;
 				foreach (string match in urlExtractRegex.Matches(text).Cast<Match>().Select(m => m.Value).ToArray())
 				{
+					LinkFragment.LinkListItems.Add(match);
 					checkURL = true;
 					new Thread(new ThreadStart(async delegate
 					{

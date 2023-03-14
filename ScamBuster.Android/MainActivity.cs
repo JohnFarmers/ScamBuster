@@ -14,6 +14,11 @@ using Android.Widget;
 using Android.Views;
 using AndroidX.Fragment.App;
 using AndroidX.Core.Content;
+using AndroidX.ViewPager.Widget;
+using Google.Android.Material.Tabs;
+using Xamarin.Forms;
+using Java.Util.Zip;
+using System.ComponentModel;
 
 namespace ScamBuster.Droid
 {
@@ -25,7 +30,6 @@ namespace ScamBuster.Droid
         public static bool isProtected = true;
         public static bool isNLservice = false;
         public static bool isPCL = false;
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -89,5 +93,6 @@ namespace ScamBuster.Droid
             }
             frag.Commit();
         }
+
     }
 }

@@ -19,6 +19,7 @@ namespace ScamBuster.Droid
             textView1 = view.FindViewById<TextView>(Resource.Id.textView1);
             textView2 = view.FindViewById<TextView>(Resource.Id.textView2);
             relativeLayout = view.FindViewById<RelativeLayout>(Resource.Id.relativeLayout1);
+            MainActivity.isProtected = MainActivity.isNLservice && MainActivity.isPCL;
             Console.WriteLine(MainActivity.isProtected);
             if(MainActivity.isProtected ==  false)
             {
