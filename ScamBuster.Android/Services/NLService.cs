@@ -71,6 +71,7 @@ namespace ScamBuster.Droid.Services
 				}
                 return true; 
             });
+            MainActivity.isNLservice = true;
 			System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
 		}
 

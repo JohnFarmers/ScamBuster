@@ -1,14 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:minWidth="25px"
     android:minHeight="25px"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:text="Detection"
+    <com.google.android.material.tabs.TabLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="@color/White"
+        app:tabBackground="@color/BlackBackground"
+        app:tabIndicatorColor="@color/BrightGreen"
+        app:tabSelectedTextColor="@color/BrightGreen"
+        android:id="@+id/tabLayout1" >
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chats"
+            android:visibility="visible"
+            android:id="@+id/tabItem1" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Numbers"
+            android:visibility="visible"
+            android:id="@+id/tabItem2" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Links"
+            android:visibility="visible"
+            android:id="@+id/tabItem3" />
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:id="@+id/textView1" />
+        android:layout_below="@id/tabLayout1"
+        android:id="@+id/viewPager1" />
+
+
 </RelativeLayout>

@@ -78,6 +78,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ViewPagerAdapter.cs" />
+    <Compile Include="ChatFragment.cs" />
+    <Compile Include="LinkFragment.cs" />
+    <Compile Include="PhoneFragment.cs" />
     <Compile Include="HomeFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="DetectionFragment.cs" />
@@ -187,6 +191,15 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Chats_Fragment.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Phones_Fragment.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Links_Fragment.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
