@@ -66,7 +66,6 @@ namespace ScamBuster.Droid.Services
 				}
                 return true; 
             });
-            MainActivity.isNLservice = true;
 			System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
 		}
 
@@ -136,7 +135,16 @@ namespace ScamBuster.Droid.Services
         {
             base.OnNotificationRemoved(sbn);
         }
-
+        public override void OnListenerConnected()
+        {
+            MainActivity.isNLservice = true;
+            base.OnListenerConnected();
+        }
+        public override void OnListenerDisconnected()
+        {
+            MainActivity.isNLservice = false;
+            base.OnListenerDisconnected();
+        }
         private int ComputeLevenshteinDistance(string source, string target)
         {
             if ((source == null) || (target == null)) return 0;

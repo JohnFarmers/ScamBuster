@@ -51,7 +51,7 @@ namespace ScamBuster.Droid
 
         private void InitializeService()
         {
-            isPCL = false; isNLservice = false;
+            isPCL = false;
 			StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), REQUEST_CODE);
 			StartService(new Intent(this, typeof(FloatingNotifier)));
 			ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE" }, 123);
@@ -89,6 +89,5 @@ namespace ScamBuster.Droid
             }
             frag.Commit();
         }
-
     }
 }
