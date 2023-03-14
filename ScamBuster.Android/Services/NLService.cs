@@ -52,19 +52,20 @@ namespace ScamBuster.Droid.Services
 			scamNumbers = new CsvReader(new StreamReader(Assets.Open("ScamPhoneNumber.csv")), configuration).GetRecords<ScammerPhoneNumber>().ToArray();
 			Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
 			Forms.Init(this, null);
-            void CheckSafety(bool cleanURL)
+            void NotifyURLSafety(bool cleanURL)
             {
 				if (!cleanURL)
-					FloatingNotifier.instance.NotifiedURLSafety();
+					FloatingNotifier.instance.NotifyDangerURL();
 				else
-					FloatingNotifier.instance.NotifiedDangerLevel(recentDangerLevel);
+					FloatingNotifier.instance.NotifyDangerLevel(recentDangerLevel);
 			}
 			Device.StartTimer(TimeSpan.FromSeconds(2), () => { 
                 if(phishingResponses.Count > 0 && !checkingURL)
                 {
                     checkingURL = true;
-                    urlSafetyResponses.ForEach(response => CheckSafety((bool)response.CleanURL));
-					phishingResponses.ForEach(response => CheckSafety((bool)response.CleanURL));
+                    urlSafetyResponses.ForEach(response => NotifyURLSafety((bool)response.CleanURL));
+					phishingResponses.ForEach(response => NotifyURLSafety((bool)response.CleanURL));
+					urlSafetyResponses.Clear();
 					phishingResponses.Clear();
                     recentDangerLevel = 0;
                     checkingURL = false;
@@ -114,11 +115,11 @@ namespace ScamBuster.Droid.Services
 				{
 					if (incomingNumber.ToString() == number.Number)
 					{
-						FloatingNotifier.instance.NotifiedPhoneNumberSafety(false);
+						FloatingNotifier.instance.NotifyPhoneNumberSafety(false);
 						return;
 					}
 				}
-				FloatingNotifier.instance.NotifiedPhoneNumberSafety(true);
+				FloatingNotifier.instance.NotifyPhoneNumberSafety(true);
 			}
 			else
 			{
@@ -146,7 +147,7 @@ namespace ScamBuster.Droid.Services
 				if (checkURL)
 					recentDangerLevel = dangerPrecent;
 				else
-					FloatingNotifier.instance?.NotifiedDangerLevel(dangerPrecent);
+					FloatingNotifier.instance?.NotifyDangerLevel(dangerPrecent);
 			}
 		}
 
