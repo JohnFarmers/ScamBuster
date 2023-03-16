@@ -52,6 +52,7 @@ namespace ScamBuster.Droid
                 try
                 {
                     Client.Send(Message);
+                    BodyText.Text = string.Empty;
                     Console.WriteLine("Done!");
                 }
                 catch

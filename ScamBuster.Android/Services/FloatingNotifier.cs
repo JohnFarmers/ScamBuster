@@ -74,45 +74,54 @@ namespace ScamBuster.Droid.Services
 
         public void ShowCheckingLink(bool show)
         {
+            floatingView.Visibility = ViewStates.Visible;
 			textContainer.Visibility = show ? ViewStates.Visible : ViewStates.Invisible;
             textView.Text = show ? "Checking URL safety..." : string.Empty;
 		}
 
         public async void NotifyDangerLevel(double percent)
 		{
-            textContainer.Visibility = ViewStates.Visible;
+			floatingView.Visibility = ViewStates.Visible;
+			textContainer.Visibility = ViewStates.Visible;
             textView.Text = percent >= 50 ? $"BE CAREFUL! The recent message has {percent}% danger level!" : $"SAFE! The recent message has {percent}% danger level, but ALWAY STAY CAUTIOUS!";
             await Task.Delay(notifyDuration);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;
+            floatingView.Visibility = ViewStates.Invisible;
         }
 
 		public async void NotifyDangerURL()
 		{
+			floatingView.Visibility = ViewStates.Visible;
 			textContainer.Visibility = ViewStates.Visible;
 			textView.Text = "BE CAREFUL! The recent message contains DANGEROUS URL!";
 			await Task.Delay(notifyDuration);
 			textContainer.Visibility = ViewStates.Invisible;
 			textView.Text = string.Empty;
+			floatingView.Visibility = ViewStates.Invisible;
 		}
 
         public async void NotifyPhoneNumberSafety(bool safe)
         {
-            textContainer.Visibility = ViewStates.Visible;
+			floatingView.Visibility = ViewStates.Visible;
+			textContainer.Visibility = ViewStates.Visible;
             textView.Text = safe ? "SAFE! The incoming number does not have any record of being dangerous, but ALWAY STAY CAUTIOUS!" : "BE CAREFUL! The incoming number has a record of being DANGER!";
             await Task.Delay(notifyDuration);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;
-        }
+			floatingView.Visibility = ViewStates.Invisible;
+		}
 
 		public async void Notify(object text)
         {
-            textContainer.Visibility = ViewStates.Visible;
+			floatingView.Visibility = ViewStates.Visible;
+			textContainer.Visibility = ViewStates.Visible;
             textView.Text = text.ToString();
             await Task.Delay(3000);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;
-        }
+			floatingView.Visibility = ViewStates.Invisible;
+		}
 
         private void SetTouchListener()
         {
