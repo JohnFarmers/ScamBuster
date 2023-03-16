@@ -18,11 +18,10 @@ namespace ScamBuster.Droid
     {
         View view;
         Button button;
-        EditText TopicText, BodyText;
+        EditText BodyText;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             view = inflater.Inflate(Resource.Layout.Report_Layout, container, false);
-            TopicText = view.FindViewById<EditText>(Resource.Id.textInputEditText1);
             BodyText = view.FindViewById<EditText>(Resource.Id.textInputEditText2);
             button = view.FindViewById<Button>(Resource.Id.submit_button);
             button.Click += delegate
@@ -45,7 +44,7 @@ namespace ScamBuster.Droid
                 MailMessage Message = new MailMessage()
                 {
                     From = FromEmail,
-                    Subject = TopicText.Text,
+                    Subject = "ScamBuster",
                     Body = BodyText.Text,
 
                 };
