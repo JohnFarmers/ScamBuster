@@ -18,4 +18,4 @@ NSTDA shall not be respons ible to the user for taking care,
 maintaining, training or developing the efficiency of this software.
 Moreover, NSTDA shall not be liable for any error, software efficiency
 and damages in connection with or arising out of the use of the
-software.”
+software.
