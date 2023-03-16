@@ -15,7 +15,7 @@ namespace ScamBuster.Droid.Services
         public static FloatingNotifier instance;
         private IWindowManager windowManager;
         private WindowManagerLayoutParams layoutParams;
-        public View floatingView;
+        private View floatingView;
         private int initialX;
         private int initialY;
         private float initialTouchX;
