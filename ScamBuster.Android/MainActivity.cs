@@ -6,30 +6,23 @@ using Android.OS;
 using Android.Content;
 using AndroidX.Core.App;
 using Android.Provider;
-using Android;
 using ScamBuster.Droid.Services;
 using Google.Android.Material.BottomNavigation;
 using ScamBuster.Droid.Resources;
-using Android.Widget;
-using Android.Views;
-using AndroidX.Fragment.App;
-using AndroidX.Core.Content;
-using AndroidX.ViewPager.Widget;
-using Google.Android.Material.Tabs;
-using Xamarin.Forms;
-using Java.Util.Zip;
-using System.ComponentModel;
 
 namespace ScamBuster.Droid
 {
     [Activity(Label = "ScamBuster", Icon = "@drawable/icon_scambuster", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        public static int REQUEST_CODE = 9999;
+        public const int notifierRequestCode = 1111;
+        public const int nlServiceRequestCode = 2222;
+        public const int phoneNumberRequestCode = 3333;
         public static BottomNavigationView bottomnavigation;
         public static bool isProtected = true;
         public static bool isNLservice = false;
         public static bool isPCL = false;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -43,7 +36,7 @@ namespace ScamBuster.Droid
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-            if (requestCode == 123 && grantResults.Length > 0 && grantResults[0] == Permission.Granted)
+            if (requestCode == phoneNumberRequestCode && grantResults.Length > 0 && grantResults[0] == Permission.Granted)
             {
                 StartService(new Intent(this, typeof(PhoneCallListener)));
                 isPCL = true;
@@ -53,16 +46,18 @@ namespace ScamBuster.Droid
             LoadFragment(Resource.Id.Home);
         }
 
-        private void InitializeService()
-        {
-            isPCL = false;
-			StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), REQUEST_CODE);
+		private void InitializeService()
+		{
+			isPCL = false;
+			StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), notifierRequestCode);
+			SetContentView(Resource.Layout.Main);
 			StartService(new Intent(this, typeof(FloatingNotifier)));
-			ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE" }, 123);
-			StartActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
+			ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE" }, phoneNumberRequestCode);
+			StartActivityForResult(new Intent(Settings.ActionNotificationListenerSettings), nlServiceRequestCode);
+			StartService(new Intent(this, typeof(NLService)));
 		}
 
-        private void InitalizeHomePage()
+		private void InitalizeHomePage()
         {
 			SetContentView(Resource.Layout.Main);
 			bottomnavigation = (BottomNavigationView)FindViewById(Resource.Id.bottomNavigationView1);

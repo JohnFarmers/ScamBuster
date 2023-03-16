@@ -1,26 +1,20 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
 using Android.Views;
-using Android.Widget;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Android.Service.Notification;
 using AndroidX.Core.App;
 using CsvHelper;
 using System.IO;
 using CsvHelper.Configuration;
 using System.Globalization;
-using System.Reflection;
-using Xamarin.Essentials;
 using Cloudmersive.APIClient.NETCore.Validate.Api;
 using Cloudmersive.APIClient.NETCore.Validate.Client;
 using Cloudmersive.APIClient.NETCore.Validate.Model;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Threading;
 using Xamarin.Forms;
 
@@ -112,11 +106,12 @@ namespace ScamBuster.Droid.Services
 			base.OnNotificationPosted(sbn);
 			if (sbn.Notification.Extras == null || sbn.PackageName == packageName || sbn.PackageName == androidPackageName)
 				return;
+			PhoneFragment.PhoneListItems.Add(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString());
 			if (int.TryParse(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString(), out int incomingNumber))
 			{
+				PhoneFragment.PhoneListItems.Add(incomingNumber.ToString());
 				foreach (ScammerPhoneNumber number in scamNumbers)
 				{
-					PhoneFragment.PhoneListItems.Add(number.ToString());
 					if (incomingNumber.ToString() == number.Number)
 					{
 						FloatingNotifier.instance.NotifyPhoneNumberSafety(false);
