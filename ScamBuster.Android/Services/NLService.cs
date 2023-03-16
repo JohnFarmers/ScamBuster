@@ -70,12 +70,12 @@ namespace ScamBuster.Droid.Services
             });
             MainActivity.isNLservice = true;
 			System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
-			FloatingNotifier.instance?.Notify("Ready!");
 		}
 
 		public override void OnListenerConnected()
 		{
 			MainActivity.isNLservice = true;
+			FloatingNotifier.instance?.Notify("Ready!");
 			base.OnListenerConnected();
 		}
 

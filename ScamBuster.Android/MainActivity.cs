@@ -59,7 +59,6 @@ namespace ScamBuster.Droid
 
 		private void InitalizeHomePage()
         {
-			SetContentView(Resource.Layout.Main);
 			bottomnavigation = (BottomNavigationView)FindViewById(Resource.Id.bottomNavigationView1);
 			bottomnavigation.NavigationItemSelected += NavigationItemSelected;
 			LoadFragment(Resource.Id.Home);
