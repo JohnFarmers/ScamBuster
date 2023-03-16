@@ -12,4 +12,16 @@
         android:enabled="true"
         android:icon="@drawable/detections_active"
         android:showAsAction="ifRoom"/>
+	<item
+		android:id="@+id/report"
+        android:title="Report"
+        android:enabled="true"
+        android:icon="@drawable/Report"
+        android:showAsAction="ifRoom"/>
+	<item
+         android:id="@+id/disclaimer"
+         android:title="Disclaimer"
+		 android:enabled="true"
+		 android:icon="@drawable/icon_about"
+         android:showAsAction="ifRoom"/>
 </menu>

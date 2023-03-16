@@ -90,6 +90,16 @@ namespace ScamBuster.Droid
                     frag.Replace(Resource.Id.content_frame, detectionFragment);
                     Console.WriteLine("Changed Detection!");
                     break;
+                case Resource.Id.report:
+                    ReportFragment reportFragment = new ReportFragment();
+                    frag.Replace(Resource.Id.content_frame, reportFragment);
+                    Console.WriteLine("Changed Report!");
+                    break;
+                case Resource.Id.disclaimer:
+                    DisclaimerFragment disclaimerFragment = new DisclaimerFragment();
+                    frag.Replace(Resource.Id.content_frame, disclaimerFragment);
+                    Console.WriteLine("disclaimer!"); 
+                    break;
             }
             frag.Commit();
         }
