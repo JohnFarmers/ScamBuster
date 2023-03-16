@@ -42,7 +42,7 @@ namespace ScamBuster.Droid.Services
                 base.OnCallStateChanged(state, incomingNumber);
                 if (state == CallState.Ringing)
                 {
-                    FloatingNotifier.instance.Notify(incomingNumber);
+                    FloatingNotifier.instance?.Notify(incomingNumber);
                 }
             }
         }

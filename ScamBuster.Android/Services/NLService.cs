@@ -59,9 +59,9 @@ namespace ScamBuster.Droid.Services
                     urlSafetyResponses.ForEach(response => results.Add((bool)response.CleanURL));
 					phishingResponses.ForEach(response => results.Add((bool)response.CleanURL));
 					if (DangerUrl(results.ToArray()))
-						FloatingNotifier.instance.NotifyDangerURL();
+						FloatingNotifier.instance?.NotifyDangerURL();
 					else
-						FloatingNotifier.instance.NotifyDangerLevel(recentDangerLevel);
+						FloatingNotifier.instance?.NotifyDangerLevel(recentDangerLevel);
 					urlSafetyResponses.Clear();
 					phishingResponses.Clear();
 					recentDangerLevel = 0;
@@ -70,6 +70,7 @@ namespace ScamBuster.Droid.Services
             });
             MainActivity.isNLservice = true;
 			System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
+			FloatingNotifier.instance?.Notify("Ready!");
 		}
 
 		public override void OnListenerConnected()
@@ -114,17 +115,17 @@ namespace ScamBuster.Droid.Services
 				{
 					if (incomingNumber.ToString() == number.Number)
 					{
-						FloatingNotifier.instance.NotifyPhoneNumberSafety(false);
+						FloatingNotifier.instance?.NotifyPhoneNumberSafety(false);
 						return;
 					}
 				}
-				FloatingNotifier.instance.NotifyPhoneNumberSafety(true);
+				FloatingNotifier.instance?.NotifyPhoneNumberSafety(true);
 			}
 			else
 			{
 				string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
 				ChatFragment.ChatListItems.Add(text);
-				FloatingNotifier.instance.ShowCheckingLink(true);
+				FloatingNotifier.instance?.ShowCheckingLink(true);
 				bool checkURL = false;
 				foreach (string match in urlExtractRegex.Matches(text).Cast<Match>().Select(m => m.Value).ToArray())
 				{
