@@ -34,6 +34,7 @@ namespace ScamBuster.Droid.Services
 		private readonly List<UrlSafetyCheckResponseFull> urlSafetyResponses = new List<UrlSafetyCheckResponseFull>();
 		private readonly List<PhishingCheckResponse> phishingResponses = new List<PhishingCheckResponse>();
 		private double recentDangerLevel = 0;
+		private string recentText = string.Empty;
 		private readonly DomainApi domainApi = new DomainApi();
 
 		public override void OnCreate()
@@ -61,10 +62,14 @@ namespace ScamBuster.Droid.Services
 					if (DangerUrl(results.ToArray()))
 						FloatingNotifier.instance?.NotifyDangerURL();
 					else
+					{
 						FloatingNotifier.instance?.NotifyDangerLevel(recentDangerLevel);
+						ChatFragment.ChatListItems.Add(string.Concat(recentText, " (", recentDangerLevel, "% danger)"));
+					}
 					urlSafetyResponses.Clear();
 					phishingResponses.Clear();
 					recentDangerLevel = 0;
+					recentText = string.Empty;
 				}
                 return true; 
             });
@@ -107,24 +112,23 @@ namespace ScamBuster.Droid.Services
 			base.OnNotificationPosted(sbn);
 			if (sbn.Notification.Extras == null || sbn.PackageName == packageName || sbn.PackageName == androidPackageName)
 				return;
-			PhoneFragment.PhoneListItems.Add(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString());
 			if (int.TryParse(sbn.Notification.Extras.GetCharSequence(Notification.ExtraTitle).ToString(), out int incomingNumber))
 			{
-				PhoneFragment.PhoneListItems.Add(incomingNumber.ToString());
 				foreach (ScammerPhoneNumber number in scamNumbers)
 				{
 					if (incomingNumber.ToString() == number.Number)
 					{
 						FloatingNotifier.instance?.NotifyPhoneNumberSafety(false);
+						PhoneFragment.PhoneListItems.Add(string.Concat(incomingNumber.ToString(), " (Danger)"));
 						return;
 					}
 				}
 				FloatingNotifier.instance?.NotifyPhoneNumberSafety(true);
+				PhoneFragment.PhoneListItems.Add(string.Concat(incomingNumber.ToString(), " (Safe)"));
 			}
 			else
 			{
 				string text = sbn.Notification.Extras.GetCharSequence(Notification.ExtraText).ToString();
-				ChatFragment.ChatListItems.Add(text);
 				FloatingNotifier.instance?.ShowCheckingLink(true);
 				bool checkURL = false;
 				foreach (string match in urlExtractRegex.Matches(text).Cast<Match>().Select(m => m.Value).ToArray())
@@ -147,9 +151,16 @@ namespace ScamBuster.Droid.Services
 				}
 				double dangerPrecent = Math.Round(susLevel *= 100);
 				if (checkURL)
+				{
 					recentDangerLevel = dangerPrecent;
+					recentText = text;
+				}
 				else
+				{
 					FloatingNotifier.instance?.NotifyDangerLevel(dangerPrecent);
+					ChatFragment.ChatListItems.Add(string.Concat(text, " (", dangerPrecent, "% danger)"));
+				}
+				
 			}
 		}
 
