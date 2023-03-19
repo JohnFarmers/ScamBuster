@@ -9,6 +9,7 @@ using Android.Provider;
 using ScamBuster.Droid.Services;
 using Google.Android.Material.BottomNavigation;
 using ScamBuster.Droid.Resources;
+using Android.Views;
 
 namespace ScamBuster.Droid
 {
@@ -78,7 +79,7 @@ namespace ScamBuster.Droid
                     HomeFragment homeFragment = new HomeFragment();
                     frag.Replace(Resource.Id.content_frame, homeFragment);
                     Console.WriteLine("Changed Home!");
-                    break;
+					break;
                 case Resource.Id.detection:
                     DetectionFragment detectionFragment = new DetectionFragment();
                     frag.Replace(Resource.Id.content_frame, detectionFragment);
@@ -92,11 +93,14 @@ namespace ScamBuster.Droid
                 case Resource.Id.disclaimer:
                     DisclaimerFragment disclaimerFragment = new DisclaimerFragment();
                     frag.Replace(Resource.Id.content_frame, disclaimerFragment);
-                    Console.WriteLine("disclaimer!"); 
+                    Console.WriteLine("Changed Disclaimer!"); 
                     break;
             }
             frag.Commit();
-        }
+            if (isProtected && FloatingNotifier.instance != null)
+                FloatingNotifier.instance.SetVisibility(ViewStates.Visible);
+
+		}
 
     }
 }

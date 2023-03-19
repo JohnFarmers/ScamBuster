@@ -5,6 +5,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using System;
 using System.Threading.Tasks;
 
 namespace ScamBuster.Droid.Services
@@ -13,9 +14,9 @@ namespace ScamBuster.Droid.Services
     public class FloatingNotifier : Service, View.IOnTouchListener
     {
         public static FloatingNotifier instance;
+        public View floatingView;
         private IWindowManager windowManager;
         private WindowManagerLayoutParams layoutParams;
-        private View floatingView;
         private int initialX;
         private int initialY;
         private float initialTouchX;
@@ -23,8 +24,10 @@ namespace ScamBuster.Droid.Services
         private View textContainer;
         private TextView textView;
         private const int notifyDuration = 3000;
+        private int clickCount;
 
-        public override void OnCreate()
+
+		public override void OnCreate()
         {
             base.OnCreate();
             instance = this;
@@ -68,60 +71,74 @@ namespace ScamBuster.Droid.Services
                     layoutParams.Y = initialY + (int)(motion.RawY - initialTouchY);
                     windowManager.UpdateViewLayout(floatingView, layoutParams);
                     return true;
+                case MotionEventActions.Up:
+					if (clickCount < 1)
+					{
+						TimeSpan tt = new TimeSpan(0, 0, 0, 0, 500);
+						Xamarin.Forms.Device.StartTimer(tt, HandleDoubleTap);
+					}
+					clickCount++;
+					return true;
             }
             return false;
         }
 
+        private bool HandleDoubleTap()
+        {
+            if (clickCount > 1)
+                SetVisibility(ViewStates.Invisible);
+			clickCount = 0;
+			return false;
+		}
+
         public void ShowCheckingLink(bool show)
         {
-            floatingView.Visibility = ViewStates.Visible;
+            SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = show ? ViewStates.Visible : ViewStates.Invisible;
             textView.Text = show ? "Checking URL safety..." : string.Empty;
 		}
 
         public async void NotifyDangerLevel(double percent)
 		{
-			floatingView.Visibility = ViewStates.Visible;
+			SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = ViewStates.Visible;
             textView.Text = percent >= 50 ? $"BE CAREFUL! The recent message has {percent}% danger level!" : $"SAFE! The recent message has {percent}% danger level, but ALWAY STAY CAUTIOUS!";
             await Task.Delay(notifyDuration);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;
-            floatingView.Visibility = ViewStates.Invisible;
         }
 
 		public async void NotifyDangerURL()
 		{
-			floatingView.Visibility = ViewStates.Visible;
+			SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = ViewStates.Visible;
 			textView.Text = "BE CAREFUL! The recent message contains DANGEROUS URL!";
 			await Task.Delay(notifyDuration);
 			textContainer.Visibility = ViewStates.Invisible;
 			textView.Text = string.Empty;
-			floatingView.Visibility = ViewStates.Invisible;
 		}
 
         public async void NotifyPhoneNumberSafety(bool safe)
         {
-			floatingView.Visibility = ViewStates.Visible;
+			SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = ViewStates.Visible;
             textView.Text = safe ? "SAFE! The incoming number does not have any record of being dangerous, but ALWAY STAY CAUTIOUS!" : "BE CAREFUL! The incoming number has a record of being DANGER!";
             await Task.Delay(notifyDuration);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;
-			floatingView.Visibility = ViewStates.Invisible;
 		}
 
 		public async void Notify(object text)
         {
-			floatingView.Visibility = ViewStates.Visible;
+			SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = ViewStates.Visible;
             textView.Text = text.ToString();
             await Task.Delay(3000);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;
-			floatingView.Visibility = ViewStates.Invisible;
 		}
+
+        public void SetVisibility(ViewStates viewState) => floatingView.Visibility = viewState;
 
         private void SetTouchListener()
         {

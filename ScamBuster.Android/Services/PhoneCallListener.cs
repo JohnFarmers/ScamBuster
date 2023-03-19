@@ -5,10 +5,15 @@ using Android.Runtime;
 using Android.Telephony;
 using Android.Views;
 using Android.Widget;
+using CsvHelper.Configuration;
+using CsvHelper;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
+using Android.Content.Res;
 
 namespace ScamBuster.Droid.Services
 {
@@ -29,7 +34,7 @@ namespace ScamBuster.Droid.Services
         public override StartCommandResult OnStartCommand(Intent intent, StartCommandFlags flags, int startId)
         {
             base.OnStartCommand(intent, flags, startId);
-            var callDetector = new PhoneCallDetector();
+            var callDetector = new PhoneCallDetector(Assets);
             var tm = (TelephonyManager)base.GetSystemService(TelephonyService);
             tm.Listen(callDetector, PhoneStateListenerFlags.CallState);
             return StartCommandResult.Sticky;
@@ -37,16 +42,34 @@ namespace ScamBuster.Droid.Services
 
         public class PhoneCallDetector : PhoneStateListener
         {
+            public readonly ScammerPhoneNumber[] scamNumbers;
+
+			public PhoneCallDetector(AssetManager asset)
+            {
+				CsvConfiguration configuration = new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
+				scamNumbers = new CsvReader(new StreamReader(asset.Open("ScamPhoneNumber.csv")), configuration).GetRecords<ScammerPhoneNumber>().ToArray();
+			}
+
             public override void OnCallStateChanged(CallState state, string incomingNumber)
             {
                 base.OnCallStateChanged(state, incomingNumber);
                 if (state == CallState.Ringing)
                 {
-                    FloatingNotifier.instance?.Notify(incomingNumber);
-                }
+					foreach (ScammerPhoneNumber number in scamNumbers)
+					{
+						if (incomingNumber.ToString() == number.Number)
+						{
+							FloatingNotifier.instance?.NotifyPhoneNumberSafety(false);
+							PhoneFragment.PhoneListItems.Add(string.Concat(incomingNumber.ToString(), " (Danger)"));
+							return;
+						}
+					}
+					FloatingNotifier.instance?.NotifyPhoneNumberSafety(true);
+					PhoneFragment.PhoneListItems.Add(string.Concat(incomingNumber.ToString(), " (Safe)"));
+				}
             }
         }
 
-        private class ScammerPhoneNumber { public string Number { get; set; } }
+        public class ScammerPhoneNumber { public string Number { get; set; } }
     }
 }
