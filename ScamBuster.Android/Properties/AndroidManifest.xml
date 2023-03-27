@@ -8,6 +8,7 @@
 	<uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
 	<uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+	<uses-permission android:name="android.permission.READ_CALL_LOG" />
 	<application android:label="Scam Buster" android:theme="@style/MainTheme" android:icon="@drawable/icon_scambuster">
 		<service android:name="ScamBuster.NLService" android:label="NLService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
 			<intent-filter>

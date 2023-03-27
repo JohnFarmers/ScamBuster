@@ -53,7 +53,7 @@ namespace ScamBuster.Droid
 			StartActivityForResult(new Intent(Settings.ActionManageOverlayPermission), notifierRequestCode);
 			SetContentView(Resource.Layout.Main);
 			StartService(new Intent(this, typeof(FloatingNotifier)));
-			ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE" }, phoneNumberRequestCode);
+			ActivityCompat.RequestPermissions(this, new string[] { "android.permission.READ_PHONE_STATE", "android.permission.READ_CALL_LOG" }, phoneNumberRequestCode);
 			StartActivityForResult(new Intent(Settings.ActionNotificationListenerSettings), nlServiceRequestCode);
 			StartService(new Intent(this, typeof(NLService)));
 		}

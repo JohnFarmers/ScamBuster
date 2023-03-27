@@ -53,20 +53,21 @@ namespace ScamBuster.Droid.Services
             public override void OnCallStateChanged(CallState state, string incomingNumber)
             {
                 base.OnCallStateChanged(state, incomingNumber);
-                if (state == CallState.Ringing)
+				NLService.instance.phoneRinging = state == CallState.Ringing;
+				if (state == CallState.Ringing)
                 {
-					foreach (ScammerPhoneNumber number in scamNumbers)
-					{
-						if (incomingNumber.ToString() == number.Number)
-						{
-							FloatingNotifier.instance?.NotifyPhoneNumberSafety(false);
-							PhoneFragment.PhoneListItems.Add(string.Concat(incomingNumber.ToString(), " (Danger)"));
-							return;
-						}
-					}
-					FloatingNotifier.instance?.NotifyPhoneNumberSafety(true);
-					PhoneFragment.PhoneListItems.Add(string.Concat(incomingNumber.ToString(), " (Safe)"));
-				}
+                    foreach (ScammerPhoneNumber number in scamNumbers)
+                    {
+                        if (incomingNumber.ToString() == number.Number)
+                        {
+                            FloatingNotifier.instance?.NotifyPhoneNumberSafety(false);
+                            PhoneFragment.PhoneListItems.Add(string.Concat(incomingNumber.ToString(), " (Danger)"));
+                            return;
+                        }
+                    }
+                    FloatingNotifier.instance?.NotifyPhoneNumberSafety(true);
+                    PhoneFragment.PhoneListItems.Add(string.Concat(incomingNumber.ToString(), " (Safe)"));
+                }
             }
         }
 
