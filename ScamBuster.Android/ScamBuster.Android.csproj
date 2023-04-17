@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="ReportFragment.cs" />
     <Compile Include="DisclaimerFragment.cs" />
+    <Compile Include="TranslateExtension.cs" />
     <Compile Include="ViewPagerAdapter.cs" />
     <Compile Include="ChatFragment.cs" />
     <Compile Include="LinkFragment.cs" />
@@ -218,6 +219,24 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Disclaimer_Layout.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values-th\styles.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values-th\colors.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values-th\strings.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

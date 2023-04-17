@@ -34,7 +34,8 @@
         android:layout_marginBottom="10dp"
         android:layout_marginTop="14.5dp"
         android:textStyle="bold"
-        android:gravity="top"/>
+        android:gravity="top"
+        android:textAlignment="center" />
     <TextView
         android:text="@string/protected_desc"
         android:layout_width="wrap_content"
@@ -43,5 +44,6 @@
         android:layout_centerHorizontal="true"
         android:textSize="20sp"
         android:id="@+id/textView2"
-        android:layout_below="@+id/textView1" />
+        android:layout_below="@+id/textView1" 
+        android:textAlignment="center" />
 </RelativeLayout>

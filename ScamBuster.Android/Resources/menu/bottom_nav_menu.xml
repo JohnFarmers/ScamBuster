@@ -2,25 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/Home"
-        android:title="Home"
+        android:title="@string/home"
         android:enabled="true"
         android:icon="@drawable/home_active"
         android:showAsAction="ifRoom"/>
     <item
         android:id="@+id/detection"
-        android:title="Detections"
+        android:title="@string/detections"
         android:enabled="true"
         android:icon="@drawable/detections_active"
         android:showAsAction="ifRoom"/>
 	<item
 		android:id="@+id/report"
-        android:title="Report"
+        android:title="@string/report"
         android:enabled="true"
         android:icon="@drawable/Report"
         android:showAsAction="ifRoom"/>
 	<item
          android:id="@+id/disclaimer"
-         android:title="Disclaimer"
+         android:title="@string/disclaimer"
 		 android:enabled="true"
 		 android:icon="@drawable/icon_about"
          android:showAsAction="ifRoom"/>

@@ -95,14 +95,14 @@ namespace ScamBuster.Droid.Services
         {
             SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = show ? ViewStates.Visible : ViewStates.Invisible;
-            textView.Text = show ? "Checking URL safety..." : string.Empty;
+            textView.Text = show ? Resources.GetString(Resource.String.checking_url) : string.Empty;
 		}
 
         public async void NotifyDangerLevel(double percent)
 		{
 			SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = ViewStates.Visible;
-            textView.Text = percent >= 50 ? $"BE CAREFUL! The recent message has {percent}% danger level!" : $"SAFE! The recent message has {percent}% danger level, but ALWAY STAY CAUTIOUS!";
+            textView.Text = percent >= 50 ? string.Concat(Resources.GetString(Resource.String.danger_text), " ", percent, Resources.GetString(Resource.String.danger_level)) : string.Concat(Resources.GetString(Resource.String.safe_text), " ", percent, Resources.GetString(Resource.String.danger_level), Resources.GetString(Resource.String.stay_cautious));
             await Task.Delay(notifyDuration);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;
@@ -112,7 +112,7 @@ namespace ScamBuster.Droid.Services
 		{
 			SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = ViewStates.Visible;
-			textView.Text = "BE CAREFUL! The recent message contains DANGEROUS URL!";
+			textView.Text = Resources.GetString(Resource.String.danger_url);
 			await Task.Delay(notifyDuration);
 			textContainer.Visibility = ViewStates.Invisible;
 			textView.Text = string.Empty;
@@ -122,8 +122,8 @@ namespace ScamBuster.Droid.Services
         {
 			SetVisibility(ViewStates.Visible);
 			textContainer.Visibility = ViewStates.Visible;
-            textView.Text = safe ? "SAFE! The incoming number does not have any record of being dangerous, but ALWAY STAY CAUTIOUS!" : "BE CAREFUL! The incoming number has a record of being DANGER!";
-            await Task.Delay(notifyDuration);
+            textView.Text = safe ? Resources.GetString(Resource.String.safe_number) : Resources.GetString(Resource.String.danger_number);
+			await Task.Delay(notifyDuration);
             textContainer.Visibility = ViewStates.Invisible;
             textView.Text = string.Empty;
 		}

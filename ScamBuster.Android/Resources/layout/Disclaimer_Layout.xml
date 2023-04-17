@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
 	android:background="@color/BlackBackground">
     <TextView
-		android:text="@string/disclaimer"
+		android:text="@string/disclaimer_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 		android:fontFamily="sans-serif"
@@ -18,7 +18,7 @@
 		android:textColor="@color/White"
          />
 	<TextView
-		android:text="Disclaimer"
+		android:text="@string/disclaimer"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_centerHorizontal="true"

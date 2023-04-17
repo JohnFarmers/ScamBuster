@@ -7,5 +7,25 @@
   <string name="notready">You\'re in risk</string>
   <string name="notready_desc">We\'re not ready to bust \nthose scammers yet...</string>
   <string name="protected_desc">Ready to bust those scammers!</string>
-  <string name="disclaimer">This software is a work developed by Bhutharit Aksornsuwan from Saint Gabriel\'s College under the provision of Noppadon Sangthong under Scam Buster, which has been supported by the National Science and Technology Development Agency (NSTDA), in order to encourage pupils and students to learn and practice their skills in developing software. Therefore, the intellectual property of this software shall belong to the developer and the developer gives NSTDA a permission to distribute this software as an “as is” and non- การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย ครั้งที่ 25 (NSC 2023) 41 | P a g e modified software for a temporary and non-exclusive use without remuneration to anyone for his or her own purpose or academic purpose, which are not commercial purposes. In this connection, NSTDA shall not be respons ible to the user for taking care, maintaining, training or developing the efficiency of this software. Moreover, NSTDA shall not be liable for any error, software efficiency and damages in connection with or arising out of the use of the software.</string>
+  <string name="disclaimer_info">This software is a work developed by Bhutharit Aksornsuwan from Saint Gabriel\'s College under the provision of Noppadon Sangthong under Scam Buster, which has been supported by the National Science and Technology Development Agency (NSTDA), in order to encourage pupils and students to learn and practice their skills in developing software. Therefore, the intellectual property of this software shall belong to the developer and the developer gives NSTDA a permission to distribute this software as an “as is” and non- การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย ครั้งที่ 25 (NSC 2023) 41 | P a g e modified software for a temporary and non-exclusive use without remuneration to anyone for his or her own purpose or academic purpose, which are not commercial purposes. In this connection, NSTDA shall not be respons ible to the user for taking care, maintaining, training or developing the efficiency of this software. Moreover, NSTDA shall not be liable for any error, software efficiency and damages in connection with or arising out of the use of the software.</string>
+  <string name="chats">Chats</string>
+  <string name="checking_url">Checking URL safety...</string>
+  <string name="danger">Danger</string>
+  <string name="danger_level">% danger level!</string>
+  <string name="danger_number">BE CAREFUL! The incoming number has a record of being DANGER!</string>
+  <string name="danger_text">BE CAREFUL! The recent message has</string>
+  <string name="danger_url">BE CAREFUL! The recent message contains DANGEROUS URL!</string>
+  <string name="ready">Ready!</string>
+  <string name="safe">Safe</string>
+  <string name="safe_number">SAFE! The incoming number does not have any record of being dangerous, but ALWAY STAY CAUTIOUS!</string>
+  <string name="safe_text">SAFE! The recent message has</string>
+  <string name="stay_cautious">, but ALWAY STAY CAUTIOUS!</string>
+  <string name="disclaimer">Disclaimer</string>
+  <string name="report">Report</string>
+  <string name="submit">Submit</string>
+  <string name="place_holder">Text</string>
+  <string name="phone_numbers">Phone Numbers</string>
+  <string name="links">Links</string>
+  <string name="home">Home</string>
+  <string name="detections">Detections</string>
 </resources>

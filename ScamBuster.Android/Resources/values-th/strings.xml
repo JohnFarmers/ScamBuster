@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="app_name">Scam Buster</string>
+  <string name="title_activity_kimera">Scam Buster</string>
+  <string name="service_name">NLService</string>
+  <string name="main">คุณได้รับการป้องกันแล้ว</string>
+  <string name="notready">คุณอยู่ในความเสี่ยง</string>
+  <string name="notready_desc">เราไม่สามารถตรวจจับมิจฉาชีพให้คุณได้...</string>
+  <string name="protected_desc">พร้อมตรวจจับมิจฉาชีพแล้ว!</string>
+  <string name="disclaimer_info">ซอฟต์แวร์นี้เป็นผลงานที่พัฒนาขึ้นโดย นายภูธฤทธิ์ อักษรสุวรรณ จาก โรงเรียนเซนต์คาเบรียล ภายใต้การดูแลของ นายนพดล แสงทอง ภายใต้โครงการ โปรแกรมตรวจจับมิจฉาชีพ ซึ่งสนับสนุนโดย สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ โดยมีวัตถุประสงค์เพื่อส่งเสริมให้นักเรียนและนักศึกษาได้เรียนรู้และฝึกทักษะในการพัฒนาซอฟต์แวร์ ลิขสิทธิ์ของซอฟต์แวร์นี้จึงเป็นของผู้พัฒนา ซึ่งผู้พัฒนาได้อนุญาตให้สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ เผยแพร่ซอฟต์แวร์นี้ตาม “ต้นฉบับ” โดยไม่มีการแก้ไขดัดแปลงใด ๆ ทั้งสิ้น ให้แก่บุคคลทั่วไปได้ใช้เพื่อประโยชน์ส่วนบุคคลหรือประโยชน์ทางการศึกษาที่ไม่มีวัตถุประสงค์ในเชิงพาณิชย์ โดยไม่คิดค่าตอบแทนการใช้ซอฟต์แวร์ ดังนั้น สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ จึงไม่มีหน้าที่ในการดูแล บำรุงรักษา จัดการอบรมการใช้งาน หรือพัฒนาประสิทธิภาพซอฟต์แวร์ รวมทั้งไม่รับรองความถูกต้องหรือประสิทธิภาพการทำงานของซอฟต์แวร์ ตลอดจนไม่รับประกันความเสียหายต่าง ๆ อันเกิดจากการใช้ซอฟต์แวร์นี้ทั้งสิ้น</string>
+  <string name="chats">ข้อความ</string>
+  <string name="checking_url">กำลังตรวจสอบลิง"</string>
+  <string name="danger">อันตราย"</string>
+  <string name="danger_level">	%"</string>
+  <string name="danger_number">ระวัง! เบอร์ที่โทรมาเคยมีการบันทึกไว้ว่าเป็นมิจฉาชีพ!"</string>
+  <string name="danger_text">ระวัง! ข้อความมีความอันตาย"</string>
+  <string name="danger_url">ระวัง! ข้อความมีลิงก์อันตราย"</string>
+  <string name="ready">หร้อมแล้ว!"</string>
+  <string name="safe">ปลอดภัย"</string>
+  <string name="safe_number">ปลอดภัย! เบอร์ที่โทรมาไม่เคยมีการบันทึกไว้ว่าเป็นมิจฉาชีพ! แต่ควรคอยระวังตัวอยู่เสมอ!"</string>
+  <string name="safe_text">ปลอดภัย! ข้อความมีความอันตาย"</string>
+  <string name="stay_cautious">แต่ควรคอยระวังตัวอยู่เสมอ!"</string>
+  <string name="disclaimer">ข้อตกลง</string>
+  <string name="report">รายงาน</string>
+  <string name="submit">ส่ง</string>
+  <string name="place_holder">ข้อตวาม</string>
+  <string name="phone_numbers">เบอร์โทรศัพท์</string>
+  <string name="links">ลิงก์</string>
+  <string name="home">หน้าหลัก</string>
+  <string name="detections">การตรวจพบ</string>
+</resources>

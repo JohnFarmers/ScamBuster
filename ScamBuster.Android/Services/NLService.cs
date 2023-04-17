@@ -17,6 +17,7 @@ using Cloudmersive.APIClient.NETCore.Validate.Model;
 using System.Text.RegularExpressions;
 using System.Threading;
 using Xamarin.Forms;
+using ScamBuster.Droid.Resources;
 
 namespace ScamBuster.Droid.Services
 {
@@ -65,7 +66,7 @@ namespace ScamBuster.Droid.Services
 					else
 					{
 						FloatingNotifier.instance?.NotifyDangerLevel(recentDangerLevel);
-						ChatFragment.ChatListItems.Add(string.Concat(recentText, " (", recentDangerLevel, "% danger)"));
+						ChatFragment.ChatListItems.Add(string.Concat(recentText, " (", recentDangerLevel, "% ", Resources.GetString(Resource.String.danger), ")"));
 					}
 					urlSafetyResponses.Clear();
 					phishingResponses.Clear();
@@ -81,7 +82,7 @@ namespace ScamBuster.Droid.Services
 		public override void OnListenerConnected()
 		{
 			MainActivity.isNLservice = true;
-			FloatingNotifier.instance?.Notify("Ready!");
+			FloatingNotifier.instance?.Notify(Resources.GetString(Resource.String.ready));
 			base.OnListenerConnected();
 		}
 
@@ -143,7 +144,7 @@ namespace ScamBuster.Droid.Services
 			else
 			{
 				FloatingNotifier.instance?.NotifyDangerLevel(dangerPrecent);
-				ChatFragment.ChatListItems.Add(string.Concat(text, " (", dangerPrecent, "% danger)"));
+				ChatFragment.ChatListItems.Add(string.Concat(text, " (", dangerPrecent, "% ", Resources.GetString(Resource.String.danger), ")"));
 			}
 		}
 

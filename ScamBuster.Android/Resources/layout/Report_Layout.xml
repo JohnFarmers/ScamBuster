@@ -16,9 +16,9 @@
         android:backgroundTint="@color/White"
         android:layout_marginLeft="23.0dp"
         android:layout_marginTop="11.5dp"
-        android:hint="Text"/>
+        android:hint="@string/place_holder"/>
     <TextView
-        android:text="Report"
+        android:text="@string/report"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/BrightGreen"
@@ -28,7 +28,7 @@
         android:textSize="30dp"
         android:textStyle="bold" />
     <Button
-        android:text="Submit"
+        android:text="@string/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textInputEditText2"
