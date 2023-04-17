@@ -45,7 +45,7 @@ namespace ScamBuster.Droid.Services
             CsvConfiguration configuration = new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
 			scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), configuration).GetRecords<ScamText>().ToArray();
 			scamNumbers = new CsvReader(new StreamReader(Assets.Open("ScamPhoneNumber.csv")), configuration).GetRecords<ScammerPhoneNumber>().ToArray();
-			Configuration.Default.AddApiKey("Apikey", "06e4661e-e994-4083-8a3a-58c6c3f9fe31");
+			Configuration.Default.AddApiKey("Apikey", "c09bee5d-213f-4965-978f-3a5eeb7bc927");
 			Forms.Init(this, null);
 			Device.StartTimer(TimeSpan.FromSeconds(3), () => {
 				bool DangerUrl(bool[] results)
