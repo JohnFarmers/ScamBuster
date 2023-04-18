@@ -6,6 +6,7 @@ using Android.Views;
 using Android.Widget;
 using AndroidX.Fragment.App;
 using Java.Lang;
+using ScamBuster.Droid.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,11 +44,11 @@ namespace ScamBuster.Droid
             switch(position)
             {
                 case 0:
-                    return new Java.Lang.String("Chats");
+                    return new Java.Lang.String(NLService.instance.Resources.GetString(Resource.String.chats));
                 case 1:
-                    return new Java.Lang.String("Phone Numbers");
+                    return new Java.Lang.String(NLService.instance.Resources.GetString(Resource.String.phone_numbers));
                 case 2:
-                    return new Java.Lang.String("Links");
+                    return new Java.Lang.String(NLService.instance.Resources.GetString(Resource.String.links));
             }
             return base.GetPageTitleFormatted(position);
         }
