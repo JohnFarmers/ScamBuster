@@ -23,14 +23,14 @@
         android:layout_marginTop="148.5dp" />
     <TextView
         android:text="@string/main"
-        android:layout_width="650px"
+        android:layout_width="wrap_content"
         android:textColor="@color/BrightGreen"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView1"
         android:id="@+id/textView1"
         android:layout_centerHorizontal = "true"
         android:visibility="visible"
-        android:textSize="35sp"
+        android:textSize="32sp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="14.5dp"
         android:textStyle="bold"
