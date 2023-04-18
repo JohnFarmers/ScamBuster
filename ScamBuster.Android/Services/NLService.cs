@@ -1,7 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +16,6 @@ using Cloudmersive.APIClient.NETCore.Validate.Model;
 using System.Text.RegularExpressions;
 using System.Threading;
 using Xamarin.Forms;
-using ScamBuster.Droid.Resources;
 
 namespace ScamBuster.Droid.Services
 {
@@ -31,7 +29,6 @@ namespace ScamBuster.Droid.Services
 		private const string packageName = "com.potatolab.scambuster";
 		private const string androidPackageName = "android";
 		private ScamText[] scamTexts;
-		private ScammerPhoneNumber[] scamNumbers;
 		private readonly Regex urlExtractRegex = new Regex("(http(s)?://)?([\\w-]+\\.)+[\\w-]+[.com]+(/[/?%&=]*)?", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 		private readonly List<UrlSafetyCheckResponseFull> urlSafetyResponses = new List<UrlSafetyCheckResponseFull>();
 		private readonly List<PhishingCheckResponse> phishingResponses = new List<PhishingCheckResponse>();
@@ -45,7 +42,6 @@ namespace ScamBuster.Droid.Services
             instance = this;
             CsvConfiguration configuration = new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
 			scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), configuration).GetRecords<ScamText>().ToArray();
-			scamNumbers = new CsvReader(new StreamReader(Assets.Open("ScamPhoneNumber.csv")), configuration).GetRecords<ScammerPhoneNumber>().ToArray();
 			Configuration.Default.AddApiKey("Apikey", "c09bee5d-213f-4965-978f-3a5eeb7bc927");
 			Forms.Init(this, null);
 			Device.StartTimer(TimeSpan.FromSeconds(3), () => {
