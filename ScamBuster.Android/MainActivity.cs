@@ -10,6 +10,7 @@ using ScamBuster.Droid.Services;
 using Google.Android.Material.BottomNavigation;
 using ScamBuster.Droid.Resources;
 using Android.Views;
+using System.IO;
 
 namespace ScamBuster.Droid
 {

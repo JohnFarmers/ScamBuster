@@ -6,16 +6,15 @@ using System.Collections.Generic;
 using System.Linq;
 using Android.Service.Notification;
 using AndroidX.Core.App;
-using CsvHelper;
 using System.IO;
-using CsvHelper.Configuration;
-using System.Globalization;
 using Cloudmersive.APIClient.NETCore.Validate.Api;
 using Cloudmersive.APIClient.NETCore.Validate.Client;
 using Cloudmersive.APIClient.NETCore.Validate.Model;
 using System.Text.RegularExpressions;
 using System.Threading;
 using Xamarin.Forms;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace ScamBuster.Droid.Services
 {
@@ -28,20 +27,18 @@ namespace ScamBuster.Droid.Services
 		private const string channelID = "ScamBuster";
 		private const string packageName = "com.potatolab.scambuster";
 		private const string androidPackageName = "android";
-		private ScamText[] scamTexts;
 		private readonly Regex urlExtractRegex = new Regex("(http(s)?://)?([\\w-]+\\.)+[\\w-]+[.com]+(/[/?%&=]*)?", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 		private readonly List<UrlSafetyCheckResponseFull> urlSafetyResponses = new List<UrlSafetyCheckResponseFull>();
 		private readonly List<PhishingCheckResponse> phishingResponses = new List<PhishingCheckResponse>();
 		private double recentDangerLevel = 0;
 		private string recentText = string.Empty;
 		private readonly DomainApi domainApi = new DomainApi();
+		private readonly string wepApiUrl = "https://scambuster-scamtextclassificationapi.azurewebsites.net/";
 
 		public override void OnCreate()
         {
             base.OnCreate();
             instance = this;
-            CsvConfiguration configuration = new CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
-			scamTexts = new CsvReader(new StreamReader(Assets.Open("Scam.csv")), configuration).GetRecords<ScamText>().ToArray();
 			Configuration.Default.AddApiKey("Apikey", "c09bee5d-213f-4965-978f-3a5eeb7bc927");
 			Forms.Init(this, null);
 			Device.StartTimer(TimeSpan.FromSeconds(3), () => {
@@ -69,9 +66,9 @@ namespace ScamBuster.Droid.Services
 					recentDangerLevel = 0;
 					recentText = string.Empty;
 				}
-                return true; 
+                return true;
             });
-            MainActivity.isNLservice = true;
+			MainActivity.isNLservice = true;
 			System.Diagnostics.Debug.WriteLine("Notification Listener Service Initialized!");
 		}
 
@@ -105,7 +102,7 @@ namespace ScamBuster.Droid.Services
             return base.OnUnbind(intent);
         }
 
-		public override void OnNotificationPosted(StatusBarNotification sbn)
+		public override async void OnNotificationPosted(StatusBarNotification sbn)
 		{
 			base.OnNotificationPosted(sbn);
 			if (sbn.Notification.Extras == null || sbn.PackageName == packageName || sbn.PackageName == androidPackageName || phoneRinging)
@@ -125,23 +122,27 @@ namespace ScamBuster.Droid.Services
 					phishingResponses.Add(phishingResponse);
 				})).Start();
 			}
-			double susLevel = 0;
-			foreach (ScamText scam in scamTexts)
-			{
-				double _susLevel = CalculateSimilarity(text.ToLower(), scam.Text.ToLower());
-				susLevel = _susLevel >= susLevel ? _susLevel : susLevel;
-			}
-			double dangerPrecent = Math.Round(susLevel *= 100);
+			Result result = await CheckTextSafety(text);
+			double dangerLevel = result.DangerLevel;
 			if (checkURL)
 			{
-				recentDangerLevel = dangerPrecent;
+				recentDangerLevel = dangerLevel;
 				recentText = text;
 			}
 			else
 			{
-				FloatingNotifier.instance?.NotifyDangerLevel(dangerPrecent);
-				ChatFragment.ChatListItems.Add(string.Concat(text, " (", dangerPrecent, "% ", Resources.GetString(Resource.String.danger), ")"));
+				FloatingNotifier.instance?.NotifyDangerLevel(dangerLevel);
+				ChatFragment.ChatListItems.Add(string.Concat(text, " (", dangerLevel, "% ", Resources.GetString(Resource.String.danger), ")"));
 			}
+		}
+
+		private async Task<Result> CheckTextSafety(string text)
+		{
+			string parameters = "scamtextclassification?text=" + text;
+			HttpClient client = new HttpClient { BaseAddress = new Uri(wepApiUrl) };
+			HttpResponseMessage response = client.GetAsync(parameters).Result;
+			client.Dispose();
+			return response.IsSuccessStatusCode ? Newtonsoft.Json.JsonConvert.DeserializeObject<Result>(response.Content.ReadAsStringAsync().Result) : null;
 		}
 
 		public override void OnNotificationRemoved(StatusBarNotification sbn)

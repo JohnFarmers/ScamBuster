@@ -65,6 +65,12 @@
     <PackageReference Include="CsvHelper">
       <Version>30.0.1</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.ML">
+      <Version>2.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ML.TorchSharp">
+      <Version>0.20.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.CommunityToolkit">
       <Version>2.0.5</Version>
     </PackageReference>
@@ -80,7 +86,13 @@
   <ItemGroup>
     <Compile Include="ReportFragment.cs" />
     <Compile Include="DisclaimerFragment.cs" />
-    <Compile Include="TranslateExtension.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="ScamTextClassification.consumption.cs">
+      <DependentUpon>ScamTextClassification.mbconfig</DependentUpon>
+    </Compile>
+    <Compile Include="ScamTextClassification.training.cs">
+      <DependentUpon>ScamTextClassification.mbconfig</DependentUpon>
+    </Compile>
     <Compile Include="ViewPagerAdapter.cs" />
     <Compile Include="ChatFragment.cs" />
     <Compile Include="LinkFragment.cs" />
@@ -100,6 +112,11 @@
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <AndroidAsset Include="Assets\Scam.csv" />
+    <None Include="Scam.csv" />
+    <AndroidAsset Include="ScamTextClassification.mbconfig" />
+    <AndroidAsset Include="ScamTextClassification.zip">
+      <DependentUpon>ScamTextClassification.mbconfig</DependentUpon>
+    </AndroidAsset>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\List.xml">

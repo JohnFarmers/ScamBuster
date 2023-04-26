@@ -13,12 +13,12 @@
   <string name="danger">อันตราย"</string>
   <string name="danger_level">	%"</string>
   <string name="danger_number">ระวัง! เบอร์ที่โทรมาเคยมีการบันทึกไว้ว่าเป็นมิจฉาชีพ!"</string>
-  <string name="danger_text">ระวัง! ข้อความมีความอันตาย"</string>
+  <string name="danger_text">ระวัง! ข้อความมีความอันตราย"</string>
   <string name="danger_url">ระวัง! ข้อความมีลิงก์อันตราย"</string>
-  <string name="ready">หร้อมแล้ว!"</string>
+  <string name="ready">พร้อมแล้ว!"</string>
   <string name="safe">ปลอดภัย"</string>
   <string name="safe_number">ปลอดภัย! เบอร์ที่โทรมาไม่เคยมีการบันทึกไว้ว่าเป็นมิจฉาชีพ! แต่ควรคอยระวังตัวอยู่เสมอ!"</string>
-  <string name="safe_text">ปลอดภัย! ข้อความมีความอันตาย"</string>
+  <string name="safe_text">ปลอดภัย! ข้อความมีความอันตราย"</string>
   <string name="stay_cautious">แต่ควรคอยระวังตัวอยู่เสมอ!"</string>
   <string name="disclaimer">ข้อตกลง</string>
   <string name="report">รายงาน</string>
